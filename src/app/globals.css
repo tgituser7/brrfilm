@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #fdf6ea;
+  --color-ivory: #fffbf3;
+  --color-ink: #241209;
+  --color-maroon-950: #22060b;
+  --color-maroon-900: #370c14;
+  --color-maroon-800: #55111c;
+  --color-maroon-700: #741726;
+  --color-crimson: #9c2233;
+  --color-saffron: #e8a33d;
+  --color-saffron-light: #f6c877;
+  --color-gold: #d4af37;
+  --color-gold-light: #f3dfa0;
+  --color-leaf: #4c6b3f;
+
+  --background: var(--color-cream);
+  --foreground: var(--color-ink);
+
+  --font-heading: var(--font-heading-en);
+  --font-body: var(--font-body-en);
+}
+
+:root[data-lang="hi"] {
+  --font-heading: var(--font-heading-hi);
+  --font-body: var(--font-body-hi);
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-ivory: var(--color-ivory);
+  --color-ink: var(--color-ink);
+  --color-maroon-950: var(--color-maroon-950);
+  --color-maroon-900: var(--color-maroon-900);
+  --color-maroon-800: var(--color-maroon-800);
+  --color-maroon-700: var(--color-maroon-700);
+  --color-crimson: var(--color-crimson);
+  --color-saffron: var(--color-saffron);
+  --color-saffron-light: var(--color-saffron-light);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-leaf: var(--color-leaf);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Subtle mandala-dot texture used behind light sections */
+.bg-mandala {
+  background-image: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--color-gold) 22%, transparent) 1px,
+    transparent 1.4px
+  );
+  background-size: 26px 26px;
+}
+
+/* Deep devotional gradient used for hero + dark sections */
+.bg-devotional {
+  background-image:
+    radial-gradient(
+      ellipse 80% 60% at 50% 0%,
+      color-mix(in srgb, var(--color-saffron) 22%, transparent),
+      transparent 60%
+    ),
+    linear-gradient(
+      160deg,
+      var(--color-maroon-950) 0%,
+      var(--color-maroon-900) 45%,
+      var(--color-maroon-800) 100%
+    );
+}
+
+.bg-hero-scrim {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-cream) 0%,
+    color-mix(in srgb, var(--color-cream) 45%, transparent) 32%,
+    color-mix(in srgb, var(--color-cream) 22%, transparent) 46%,
+    color-mix(in srgb, var(--color-cream) 0%, transparent) 65%,
+    transparent 85%
+  );
+}
+
+.text-gold-gradient {
+  background-image: linear-gradient(
+    120deg,
+    var(--color-gold) 0%,
+    var(--color-gold-light) 35%,
+    var(--color-saffron) 65%,
+    var(--color-gold) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-gold-deep {
+  background-image: linear-gradient(
+    120deg,
+    #a8790c 0%,
+    var(--color-gold) 38%,
+    #b5690f 70%,
+    #a8790c 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 6px color-mix(in srgb, var(--color-maroon-950) 45%, transparent));
+}
+
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.divider-ornament::before,
+.divider-ornament::after {
+  content: "";
+  height: 1px;
+  width: 2.5rem;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold),
+    transparent
+  );
+}
+
+.card-lift {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px -20px color-mix(in srgb, var(--color-maroon-900) 55%, transparent);
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 7s ease-in-out infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-gold) 40%, transparent);
+  color: var(--color-maroon-950);
+}

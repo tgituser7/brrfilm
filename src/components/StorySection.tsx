@@ -1,0 +1,51 @@
+"use client";
+
+import { useLanguage } from "@/lib/LanguageContext";
+
+export function StorySection() {
+  const { t } = useLanguage();
+
+  return (
+    <section id="story" className="relative overflow-hidden bg-devotional py-24 sm:py-32">
+      <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
+      <div className="relative mx-auto max-w-5xl px-6 text-center">
+        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
+          {t.story.eyebrow}
+        </p>
+        <h2 className="mt-3 font-heading text-3xl font-bold text-cream sm:text-4xl">
+          {t.story.title}
+        </h2>
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-cream/65 sm:text-lg">
+          {t.story.intro}
+        </p>
+      </div>
+
+      <div className="relative mx-auto mt-16 max-w-5xl px-6">
+        <div className="grid gap-8 sm:grid-cols-3">
+          {t.story.chapters.map((chapter, i) => (
+            <div
+              key={chapter.number}
+              className="card-lift relative rounded-2xl border border-gold/20 bg-cream/[0.04] p-7 backdrop-blur-sm"
+            >
+              <span className="font-heading text-4xl font-bold text-gold/40">
+                {chapter.number}
+              </span>
+              <h3 className="mt-4 font-heading text-xl font-semibold text-cream">
+                {chapter.title}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-cream/65">
+                {chapter.description}
+              </p>
+              {i < t.story.chapters.length - 1 && (
+                <span
+                  aria-hidden="true"
+                  className="absolute -right-4 top-1/2 hidden h-px w-8 -translate-y-1/2 bg-gradient-to-r from-gold/50 to-transparent sm:block"
+                />
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
