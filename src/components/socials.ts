@@ -13,6 +13,6 @@ export const socials = [
 
 export const facebookFan = {
   name: "Become a Fan",
-  href: "https://www.facebook.com/people/BOLO-RADHE-RADHE/61558932573527/",
+  href: "https://www.facebook.com/share/1Bk4PbcGmR/",
   path: "M13.5 21v-7.4h2.5l.4-2.9h-2.9V8.9c0-.85.24-1.43 1.46-1.43h1.56V4.86A21 21 0 0 0 14.3 4.7c-2.24 0-3.78 1.37-3.78 3.87v2.16H8v2.9h2.52V21h3Z",
 } as const;
