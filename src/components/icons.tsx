@@ -207,6 +207,35 @@ export function IconFeather({ className = "h-10 w-10" }: IconProps) {
   );
 }
 
+export function IconShoppingBag({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M14 16h20l2 24a3 3 0 0 1-3 3.3H15a3 3 0 0 1-3-3.3l2-24Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M18 16v-2a6 6 0 0 1 12 0v2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M17 22c1.4 1.6 3.5 2.6 7 2.6s5.6-1 7-2.6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconDonate({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M24 38S9 29 9 18.5C9 13.3 13 9.5 18 9.5c2.7 0 5 1.2 6 3.2 1-2 3.3-3.2 6-3.2 5 0 9 3.8 9 9C39 29 24 38 24 38Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M24 16v9M20 20.5h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function IconLotusDivider({ className = "h-8 w-8" }: IconProps) {
   return (
     <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">

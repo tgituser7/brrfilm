@@ -7,6 +7,8 @@ import { Significance } from "@/components/Significance";
 import { MessageSection } from "@/components/MessageSection";
 import { Gallery } from "@/components/Gallery";
 import { JoinSection } from "@/components/JoinSection";
+import { JoinMission } from "@/components/JoinMission";
+import { SupportUs } from "@/components/SupportUs";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
         <MessageSection />
         <Gallery />
         <JoinSection />
+        <JoinMission />
+        <SupportUs />
       </main>
       <SiteFooter />
     </>

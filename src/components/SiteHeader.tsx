@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
@@ -19,13 +20,13 @@ export function SiteHeader() {
   }, []);
 
   const links = [
-    { href: "#top", label: t.nav.home },
-    { href: "#about", label: t.nav.about },
-    { href: "#story", label: t.nav.bhakti },
-    { href: "#significance", label: t.nav.gauMata },
-    { href: "#gallery", label: t.nav.media },
-    { href: "#join", label: t.nav.join },
-    { href: "#join-form", label: t.nav.contact },
+    { href: "/#top", label: t.nav.home },
+    { href: "/#about", label: t.nav.about },
+    { href: "/#story", label: t.nav.bhakti },
+    { href: "/#significance", label: t.nav.gauMata },
+    { href: "/#gallery", label: t.nav.media },
+    { href: "/#join", label: t.nav.join },
+    { href: "/#join-form", label: t.nav.contact },
   ];
 
   return (
@@ -37,7 +38,7 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-2.5 sm:px-8">
-        <a href="#top" className="flex items-center gap-2.5">
+        <Link href="/#top" className="flex items-center gap-2.5">
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/50 bg-devotional text-gold">
             <IconOm className="h-5 w-5" />
           </span>
@@ -49,17 +50,17 @@ export function SiteHeader() {
               {t.hero.title2}
             </span>
           </span>
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-6 xl:flex">
           {links.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -101,14 +102,14 @@ export function SiteHeader() {
         <div className="border-t border-maroon-900/10 bg-ivory/98 px-5 py-4 backdrop-blur-md xl:hidden">
           <nav className="flex flex-col gap-4">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
           <div className="mt-4 flex gap-2">

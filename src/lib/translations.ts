@@ -144,6 +144,44 @@ export const translations = {
       button: "सूचित करें",
       disclaimer: "हम आपकी जानकारी को सुरक्षित रखते हैं और स्पैम नहीं भेजते।",
     },
+    mission: {
+      eyebrow: "मिशन से जुड़ें",
+      description:
+        "गौ माता की सेवा और भक्ति के इस अभियान से जुड़ने के लिए नीचे दिया गया फ़ॉर्म भरें — आपका हर सहयोग इस मिशन को आगे बढ़ाता है।",
+      cta: "फ़ॉर्म भरें",
+    },
+    support: {
+      eyebrow: "सहयोग करें",
+      title: "इस मिशन में हमारा साथ दें",
+      description:
+        "आप दो तरीकों से इस पावन अभियान में योगदान दे सकते हैं — हमारा मर्चेंडाइज़ अपनाकर या सीधे दान करके।",
+      merchTitle: "मर्चेंडाइज़ खरीदें",
+      merchDesc: "बोलो राधे राधे की भावना को अपने साथ रखें — जल्द ही उपलब्ध।",
+      merchCta: "अभी देखें",
+      donateTitle: "दान करें",
+      donateDesc: "आपका हर योगदान इस मिशन को आगे बढ़ाने में सहायक होगा।",
+      donateCta: "अभी दान करें",
+    },
+    merchPage: {
+      eyebrow: "मर्चेंडाइज़",
+      heading: "जल्द आ रहा है",
+      description:
+        "बोलो राधे राधे का आधिकारिक मर्चेंडाइज़ बनाया जा रहा है। भक्ति और संस्कृति से जुड़े खास उत्पादों के लिए जल्द ही यहाँ वापस आएं।",
+      backHome: "मुखपृष्ठ पर वापस जाएं",
+    },
+    donatePage: {
+      eyebrow: "दान करें",
+      heading: "गौ माता सेवा में आपका योगदान",
+      description:
+        "आपका हर दान गौ माता की सेवा, फ़िल्म निर्माण और इस भक्ति अभियान को आगे बढ़ाने में सीधे उपयोग होता है।",
+      qrCaption: "भुगतान के लिए स्कैन करें",
+      qrDemoLabel: "डेमो क्यूआर कोड — शीघ्र अपडेट होगा",
+      upiLabel: "यूपीआई आईडी",
+      upiValue: "bolo-radhe-radhe@upi",
+      note: "भुगतान विवरण अभी डेमो के रूप में दिखाए जा रहे हैं — वास्तविक भुगतान जानकारी शीघ्र जोड़ी जाएगी।",
+      thankYou: "आपकी उदारता के लिए हृदय से धन्यवाद 🙏",
+      backHome: "मुखपृष्ठ पर वापस जाएं",
+    },
     footer: {
       brand: "बोलो राधे राधे",
       tagline: "एक फ़िल्म... एक भावना... एक भक्ति...",
@@ -300,6 +338,44 @@ export const translations = {
       placeholder: "Your email address",
       button: "Notify Me",
       disclaimer: "We respect your privacy and will never send spam.",
+    },
+    mission: {
+      eyebrow: "Join Mission",
+      description:
+        "Fill out the form below to join our mission of service and devotion to Gau Mata — every contribution helps carry this mission forward.",
+      cta: "Fill the Form",
+    },
+    support: {
+      eyebrow: "Support Us",
+      title: "Stand With This Mission",
+      description:
+        "There are two ways you can contribute to this sacred cause — by buying our merchandise or by donating directly.",
+      merchTitle: "Buy Merchandise",
+      merchDesc: "Carry the spirit of Bolo Radhe Radhe with you — available soon.",
+      merchCta: "View Now",
+      donateTitle: "Donate",
+      donateDesc: "Every contribution helps carry this mission forward.",
+      donateCta: "Donate Now",
+    },
+    merchPage: {
+      eyebrow: "Merchandise",
+      heading: "Coming Soon",
+      description:
+        "Official Bolo Radhe Radhe merchandise is being crafted. Check back soon for devotional and culture-inspired products.",
+      backHome: "Back to Home",
+    },
+    donatePage: {
+      eyebrow: "Donate",
+      heading: "Support the Service of Gau Mata",
+      description:
+        "Every donation goes directly toward Gau Mata seva, the making of this film, and carrying this mission of devotion forward.",
+      qrCaption: "Scan to Pay",
+      qrDemoLabel: "Demo QR — will be updated soon",
+      upiLabel: "UPI ID",
+      upiValue: "bolo-radhe-radhe@upi",
+      note: "Payment details shown here are a placeholder for now — real payment information will be added soon.",
+      thankYou: "Thank you from the heart for your generosity 🙏",
+      backHome: "Back to Home",
     },
     footer: {
       brand: "Bolo Radhe Radhe",
