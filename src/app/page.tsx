@@ -23,7 +23,7 @@ export default function Home() {
         <Significance />
         <MessageSection />
         <Gallery />
-        <JoinSection />
+        {/* <JoinSection /> */}
         <JoinMission />
         <SupportUs />
       </main>
