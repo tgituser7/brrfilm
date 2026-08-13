@@ -2,8 +2,9 @@
 
 import { useState, type FormEvent } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
+import { JOIN_FORM_URL } from "@/lib/links";
 import { IconNamaste } from "./icons";
-import { socials } from "./socials";
+import { facebookFan, socials } from "./socials";
 
 export function JoinSection() {
   const { t } = useLanguage();
@@ -28,7 +29,9 @@ export function JoinSection() {
             {t.join.description}
           </p>
           <a
-            href="#join-form"
+            href={JOIN_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-7 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-maroon-800 to-maroon-900 px-7 py-3 text-sm font-semibold text-cream shadow-md shadow-maroon-900/25 transition-transform hover:-translate-y-0.5"
           >
             <IconNamaste className="h-4 w-4" />
@@ -39,12 +42,14 @@ export function JoinSection() {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-maroon-800/70">
               {t.join.followUs}
             </p>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 flex flex-wrap items-center gap-3">
               {socials.map((s) => (
                 <a
                   key={s.name}
                   href={s.href}
                   aria-label={s.name}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-maroon-900/15 text-maroon-800 transition-colors hover:border-gold/60 hover:bg-gold/10"
                 >
                   <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
@@ -52,6 +57,17 @@ export function JoinSection() {
                   </svg>
                 </a>
               ))}
+              <a
+                href={facebookFan.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 items-center gap-2 rounded-full bg-[#1877F2] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#1467d8]"
+              >
+                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
+                  <path d={facebookFan.path} />
+                </svg>
+                {facebookFan.name}
+              </a>
             </div>
           </div>
         </div>

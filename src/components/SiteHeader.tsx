@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
 import { IconOm } from "./icons";
-import { socials } from "./socials";
+import { facebookFan, socials } from "./socials";
 
 export function SiteHeader() {
   const { t } = useLanguage();
@@ -66,11 +66,24 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-3">
           <div className="hidden items-center gap-2 sm:flex">
+              <a
+              href={facebookFan.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[#1467d8]"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+                <path d={facebookFan.path} />
+              </svg>
+              {facebookFan.name}
+            </a>
             {socials.map((s) => (
               <a
                 key={s.name}
                 href={s.href}
                 aria-label={s.name}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-8 w-8 items-center justify-center rounded-full bg-maroon-900 text-cream/90 transition-colors hover:bg-maroon-800"
               >
                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
@@ -78,6 +91,7 @@ export function SiteHeader() {
                 </svg>
               </a>
             ))}
+          
           </div>
           <LanguageToggle />
           <button
@@ -112,12 +126,14 @@ export function SiteHeader() {
               </Link>
             ))}
           </nav>
-          <div className="mt-4 flex gap-2">
+          <div className="mt-4 flex flex-wrap items-center gap-2">
             {socials.map((s) => (
               <a
                 key={s.name}
                 href={s.href}
                 aria-label={s.name}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-8 w-8 items-center justify-center rounded-full bg-maroon-900 text-cream/90"
               >
                 <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
@@ -125,6 +141,17 @@ export function SiteHeader() {
                 </svg>
               </a>
             ))}
+            <a
+              href={facebookFan.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+                <path d={facebookFan.path} />
+              </svg>
+              {facebookFan.name}
+            </a>
           </div>
         </div>
       )}

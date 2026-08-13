@@ -1,10 +1,8 @@
 "use client";
 
 import { useLanguage } from "@/lib/LanguageContext";
+import { JOIN_FORM_URL } from "@/lib/links";
 import { IconNamaste } from "./icons";
-
-// TODO: replace with the real Google Form link.
-const GOOGLE_FORM_URL = "https://forms.gle/REPLACE_WITH_YOUR_FORM_ID";
 
 export function JoinMission() {
   const { t } = useLanguage();
@@ -21,7 +19,7 @@ export function JoinMission() {
         </p>
 
         <a
-          href={GOOGLE_FORM_URL}
+          href={JOIN_FORM_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron via-gold to-saffron bg-[length:200%_auto] px-8 py-3.5 text-sm font-semibold tracking-wide text-maroon-950 shadow-lg shadow-maroon-950/20 transition-all hover:bg-right"
