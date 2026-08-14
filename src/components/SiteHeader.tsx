@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
+import { JOIN_FORM_URL } from "@/lib/links";
 import { LanguageToggle } from "./LanguageToggle";
 import { IconOm } from "./icons";
 import { facebookFan, socials } from "./socials";
@@ -25,7 +26,7 @@ export function SiteHeader() {
     { href: "/#story", label: t.nav.bhakti },
     { href: "/#significance", label: t.nav.gauMata },
     { href: "/#gallery", label: t.nav.media },
-    { href: "/#join", label: t.nav.join },
+    { href: JOIN_FORM_URL, label: t.nav.join, external: true },
     { href: "/#join-form", label: t.nav.contact },
   ];
 
@@ -53,15 +54,27 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-6 xl:flex">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {links.map((link) =>
+            link.external ? (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -115,16 +128,29 @@ export function SiteHeader() {
       {menuOpen && (
         <div className="border-t border-maroon-900/10 bg-ivory/98 px-5 py-4 backdrop-blur-md xl:hidden">
           <nav className="flex flex-col gap-4">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {links.map((link) =>
+              link.external ? (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMenuOpen(false)}
+                  className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </nav>
           <div className="mt-4 flex flex-wrap items-center gap-2">
             {socials.map((s) => (

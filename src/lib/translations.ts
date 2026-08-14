@@ -45,6 +45,29 @@ export const translations = {
       moreLink: "और जानें",
       videoCaption: "॥ राधे राधे ॥",
     },
+    idea: {
+      eyebrow: "प्रेरणा",
+      title: "फ़िल्म के पीछे की सोच",
+      paragraphs: [
+        "भगवद गीता में, महाभारत के समय जब अर्जुन का संकल्प डगमगाने लगा था, तब भगवान श्रीकृष्ण ने अर्जुन के माध्यम से समस्त संसार को दिव्य ज्ञान प्रदान किया। श्रीकृष्ण की शिक्षाओं से अर्जुन को पुनः स्पष्टता और शक्ति प्राप्त हुई, जिससे वह आगे बढ़कर अपना कर्तव्य पूर्ण कर सका।",
+        "\"बोलो राधे राधे\" की कहानी इन्हीं शिक्षाओं से प्रेरणा लेकर उन्हें एक आधुनिक किसान के संयुक्त परिवार के संदर्भ में पुनः प्रस्तुत करती है। यह दर्शाती है कि परिवार के भीतर बढ़ती इच्छाएँ किस प्रकार भावनात्मक और सामाजिक जटिलताओं को जन्म देती हैं, जो प्रत्येक पात्र के जीवन को आकार देती हैं। आज के समाज में, लोग प्रायः काम, क्रोध, मोह, लोभ और अहंकार के मोहजाल में फंस जाते हैं। यह जकड़न आत्म-नियंत्रण की हानि, आवेगपूर्ण कार्यों और कभी-कभी आत्म-विनाश की ओर ले जाती है।",
+        "यह फ़िल्म मानव मन की मूल प्रकृति को दर्शाती है, जो भौतिक सुखों, दुख, धन और वासना से प्रभावित होती है। यह गीता के शाश्वत ज्ञान को एक सामाजिक रूप से प्रासंगिक और समकालीन ढाँचे में प्रस्तुत करती है।",
+        "अपनी कथा के माध्यम से, यह फ़िल्म आधुनिक समाज में पशु वध की कठोर वास्तविकताओं को भी उजागर करती है, गौ माता की रक्षा का सशक्त संदेश देते हुए और सार्थक रिश्तों के क्षरण को रेखांकित करती है। यह संयुक्त परिवारों के बिखरने से उत्पन्न भावनात्मक पीड़ा को दर्शाती है, साथ ही सभी आयु वर्ग के दर्शकों के लिए एक रोचक पारिवारिक मनोरंजक फ़िल्म के रूप में अपनी पहचान बनाए रखती है।",
+        "यह कहानी राधा कृष्ण के सार और उपस्थिति को समकालीन जीवन में लाती है, उनकी शाश्वत आध्यात्मिक प्रासंगिकता को दर्शाते हुए। \"बोलो राधे राधे\" प्रेम, भक्ति और आनंद जगाने वाले भावपूर्ण संगीत से समृद्ध है।",
+      ],
+    },
+    synopsis: {
+      eyebrow: "संक्षिप्त कथा",
+      title: "फ़िल्म की कहानी",
+      paragraphs: [
+        "यह संघर्ष, त्याग, उपेक्षा और अंततः सच्चे मूल्यों की विजय की कहानी है।",
+        "यह एक संवेदनशील पारिवारिक ड्रामा है, जो एक साधारण किसान बंसीलाल और उसके परिवार के जीवन संघर्ष को दर्शाता है। बंसीलाल अपना पूरा जीवन अपने बेटों को शिक्षित करने और उन्हें योग्य इंसान बनाने में समर्पित कर देता है। वह दिन-रात खेतों में अथक परिश्रम करता है, ताकि उसके बेटे शिक्षा के माध्यम से एक सम्मानजनक जीवन प्राप्त कर सकें।",
+        "समय के साथ, उसके बेटे उच्च शिक्षित होकर शहरों में बस जाते हैं और अपने-अपने परिवारों में व्यस्त हो जाते हैं। परंतु जैसे-जैसे माता-पिता वृद्ध होते जाते हैं, उनके जीवन में अकेलापन और उपेक्षा बढ़ने लगती है। वही बेटे, जिन्हें उन्होंने संस्कारों और परिश्रम से पाला था, आधुनिक जीवन की तेज़ रफ़्तार में अपने माता-पिता के प्रति अपनी ज़िम्मेदारियाँ भूल जाते हैं।",
+        "विडंबना यह है कि सबसे छोटा और अशिक्षित बेटा — जिसे कभी तुच्छ समझा जाता था — अपने माता-पिता के दुख और संघर्ष में उनका सच्चा सहारा बनता है।",
+        "यह फ़िल्म यह संदेश देती है कि केवल शिक्षा ही जीवन को पूर्ण नहीं बनाती। भक्ति, मूल्य और अपनी जड़ों से जुड़ाव भी उतना ही आवश्यक है। आधुनिकता की इस दौड़ में, यदि मनुष्य अपनी परंपराओं और जड़ों से कट जाए, तो सफलता भी अधूरी रह जाती है।",
+        "\"बोलो राधे राधे\" एक अनूठी प्रयोगात्मक हिंदी फ़िल्म है, जो यह दर्शाती है कि आज के आधुनिक जीवन में भी दिव्य लीलाओं का अनुभव किया जा सकता है।",
+      ],
+    },
     story: {
       eyebrow: "भक्ति",
       title: "यात्रा तीन अध्यायों में",
@@ -108,6 +131,20 @@ export const translations = {
             "भगवान श्रीकृष्ण का गौओं के साथ अटूट प्रेम — गोपाल और गोविंद के रूप में — गौ माता के महत्व को अमर करता है।",
         },
       ],
+    },
+    missionVision: {
+      eyebrow: "हमारा उद्देश्य",
+      title: "मिशन और विज़न",
+      mission: {
+        title: "हमारा मिशन",
+        description:
+          "यह एक डमी विवरण है। यहाँ टीम का वास्तविक मिशन कथन बाद में जोड़ा जाएगा — जो बताएगा कि यह फ़िल्म क्यों बनाई जा रही है।",
+      },
+      vision: {
+        title: "हमारा विज़न",
+        description:
+          "यह एक डमी विवरण है। यहाँ टीम का वास्तविक विज़न कथन बाद में जोड़ा जाएगा — जो बताएगा कि हम भविष्य में क्या हासिल करना चाहते हैं।",
+      },
     },
     message: {
       eyebrow: "हमारा संदेश",
@@ -240,6 +277,29 @@ export const translations = {
       moreLink: "Learn More",
       videoCaption: "|| Radhe Radhe ||",
     },
+    idea: {
+      eyebrow: "Inspiration",
+      title: "Idea Behind the Film",
+      paragraphs: [
+        "In Bhagavad Gita, Lord Krishna imparted divine wisdom to the world through Arjuna during the Mahabharata, at a moment when Arjuna's resolve began to falter. Through Krishna's teachings, Arjuna regained clarity and strength, enabling him to move forward and fulfill his purpose.",
+        "The story of Bolo Radhe Radhe draws inspiration from these teachings and reinterprets them within the context of a modern-day farmer's joint family. It explores how rising desires within the family give rise to emotional and social complexities, shaping the lives of each character. In today's society, individuals often become trapped in the illusions of lust, anger, attachment, greed, and ego. This entrapment leads to loss of self-control, impulsive actions, and, at times, self-destruction.",
+        "The film portrays the fundamental nature of the human mind as it is influenced by material pleasures, sorrow, wealth, and sensuality. It presents the timeless wisdom of the Gita in a socially relevant and contemporary framework.",
+        "Through its narrative, the film also exposes the harsh realities of animal slaughter within modern society, delivering a strong message advocating the protection of the sacred cow and highlighting the erosion of meaningful relationships. It reflects the emotional pain caused by the disintegration of joint families while maintaining its appeal as an engaging family entertainer for audiences of all age groups.",
+        "The story further brings the essence and presence of Radha Krishna into contemporary life, illustrating their enduring spiritual relevance. Bolo Radhe Radhe is enriched with soulful music that evokes love, devotion, and joy.",
+      ],
+    },
+    synopsis: {
+      eyebrow: "Synopsis",
+      title: "The Story of the Film",
+      paragraphs: [
+        "A story of struggle, sacrifice, neglect, and ultimately the victory of true values.",
+        "This is a sensitive family drama that portrays the life struggles of a simple farmer, Bansilal, and his family. Bansilal dedicates his entire life to educating his sons and making them capable individuals. He works tirelessly day and night in the fields so that his sons can achieve a respectable life through education.",
+        "As time passes, his sons become highly educated and settle in cities, getting busy with their own families. However, as the parents grow old, loneliness and neglect begin to increase in their lives. The very sons whom they raised with values and hard work forget their responsibilities towards their parents in the fast pace of modern life.",
+        "Ironically, the youngest and uneducated son — who was once considered inferior — becomes the true support for his parents in their pain and struggles.",
+        "The film conveys that education alone does not make life complete. Devotion, values, and a connection to one's roots are equally essential. In the race of modernity, if a person becomes disconnected from their traditions and roots, even success remains incomplete.",
+        "\"Bolo Radhe Radhe\" is a unique experimental Hindi film that shows how divine leelas (divine acts) can still be experienced in modern life.",
+      ],
+    },
     story: {
       eyebrow: "Devotion",
       title: "A Journey in Three Chapters",
@@ -303,6 +363,20 @@ export const translations = {
             "Lord Krishna's eternal bond with cows — as Gopal and Govinda — immortalizes the sacred place of Gau Mata in Indian culture.",
         },
       ],
+    },
+    missionVision: {
+      eyebrow: "Our Purpose",
+      title: "Mission & Vision",
+      mission: {
+        title: "Our Mission",
+        description:
+          "This is placeholder text. The team's actual mission statement — explaining why this film is being made — will be added here soon.",
+      },
+      vision: {
+        title: "Our Vision",
+        description:
+          "This is placeholder text. The team's actual vision statement — describing what we hope to achieve going forward — will be added here soon.",
+      },
     },
     message: {
       eyebrow: "Our Message",

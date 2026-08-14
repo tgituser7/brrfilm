@@ -207,6 +207,31 @@ export function IconFeather({ className = "h-10 w-10" }: IconProps) {
   );
 }
 
+export function IconTarget({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <circle cx="24" cy="24" r="15" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="24" cy="24" r="9" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="24" cy="24" r="3" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconEye({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M4 24C8 15 15.5 10 24 10s16 5 20 14c-4 9-11.5 14-20 14S8 33 4 24Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <circle cx="24" cy="24" r="6" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="24" cy="24" r="2" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function IconShoppingBag({ className = base }: IconProps) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">

@@ -2,8 +2,11 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { Hero } from "@/components/Hero";
 import { FeatureRow } from "@/components/FeatureRow";
 import { AboutFilm } from "@/components/AboutFilm";
+import { IdeaBehindFilm } from "@/components/IdeaBehindFilm";
+import { Synopsis } from "@/components/Synopsis";
 import { StorySection } from "@/components/StorySection";
 import { Significance } from "@/components/Significance";
+import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
 import { Gallery } from "@/components/Gallery";
 import { JoinSection } from "@/components/JoinSection";
@@ -19,8 +22,11 @@ export default function Home() {
         <Hero />
         <FeatureRow />
         <AboutFilm />
+        <IdeaBehindFilm />
+        <Synopsis />
         <StorySection />
         <Significance />
+        <MissionVision />
         <MessageSection />
         <Gallery />
         {/* <JoinSection /> */}

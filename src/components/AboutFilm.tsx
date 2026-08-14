@@ -23,13 +23,13 @@ export function AboutFilm() {
               </p>
             ))}
           </div>
-          <a
+          {/* <a
             href="#significance"
             className="mt-8 inline-flex items-center gap-2 rounded-full border border-maroon-900/30 px-6 py-2.5 text-sm font-semibold text-maroon-900 transition-colors hover:bg-maroon-900/5"
           >
             {t.about.moreLink}
             <span aria-hidden="true">›</span>
-          </a>
+          </a> */}
         </div>
 
         <div className="group relative aspect-video overflow-hidden rounded-2xl border border-gold/25 bg-devotional shadow-2xl shadow-maroon-900/20">
