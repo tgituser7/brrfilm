@@ -155,8 +155,8 @@ export const translations = {
     },
     gallery: {
       eyebrow: "मीडिया",
-      title: "फ़िल्म की एक झलक",
-      intro: "फ़िल्म से जुड़े कुछ खास पल और झलकियाँ यहाँ देखें।",
+      title: "फिल्म निर्माण की यात्रा",
+      intro: "फ़िल्म निर्माण से जुड़े कुछ खास पल और मुलाकातें यहाँ देखें।",
     },
     join: {
       eyebrow: "फ़िल्म से जुड़ें",
@@ -386,8 +386,8 @@ export const translations = {
     },
     gallery: {
       eyebrow: "Media",
-      title: "A Peek Into the Film",
-      intro: "A look at some special moments and glimpses from the film.",
+      title: "The Journey of Filmmaking",
+      intro: "A look at some special moments and meetings from the making of the film.",
     },
     join: {
       eyebrow: "Join the Film",
