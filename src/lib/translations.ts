@@ -156,8 +156,7 @@ export const translations = {
     gallery: {
       eyebrow: "मीडिया",
       title: "फ़िल्म की एक झलक",
-      intro: "जल्द ही प्रदर्शित होने वाले दृश्य और चित्र यहाँ जोड़े जाएंगे।",
-      comingSoon: "जल्द आ रहा है",
+      intro: "फ़िल्म से जुड़े कुछ खास पल और झलकियाँ यहाँ देखें।",
     },
     join: {
       eyebrow: "फ़िल्म से जुड़ें",
@@ -388,8 +387,7 @@ export const translations = {
     gallery: {
       eyebrow: "Media",
       title: "A Peek Into the Film",
-      intro: "Stills and visuals from the film will be unveiled here soon.",
-      comingSoon: "Coming Soon",
+      intro: "A look at some special moments and glimpses from the film.",
     },
     join: {
       eyebrow: "Join the Film",

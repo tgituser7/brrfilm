@@ -1,7 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
-import { IconLotusDivider } from "./icons";
+
+const photos = [
+  "/gallery-1.jpg",
+  "/gallery-2.jpeg",
+  "/gallery-3.jpg",
+  "/gallery-4.jpg",
+  "/gallery-5.jpg",
+  "/gallery-6.jpg",
+];
 
 export function Gallery() {
   const { t } = useLanguage();
@@ -22,15 +31,18 @@ export function Gallery() {
       </div>
 
       <div className="relative mx-auto mt-14 grid max-w-6xl grid-cols-2 gap-4 px-6 sm:grid-cols-3 sm:gap-5">
-        {Array.from({ length: 6 }).map((_, i) => (
+        {photos.map((src, i) => (
           <div
-            key={i}
-            className="card-lift group relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-xl border border-gold/15 bg-gradient-to-br from-maroon-900/60 via-maroon-800/40 to-transparent"
+            key={src}
+            className="card-lift group relative aspect-[4/5] overflow-hidden rounded-xl border border-gold/15"
           >
-            <IconLotusDivider className="h-10 w-10 text-gold/30 transition-transform duration-500 group-hover:scale-110" />
-            <span className="absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full border border-gold/30 bg-maroon-950/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-gold-light">
-              {t.gallery.comingSoon}
-            </span>
+            <Image
+              src={src}
+              alt={`${t.hero.title1} ${t.hero.title2} — ${i + 1}`}
+              fill
+              sizes="(max-width: 640px) 50vw, 33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-110"
+            />
           </div>
         ))}
       </div>

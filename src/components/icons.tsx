@@ -260,13 +260,3 @@ export function IconDonate({ className = base }: IconProps) {
     </svg>
   );
 }
-
-export function IconLotusDivider({ className = "h-8 w-8" }: IconProps) {
-  return (
-    <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">
-      <path d="M32 44c-10-4-16-12-16-20 6 0 12 4 16 10 4-6 10-10 16-10 0 8-6 16-16 20Z" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round" />
-      <path d="M32 44c-6-3-10-8-10-13.5 4 0 8 2.8 10 6.8 2-4 6-6.8 10-6.8 0 5.5-4 10.5-10 13.5Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
-      <path d="M20 50c4-3 8-4 12-4s8 1 12 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
-    </svg>
-  );
-}
