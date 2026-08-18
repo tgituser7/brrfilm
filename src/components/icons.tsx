@@ -186,35 +186,6 @@ export function IconPlay({ className = "h-6 w-6" }: IconProps) {
   );
 }
 
-export function IconClapperboard({ className = base }: IconProps) {
-  return (
-    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
-      <path
-        d="M7 17.5 5 9l34 5-2 8.5Z"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 10.4l2 7M20 11.7l2 7M28 13l2 7"
-        stroke="currentColor"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-      />
-      <rect
-        x="6"
-        y="17.5"
-        width="36"
-        height="21"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 export function IconFeather({ className = "h-10 w-10" }: IconProps) {
   return (
     <svg viewBox="0 0 48 64" fill="none" className={className} aria-hidden="true">

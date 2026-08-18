@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
-import { IconClapperboard } from "./icons";
 
 export function AboutRaveMedia() {
   const { t } = useLanguage();
@@ -11,10 +11,16 @@ export function AboutRaveMedia() {
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
       <div className="relative mx-auto max-w-3xl px-6">
         <div className="text-center">
-          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-gold/40 bg-cream/10 text-gold-light">
-            <IconClapperboard className="h-7 w-7" />
-          </span>
-          <h2 className="mt-4 font-heading text-3xl font-bold text-cream sm:text-4xl">
+          <div className="mx-auto w-full max-w-[220px] overflow-hidden rounded-2xl border border-gold/30 bg-cream p-3 shadow-lg shadow-maroon-950/20">
+            <Image
+              src="/ravelogo.png"
+              alt="Rave Media"
+              width={12406}
+              height={6476}
+              className="h-auto w-full"
+            />
+          </div>
+          <h2 className="mt-6 font-heading text-3xl font-bold text-cream sm:text-4xl">
             {t.raveMedia.title}
           </h2>
         </div>
