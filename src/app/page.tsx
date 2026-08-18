@@ -15,10 +15,12 @@ import { JoinSection } from "@/components/JoinSection";
 import { JoinMission } from "@/components/JoinMission";
 import { SupportUs } from "@/components/SupportUs";
 import { SiteFooter } from "@/components/SiteFooter";
+import { LanguageGate } from "@/components/LanguageGate";
 
 export default function Home() {
   return (
     <>
+      <LanguageGate />
       <SiteHeader />
       <main>
         <Hero />
