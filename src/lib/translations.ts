@@ -132,6 +132,26 @@ export const translations = {
         },
       ],
     },
+    director: {
+      eyebrow: "निर्देशक के बारे में",
+      name: "रवि भाटिया",
+      paragraphs: [
+        "बॉलीवुड इंडस्ट्री में एक भारतीय अभिनेता, लेखक, निर्देशक और फ़िल्ममेकर, जो टीवी विज्ञापनों, इन्फोमर्शियल्स और टेलीशॉपिंग कंटेंट में अपने काम के लिए व्यापक रूप से जाने जाते हैं। उनकी विशेषज्ञता फ़िल्म और टेलीविज़न दोनों में पटकथा लेखन, निर्देशन और संगीत रचना तक फैली हुई है।",
+        "वे प्रसिद्ध नाटक \"आज की ताज़ा खबर\" के साथ-साथ \"मेरी भूत नगर की यात्रा\" और \"अल्फ़ाज़\" पुस्तकों के लेखक भी हैं। अपने करियर के दौरान, उन्होंने 600 से अधिक विज्ञापन और कॉर्पोरेट फ़िल्में निर्देशित की हैं, जो सम्मोहक कथाओं और दृश्य रूप से आकर्षक सामग्री पर उनकी मज़बूत पकड़ को दर्शाती हैं।",
+        "उनका कार्य दर्शकों से जुड़ने वाली उच्च-गुणवत्ता की प्रस्तुतियाँ देने के सिद्ध ट्रैक रिकॉर्ड को दर्शाता है।",
+        "उन्हें अपने चर्चित संगीत एल्बम \"चटनी-मिक्स\" (2007) और \"मोबाइलर सॉन्ग\" से व्यापक ध्यान मिला। रवि भाटिया ने सीमित संसाधनों के साथ बनी \"2 लिटिल इंडियंस\" (2013) से अपने निर्देशकीय फ़िल्म करियर की शुरुआत की। इसके बावजूद, यह फ़िल्म 40 से अधिक ब्रांड्स, एनजीओ और संस्थानों के साथ-साथ हज़ारों स्कूलों से जुड़ी रही। बाद में इसे देशभक्ति श्रेणी के अंतर्गत कई भारतीय राज्यों में टैक्स-फ्री का दर्जा प्राप्त हुआ।",
+        "एक बहुमुखी पेशेवर के रूप में, उन्होंने तीन दशकों से अधिक समय तक विभिन्न विधाओं और प्रारूपों में काम किया है। अपनी रचनात्मक दृष्टि और तकनीकी सटीकता के लिए जाने जाने वाले, वे मज़बूत संचार और सहयोगात्मक कौशल के साथ अपनी परियोजनाओं के सुचारू क्रियान्वयन को सुनिश्चित करते हैं।",
+      ],
+    },
+    raveMedia: {
+      title: "रेव मीडिया के बारे में",
+      paragraphs: [
+        "दो दशकों से अधिक के अनुभव के साथ, रेव मीडिया एक अग्रणी विज्ञापन और फ़िल्म निर्माण कंपनी के रूप में स्थापित हो चुकी है, जो विभिन्न प्रारूपों में उच्च-गुणवत्ता की सामग्री प्रस्तुत करती है। इसके पोर्टफ़ोलियो में 600 से अधिक रचनात्मक फ़िल्में शामिल हैं, जो कथा-कथन और दृश्य क्रियान्वयन में इसकी मज़बूत नींव को दर्शाती हैं।",
+        "टीम में कुशल पेशेवर शामिल हैं जो विचारों को प्रभावशाली दृश्य कथाओं में बदलने के लिए समर्पित हैं। गहरी उद्योग समझ और कहानी कहने के जुनून के साथ, रेव मीडिया ग्राहकों के साथ मिलकर परिष्कृत और प्रभावी परिणाम देने के लिए काम करती है।",
+        "कंपनी ने हिंदी फ़िल्म \"टू लिटिल इंडियंस\" का भी निर्माण किया है, जो आकर्षक, बड़े पैमाने की सिनेमाई सामग्री बनाने की इसकी क्षमता को दर्शाती है।",
+        "रेव मीडिया ने कई परियोजनाओं को सफलतापूर्वक पूरा किया है और अपने रचनात्मक क्षितिज का विस्तार करना जारी रखे हुए है। \"बोलो राधे राधे\" मज़बूत सांस्कृतिक और भावनात्मक कथा-कथन में निहित, वैश्विक स्तर पर गूंजने वाली फ़िल्म प्रस्तुत करने की दिशा में इसका अगला महत्वाकांक्षी कदम है।",
+      ],
+    },
     missionVision: {
       eyebrow: "हमारा उद्देश्य",
       title: "मिशन और विज़न",
@@ -361,6 +381,26 @@ export const translations = {
           description:
             "Lord Krishna's eternal bond with cows — as Gopal and Govinda — immortalizes the sacred place of Gau Mata in Indian culture.",
         },
+      ],
+    },
+    director: {
+      eyebrow: "About the Director",
+      name: "Ravi Bhatia",
+      paragraphs: [
+        "An Indian actor, writer, director, and filmmaker in the Bollywood industry, widely known for his work in TV commercials, infomercials, and teleshopping content. His expertise spans scriptwriting, direction, and music composition across both film and television.",
+        "He is also the author of the well-known play Aaj Ki Taaza Khabar, along with the books Meri Bhoot Nagar Ki Yatra and Alfaaz. Over the course of his career, he has directed more than 600 advertisements and corporate films, demonstrating a strong command over compelling narratives and visually engaging content.",
+        "His body of work reflects a proven track record of delivering high-quality productions that connect with audiences.",
+        "He gained significant attention with his controversial music albums Chatni-Mix (2007) and Mobiler Song. Ravi Bhatia made his directorial film debut with 2 Little Indians (2013), created with limited resources. Despite this, the film was associated with more than 40 brands, NGOs, and institutions, as well as thousands of schools. It went on to achieve tax-free status in several Indian states under the patriotic category.",
+        "A versatile professional, he has worked across various genres and formats for over three decades. Known for his creative vision and technical precision, he combines strong communication and collaborative skills to ensure the seamless execution of his projects.",
+      ],
+    },
+    raveMedia: {
+      title: "Rave Media",
+      paragraphs: [
+        "With over two decades of experience, Rave Media has established itself as a leading advertising and film production company, delivering high-quality content across a wide range of formats. Its portfolio includes more than 600 creative films, reflecting a strong foundation in storytelling and visual execution.",
+        "The team comprises skilled professionals dedicated to transforming ideas into impactful visual narratives. With deep industry insight and a passion for storytelling, Rave Media collaborates closely with clients to deliver refined and effective results.",
+        "The company has also produced the Hindi film Two Little Indians, demonstrating its capability to create engaging, large-scale cinematic content.",
+        "Rave Media has successfully completed numerous projects and continues to expand its creative horizons. Bolo Radhe Radhe represents its next ambitious step toward delivering a globally resonant film rooted in strong cultural and emotional storytelling.",
       ],
     },
     missionVision: {

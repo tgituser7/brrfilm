@@ -6,6 +6,8 @@ import { IdeaBehindFilm } from "@/components/IdeaBehindFilm";
 import { Synopsis } from "@/components/Synopsis";
 import { StorySection } from "@/components/StorySection";
 import { Significance } from "@/components/Significance";
+import { AboutDirector } from "@/components/AboutDirector";
+import { AboutRaveMedia } from "@/components/AboutRaveMedia";
 import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
 import { Gallery } from "@/components/Gallery";
@@ -26,6 +28,8 @@ export default function Home() {
         <Synopsis />
         <StorySection />
         <Significance />
+        <AboutDirector />
+        <AboutRaveMedia />
         <MissionVision />
         <MessageSection />
         <Gallery />
