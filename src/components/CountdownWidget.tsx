@@ -2,33 +2,13 @@
 
 import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
+import { useCountdown } from "@/lib/useCountdown";
 import { IconCalendar } from "./icons";
-
-const RELEASE_DATE = new Date("2027-08-27T00:00:00+05:30").getTime();
-
-function getTimeLeft() {
-  const diff = Math.max(0, RELEASE_DATE - Date.now());
-  return {
-    days: Math.floor(diff / 86400000),
-    hours: Math.floor((diff / 3600000) % 24),
-    minutes: Math.floor((diff / 60000) % 60),
-    seconds: Math.floor((diff / 1000) % 60),
-  };
-}
 
 export function CountdownWidget() {
   const { t } = useLanguage();
-  const [time, setTime] = useState<ReturnType<typeof getTimeLeft> | null>(null);
+  const time = useCountdown();
   const [visitors, setVisitors] = useState<number | null>(null);
-
-  useEffect(() => {
-    // Initial value must come from the client's clock post-mount to avoid an
-    // SSR/CSR mismatch (server and client would otherwise compute different times).
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setTime(getTimeLeft());
-    const id = setInterval(() => setTime(getTimeLeft()), 1000);
-    return () => clearInterval(id);
-  }, []);
 
   useEffect(() => {
     fetch("/api/visitors")

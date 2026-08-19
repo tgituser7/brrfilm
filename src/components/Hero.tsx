@@ -49,16 +49,6 @@ export function Hero() {
             ))}
           </div>
 
-          <div
-            className="animate-fade-up mt-5 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm"
-            style={{ animationDelay: "0.25s" }}
-          >
-            <IconCalendar className="h-4 w-4 text-crimson" />
-            <span className="text-sm font-semibold text-maroon-900">
-              {t.hero.releaseDate}
-            </span>
-          </div>
-
           {/* <div className="animate-fade-up mt-7" style={{ animationDelay: "0.3s" }}>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-crimson/70">
               {t.hero.directorLabel}
@@ -90,6 +80,16 @@ export function Hero() {
               <IconNamaste className="h-4 w-4" />
               {t.hero.ctaJoin}
             </a>
+          </div>
+
+          <div
+            className="animate-fade-up mt-6 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm"
+            style={{ animationDelay: "0.5s" }}
+          >
+            <IconCalendar className="h-4 w-4 text-crimson" />
+            <span className="text-sm font-semibold text-maroon-900">
+              {t.hero.releaseDate}
+            </span>
           </div>
         </div>
       </div>

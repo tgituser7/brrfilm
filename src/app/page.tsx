@@ -18,15 +18,17 @@ import { SupportUs } from "@/components/SupportUs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LanguageGate } from "@/components/LanguageGate";
 import { CountdownWidget } from "@/components/CountdownWidget";
+import { CountdownSection } from "@/components/CountdownSection";
 
 export default function Home() {
   return (
     <>
       <LanguageGate />
-      <CountdownWidget />
+      {/* <CountdownWidget /> */}
       <SiteHeader />
       <main>
         <Hero />
+        <CountdownSection />
         <FeatureRow />
         <AboutFilm />
         <IdeaBehindFilm />

@@ -10,7 +10,7 @@ export function FeatureRow() {
 
   return (
     <div className="relative mx-auto max-w-6xl px-6 pt-16 pb-20 sm:pt-20 sm:pb-24">
-      <div className="grid grid-cols-2 gap-x-4 gap-y-8 rounded-[1.75rem] border border-maroon-900/10 bg-cream px-6 py-9 shadow-sm sm:grid-cols-5 sm:gap-y-0 sm:divide-x sm:divide-maroon-900/10">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-8 rounded-[1.75rem] border border-maroon-900/10 bg-cream px-6 py-9 shadow-sm sm:grid-cols-4 sm:gap-y-0 sm:divide-x sm:divide-maroon-900/10">
         {t.features.map((feature, i) => {
           const Icon = icons[i % icons.length];
           return (
