@@ -1,36 +1,14 @@
 import { NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
+import { getMongoClient } from "@/lib/mongodb";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const COUNT_FILE = path.join(DATA_DIR, "visitor-count.json");
+const DB_NAME = "bolo_radhe_radhe";
+const COLLECTION = "counters";
+const COUNTER_ID = "visitors";
 const COOKIE_NAME = "brr_visited";
 
-async function readCount(): Promise<number> {
-  try {
-    const raw = await fs.readFile(COUNT_FILE, "utf-8");
-    return JSON.parse(raw).count ?? 0;
-  } catch {
-    return 0;
-  }
-}
-
-async function writeCount(count: number) {
-  await fs.mkdir(DATA_DIR, { recursive: true });
-  await fs.writeFile(COUNT_FILE, JSON.stringify({ count }));
-}
-
-// Serializes all read-modify-write access to the counter through one chained
-// promise so concurrent requests can't race and lose an increment.
-let queue: Promise<number> = readCount();
-
-function incrementCount(): Promise<number> {
-  queue = queue.then(async (current) => {
-    const next = current + 1;
-    await writeCount(next);
-    return next;
-  });
-  return queue;
+async function getCounters() {
+  const client = await getMongoClient();
+  return client.db(DB_NAME).collection<{ _id: string; count: number }>(COLLECTION);
 }
 
 export async function GET(request: Request) {
@@ -39,7 +17,20 @@ export async function GET(request: Request) {
     .split(";")
     .some((c) => c.trim().startsWith(`${COOKIE_NAME}=`));
 
-  const count = alreadyVisited ? await queue : await incrementCount();
+  const counters = await getCounters();
+
+  let count: number;
+  if (alreadyVisited) {
+    const doc = await counters.findOne({ _id: COUNTER_ID });
+    count = doc?.count ?? 0;
+  } else {
+    const result = await counters.findOneAndUpdate(
+      { _id: COUNTER_ID },
+      { $inc: { count: 1 } },
+      { upsert: true, returnDocument: "after" }
+    );
+    count = result?.count ?? 1;
+  }
 
   const response = NextResponse.json({ count });
 

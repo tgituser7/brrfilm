@@ -2,6 +2,20 @@ type IconProps = { className?: string };
 
 const base = "h-7 w-7";
 
+export function IconBell({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M24 6c-1.4 0-2.5 1.1-2.5 2.5v1.6C15.9 11.3 12 16.2 12 22v8l-3.5 5h31L36 30v-8c0-5.8-3.9-10.7-9.5-11.9V8.5C26.5 7.1 25.4 6 24 6Z"
+        stroke="currentColor"
+        strokeWidth="1.7"
+        strokeLinejoin="round"
+      />
+      <path d="M19 39a5 5 0 0 0 10 0" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function IconCalendar({ className = base }: IconProps) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">

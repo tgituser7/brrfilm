@@ -11,6 +11,7 @@ import { AboutRaveMedia } from "@/components/AboutRaveMedia";
 import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
 import { Gallery } from "@/components/Gallery";
+import { WatchInterest } from "@/components/WatchInterest";
 import { JoinSection } from "@/components/JoinSection";
 import { JoinMission } from "@/components/JoinMission";
 import { SupportUs } from "@/components/SupportUs";
@@ -37,6 +38,7 @@ export default function Home() {
         <MissionVision />
         <MessageSection />
         <Gallery />
+        <WatchInterest />
         {/* <JoinSection /> */}
         <JoinMission />
         <SupportUs />
