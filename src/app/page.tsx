@@ -16,11 +16,13 @@ import { JoinMission } from "@/components/JoinMission";
 import { SupportUs } from "@/components/SupportUs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LanguageGate } from "@/components/LanguageGate";
+import { CountdownWidget } from "@/components/CountdownWidget";
 
 export default function Home() {
   return (
     <>
       <LanguageGate />
+      <CountdownWidget />
       <SiteHeader />
       <main>
         <Hero />

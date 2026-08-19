@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# runtime data (visitor counter, etc.)
+/data/
+
 # production
 /build
 

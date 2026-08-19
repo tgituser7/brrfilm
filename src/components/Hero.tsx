@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
-import { IconNamaste, IconPlay } from "./icons";
+import { IconCalendar, IconNamaste, IconPlay } from "./icons";
 
 export function Hero() {
   const { t } = useLanguage();
@@ -32,13 +32,13 @@ export function Hero() {
             {t.hero.ornament}
           </p>
 
-          <h1
+          {/* <h1
             className="animate-fade-up mt-4 font-heading text-6xl font-bold leading-[1.25] sm:text-7xl"
             style={{ animationDelay: "0.1s" }}
           >
             <span className="text-gold-deep block pb-1">{t.hero.title1}</span>
             <span className="block pb-1 text-maroon-900">{t.hero.title2}</span>
-          </h1>
+          </h1> */}
 
           <div
             className="animate-fade-up mt-6 space-y-1 text-base leading-relaxed text-ink/80 sm:text-lg"
@@ -49,14 +49,24 @@ export function Hero() {
             ))}
           </div>
 
-          <div className="animate-fade-up mt-7" style={{ animationDelay: "0.3s" }}>
+          <div
+            className="animate-fade-up mt-5 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm"
+            style={{ animationDelay: "0.25s" }}
+          >
+            <IconCalendar className="h-4 w-4 text-crimson" />
+            <span className="text-sm font-semibold text-maroon-900">
+              {t.hero.releaseDate}
+            </span>
+          </div>
+
+          {/* <div className="animate-fade-up mt-7" style={{ animationDelay: "0.3s" }}>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-crimson/70">
               {t.hero.directorLabel}
             </p>
             <p className="mt-1 font-heading text-2xl font-semibold text-maroon-950">
               {t.hero.directorName}
             </p>
-          </div>
+          </div> */}
 
           <div
             className="animate-fade-up mt-9 flex flex-col items-start gap-4 sm:flex-row"

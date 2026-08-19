@@ -2,6 +2,20 @@ type IconProps = { className?: string };
 
 const base = "h-7 w-7";
 
+export function IconCalendar({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <rect x="7" y="10" width="34" height="30" rx="3" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M7 18h34M15 6v8M33 6v8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <circle cx="16" cy="26" r="1.8" fill="currentColor" />
+      <circle cx="24" cy="26" r="1.8" fill="currentColor" />
+      <circle cx="32" cy="26" r="1.8" fill="currentColor" />
+      <circle cx="16" cy="33" r="1.8" fill="currentColor" />
+      <circle cx="24" cy="33" r="1.8" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function IconSun({ className = base }: IconProps) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
