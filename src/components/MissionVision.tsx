@@ -7,8 +7,16 @@ export function MissionVision() {
   const { t } = useLanguage();
 
   const cards = [
-    { icon: IconTarget, ...t.missionVision.mission },
-    { icon: IconEye, ...t.missionVision.vision },
+    {
+      icon: IconTarget,
+      title: t.missionVision.mission.title,
+      paragraphs: [t.missionVision.mission.description],
+    },
+    {
+      icon: IconEye,
+      title: t.missionVision.vision.title,
+      paragraphs: t.missionVision.vision.paragraphs,
+    },
   ];
 
   return (
@@ -22,19 +30,25 @@ export function MissionVision() {
         </h2>
       </div>
 
-      <div className="mx-auto mt-14 grid max-w-4xl gap-6 px-6 sm:grid-cols-2">
-        {cards.map(({ icon: Icon, title, description }) => (
+      <div className="mx-auto mt-14 grid max-w-5xl gap-6 px-6 sm:grid-cols-2">
+        {cards.map(({ icon: Icon, title, paragraphs }) => (
           <div
             key={title}
-            className="card-lift rounded-2xl border border-maroon-900/10 bg-ivory p-8 text-center shadow-sm"
+            className="card-lift rounded-2xl border border-maroon-900/10 bg-ivory p-8 shadow-sm"
           >
             <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-saffron/20 to-gold/20 text-maroon-800">
               <Icon className="h-7 w-7" />
             </span>
-            <h3 className="mt-5 font-heading text-xl font-semibold text-maroon-950">
+            <h3 className="mt-5 text-center font-heading text-xl font-semibold text-maroon-950">
               {title}
             </h3>
-            <p className="mt-2.5 text-sm leading-relaxed text-ink/70">{description}</p>
+            <div className="mt-3 space-y-2.5 text-left">
+              {paragraphs.map((para, i) => (
+                <p key={i} className="text-sm leading-relaxed text-ink/70">
+                  {para}
+                </p>
+              ))}
+            </div>
           </div>
         ))}
       </div>

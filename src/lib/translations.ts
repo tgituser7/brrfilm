@@ -162,8 +162,13 @@ export const translations = {
       },
       vision: {
         title: "हमारा विज़न",
-        description:
-          "यह एक डमी विवरण है। यहाँ टीम का वास्तविक विज़न कथन बाद में जोड़ा जाएगा — जो बताएगा कि हम भविष्य में क्या हासिल करना चाहते हैं।",
+        paragraphs: [
+          "यह केवल एक फिल्म नहीं, बल्कि भारत की सनातन संस्कृति, भारतीय किसान, गौवंश, परिवार, सेवा, करुणा और राष्ट्र चेतना को समर्पित एक सांस्कृतिक आंदोलन है।",
+          "गौधन को समृद्धि का प्रतीक माना जाना... सुबह गौसेवा... नंदी द्वारा खेतों की जुताई... गोबर से लिपे हुए घर... गोमूत्र एवं पंचगव्य का उपयोग...",
+          "यह सम्पूर्ण वातावरण दर्शकों को भारत की उस संस्कृति में ले जाएगा जहाँ गाय केवल पशु नहीं, बल्कि जीवन का आधार थी।",
+          "पहली बार हिंदी सिनेमा में गौमाता को केवल एक पशु नहीं, बल्कि सम्पूर्ण कहानी का केंद्रीय पात्र बनाया जा रहा है। फ़िल्म केवल धार्मिक भावनाओं तक सीमित नहीं रहेगी — इसमें वैश्विक और सामाजिक पहलुओं को भी रचनात्मक रूप से प्रस्तुत किया जाएगा।",
+          "एक गौमाता की जीवन यात्रा के माध्यम से यह कहानी उन सभी लोगों को जोड़ती है जिनका प्रत्यक्ष या अप्रत्यक्ष संबंध गाय से है।",
+        ],
       },
     },
     message: {
@@ -438,8 +443,13 @@ export const translations = {
       },
       vision: {
         title: "Our Vision",
-        description:
-          "This is placeholder text. The team's actual vision statement — describing what we hope to achieve going forward — will be added here soon.",
+        paragraphs: [
+          "This is not just a film, but a cultural movement dedicated to India's eternal (Sanatan) culture, its farmers, its cattle wealth, family, service, compassion, and national consciousness.",
+          "Cattle wealth regarded as a symbol of prosperity... morning cow-seva... fields ploughed by bulls... homes plastered with cow dung... the use of cow urine and panchagavya...",
+          "This entire atmosphere will transport audiences into that India where the cow was not merely an animal, but the very foundation of life.",
+          "For the first time in Hindi cinema, Gau Mata is being made not just an animal, but the central character of the entire story. The film will not remain limited to religious sentiment alone — it will also creatively present global and social dimensions.",
+          "Through the life journey of one Gau Mata, this story connects everyone who shares a direct or indirect bond with the cow.",
+        ],
       },
     },
     message: {
