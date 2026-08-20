@@ -66,7 +66,7 @@ export function Hero() {
               href="https://youtube.com/@boloradheradheofficial-jj5xh?si=kdkMbB9w5MZYatU3"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-maroon-800 to-maroon-900 px-7 py-3.5 text-sm font-semibold tracking-wide text-cream shadow-lg shadow-maroon-900/25 transition-transform hover:-translate-y-0.5 sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-maroon-800 to-maroon-900 px-4 py-2 text-sm font-semibold tracking-wide text-cream shadow-lg shadow-maroon-900/25 transition-transform hover:-translate-y-0.5 sm:px-7 sm:py-3.5"
             >
               <IconPlay className="h-4 w-4" />
               {t.hero.ctaTrailer}
@@ -75,7 +75,7 @@ export function Hero() {
               href={JOIN_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-maroon-900/40 bg-cream/80 px-7 py-3.5 text-sm font-semibold tracking-wide text-maroon-900 backdrop-blur-sm transition-colors hover:bg-cream sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-maroon-900/40 bg-cream/80 px-4 py-2 text-sm font-semibold tracking-wide text-maroon-900 backdrop-blur-sm transition-colors hover:bg-cream sm:px-7 sm:py-3.5"
             >
               <IconNamaste className="h-4 w-4" />
               {t.hero.ctaJoin}
