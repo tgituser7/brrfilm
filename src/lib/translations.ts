@@ -78,7 +78,7 @@ export const translations = {
           number: "०१",
           title: "उत्पत्ति की कथा",
           description:
-            "समुद्र मंथन से प्रकट कामधेनु और सुरभि की पौराणिक गाथा, जहाँ से गौ माता की दिव्यता का आरंभ हुआ।",
+            "समुद्र मंथन से प्रकट कामधेनु और सुरभि की गाथा, जहाँ से गौ माता की दिव्यता का आरंभ हुआ।",
         },
         {
           number: "०२",
@@ -90,7 +90,7 @@ export const translations = {
           number: "०३",
           title: "पुनर्जागरण",
           description:
-            "करुणा, एकता और आस्था की विजय — राधे राधे नाम का वह संदेश जो हर सीमा और पीढ़ी को पार करता है।",
+            "एकता और आस्था की विजय — राधे राधे नाम का वह संदेश जो हर सीमा और पीढ़ी को पार करता है।",
         },
       ],
     },
@@ -354,7 +354,7 @@ export const translations = {
           number: "01",
           title: "The Origin Myth",
           description:
-            "The legend of Kamadhenu and Surabhi, born from the churning of the cosmic ocean — the divine beginning of Gau Mata's reverence.",
+            "The legend of Kamadhenu and Surabhi, born from the churning of the ocean — the divine beginning of Gau Mata's reverence.",
         },
         {
           number: "02",
@@ -366,7 +366,7 @@ export const translations = {
           number: "03",
           title: "The Awakening",
           description:
-            "A triumph of compassion, unity, and faith — the message of Radhe Radhe that transcends every boundary and generation.",
+            "A triumph of unity, and faith — the message of Radhe Radhe that transcends every boundary and generation.",
         },
       ],
     },
@@ -379,7 +379,7 @@ export const translations = {
         {
           title: "Kamadhenu",
           description:
-            "Born from the churning of the cosmic ocean, Kamadhenu is revered as the divine wish-fulfilling cow — the primordial mother of all cattle.",
+            "Born from the churning of the ocean, Kamadhenu is revered as the divine wish-fulfilling cow — the primordial mother of all cattle.",
         },
         {
           title: "Symbol of Mother Earth",

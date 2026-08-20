@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { IconBell } from "./icons";
 
@@ -57,7 +58,15 @@ export function WatchInterest() {
   }
 
   return (
-    <section id="notify" className="relative bg-cream py-20 sm:py-28">
+    <section id="notify" className="relative overflow-hidden bg-cream py-20 sm:py-28">
+      <Image
+        src="/ri1.jpeg"
+        alt=""
+        fill
+        aria-hidden="true"
+        sizes="100vw"
+        className="object-cover opacity-[0.12]"
+      />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-30" />
       <div className="relative mx-auto max-w-xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-crimson">

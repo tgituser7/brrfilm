@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export function StorySection() {
@@ -7,7 +8,15 @@ export function StorySection() {
 
   return (
     <section id="story" className="relative overflow-hidden bg-devotional py-24 sm:py-32">
-      <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
+      <Image
+        src="/ri2.jpeg"
+        alt=""
+        fill
+        aria-hidden="true"
+        sizes="100vw"
+        className="object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-maroon-950/90 via-maroon-950/85 to-maroon-950/95" />
       <div className="relative mx-auto max-w-5xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
           {t.story.eyebrow}
@@ -25,7 +34,7 @@ export function StorySection() {
           {t.story.chapters.map((chapter, i) => (
             <div
               key={chapter.number}
-              className="card-lift relative rounded-2xl border border-gold/20 bg-cream/[0.04] p-7 backdrop-blur-sm"
+              className="card-lift relative rounded-2xl border border-gold/20 bg-cream/[0.06] p-7 backdrop-blur-sm"
             >
               <span className="font-heading text-4xl font-bold text-gold/40">
                 {chapter.number}
