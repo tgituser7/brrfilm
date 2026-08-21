@@ -7,6 +7,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/LanguageContext";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const headingEn = Playfair_Display({
   variable: "--font-heading-en",
@@ -45,7 +46,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${headingEn.variable} ${bodyEn.variable} ${headingHi.variable} ${bodyHi.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-ink">
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          {children}
+          <WhatsAppButton />
+        </LanguageProvider>
       </body>
     </html>
   );
