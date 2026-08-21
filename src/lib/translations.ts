@@ -279,6 +279,11 @@ export const translations = {
     langToggle: {
       label: "भाषा",
     },
+    musicPrompt: {
+      question: "क्या आप बैकग्राउंड संगीत सुनना चाहेंगे?",
+      yes: "हां, सुनें",
+      no: "नहीं धन्यवाद",
+    },
   },
   en: {
     meta: {
@@ -559,6 +564,11 @@ export const translations = {
     },
     langToggle: {
       label: "Language",
+    },
+    musicPrompt: {
+      question: "Would you like to listen to background music?",
+      yes: "Yes, play",
+      no: "No thanks",
     },
   },
 } as const;

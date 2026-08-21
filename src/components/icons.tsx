@@ -16,6 +16,22 @@ export function IconBell({ className = base }: IconProps) {
   );
 }
 
+export function IconMusicNote({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
+      <circle cx="14" cy="36" r="5" fill="currentColor" />
+      <circle cx="34" cy="32" r="5" fill="currentColor" />
+      <path
+        d="M19 36V14l20-4v22"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function IconCalendar({ className = base }: IconProps) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">

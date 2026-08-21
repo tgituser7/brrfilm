@@ -16,14 +16,14 @@ import { JoinSection } from "@/components/JoinSection";
 import { JoinMission } from "@/components/JoinMission";
 import { SupportUs } from "@/components/SupportUs";
 import { SiteFooter } from "@/components/SiteFooter";
-import { LanguageGate } from "@/components/LanguageGate";
+import { BackgroundMusicPrompt } from "@/components/BackgroundMusicPrompt";
 import { CountdownWidget } from "@/components/CountdownWidget";
 import { CountdownSection } from "@/components/CountdownSection";
 
 export default function Home() {
   return (
     <>
-      <LanguageGate />
+      <BackgroundMusicPrompt />
       {/* <CountdownWidget /> */}
       <SiteHeader />
       <main>

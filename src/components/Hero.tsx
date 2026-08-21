@@ -12,7 +12,7 @@ export function Hero() {
     <div className="max-w-xl">
       <p
         className="animate-fade-up divider-ornament font-heading text-lg text-crimson"
-        style={{ justifyContent: "flex-start",fontSize:"3rem" }}
+        style={{ justifyContent: "flex-start",fontSize:"2.4rem" }}
       >
         {t.hero.ornament}
       </p>
