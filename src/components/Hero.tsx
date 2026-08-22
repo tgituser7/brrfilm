@@ -63,7 +63,7 @@ export function Hero() {
       <div className="relative sm:hidden">
         <div className="relative h-[300px] w-full">
           <Image
-            src="/topimage.jpeg"
+            src="/topimage.png"
             alt={`${t.hero.title1} ${t.hero.title2} — ${t.hero.directorName}`}
             fill
             priority
@@ -78,7 +78,7 @@ export function Hero() {
       {/* Desktop/tablet: full-bleed background with content overlaid */}
       <div className="relative hidden min-h-[680px] items-center overflow-hidden py-14 sm:flex lg:min-h-[740px]">
         <Image
-          src="/topimage.jpeg"
+          src="/topimage.png"
           alt={`${t.hero.title1} ${t.hero.title2} — ${t.hero.directorName}`}
           fill
           priority
