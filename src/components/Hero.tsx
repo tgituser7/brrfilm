@@ -9,16 +9,13 @@ export function Hero() {
   const { t } = useLanguage();
 
   const content = (
-    <div className="max-w-xl">
-      <p
-        className="animate-fade-up divider-ornament font-heading text-lg text-crimson"
-        style={{ justifyContent: "flex-start",fontSize:"2.4rem" }}
-      >
+    <div className="mx-auto max-w-xl text-center sm:mx-0 sm:text-left">
+      <p className="animate-fade-up divider-ornament justify-center font-heading text-lg text-crimson sm:justify-start sm:text-[2.4rem]">
         {t.hero.ornament}
       </p>
 
       <div
-        className="animate-fade-up mt-[19rem] space-y-1 text-base leading-relaxed text-ink/80 sm:text-lg"
+        className="animate-fade-up mt-6 space-y-1 text-base leading-relaxed text-ink/80 sm:mt-[19rem] sm:text-lg"
         style={{ animationDelay: "0.2s" }}
       >
         {t.hero.tagline.map((line) => (
@@ -27,7 +24,7 @@ export function Hero() {
       </div>
 
       <div
-        className="animate-fade-up mt-5 flex flex-col items-start gap-4 sm:flex-row"
+        className="animate-fade-up mt-5 flex flex-col items-center gap-4 sm:flex-row sm:items-start"
         style={{ animationDelay: "0.4s" }}
       >
         <a
@@ -89,7 +86,7 @@ export function Hero() {
           className="object-cover object-[68%_40%]"
         />
         <div className="bg-hero-scrim pointer-events-none absolute inset-0" />
-        <div className="relative w-full max-w-6xl px-8 lg:px-14">{content}</div>
+        <div className="relative w-full max-w-6xl px-6 lg:px-10">{content}</div>
       </div>
     </section>
   );

@@ -20,6 +20,10 @@ export function IdeaBehindFilm() {
               className="h-auto w-full object-cover"
             />
           </div>
+          <p className="mt-4 text-center font-heading text-base text-cream/80">
+            {t.director.name}{" "}
+            <span className="text-cream/50">({t.hero.directorLabel})</span>
+          </p>
         </div>
 
         <div>
