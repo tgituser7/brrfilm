@@ -17,9 +17,13 @@ export function SupportUs() {
         <h2 className="mt-3 font-heading text-3xl font-bold text-maroon-950 sm:text-4xl">
           {t.support.title}
         </h2>
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-ink/70 sm:text-lg">
-          {t.support.description}
-        </p>
+        <div className="mx-auto mt-5 max-w-2xl space-y-3 text-left">
+          {t.support.paragraphs.map((para, i) => (
+            <p key={i} className="text-base leading-relaxed text-ink/70 sm:text-lg">
+              {para}
+            </p>
+          ))}
+        </div>
       </div>
 
       <div className="relative mx-auto mt-14 grid max-w-4xl gap-6 px-6 sm:grid-cols-2">

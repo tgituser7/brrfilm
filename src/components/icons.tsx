@@ -152,61 +152,6 @@ export function IconOm({ className = base }: IconProps) {
   );
 }
 
-export function IconCow({ className = base }: IconProps) {
-  return (
-    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
-      <path
-        d="M14 14c-1.5-2.5-1-5.5 1.5-6.5 2-.8 3.8.4 4.5 2.3 1.2-.9 2.5-1.4 4-1.4s2.8.5 4 1.4c.7-1.9 2.5-3.1 4.5-2.3C35 8.5 35.5 11.5 34 14"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M12 20c0-4.4 5.4-8 12-8s12 3.6 12 8c0 5-2.4 8.6-5 10.6-.2 2.6-.4 5-2 6.6-1.2 1.2-3 1.8-5 1.8s-3.8-.6-5-1.8c-1.6-1.6-1.8-4-2-6.6-2.6-2-5-5.6-5-10.6Z"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinejoin="round"
-      />
-      <circle cx="20" cy="21" r="1.1" fill="currentColor" />
-      <circle cx="28" cy="21" r="1.1" fill="currentColor" />
-      <path d="M22 25.5c.6.6 1.4.9 2 .9s1.4-.3 2-.9" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
-      <path d="M7 19c1.5-1 3-1 4.5 0M41 19c-1.5-1-3-1-4.5 0" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
-    </svg>
-  );
-}
-
-export function IconFarmer({ className = base }: IconProps) {
-  return (
-    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
-      <circle cx="24" cy="15" r="5.5" stroke="currentColor" strokeWidth="1.6" />
-      <path
-        d="M16.5 12.5c2-2.4 4.6-3.6 7.5-3.6s5.5 1.2 7.5 3.6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-      />
-      <path d="M15 13c3-1 6-1.4 9-1.4s6 .4 9 1.4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
-      <path
-        d="M13 39c.5-8 4.5-13 11-13s10.5 5 11 13"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-export function IconVillage({ className = base }: IconProps) {
-  return (
-    <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">
-      <path d="M8 24 22 12l14 12" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" strokeLinecap="round" />
-      <path d="M11 22v16h22V22" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
-      <path d="M19 38v-9h6v9" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-      <path d="M31 17V13h4v6.5" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 export function IconNamaste({ className = base }: IconProps) {
   return (
     <svg viewBox="0 0 48 48" fill="none" className={className} aria-hidden="true">

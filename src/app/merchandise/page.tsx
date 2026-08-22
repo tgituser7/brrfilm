@@ -20,7 +20,7 @@ export default function MerchandisePage() {
 
   const whatsappHref = activeProduct
     ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-        `${activeProduct.name} — payment screenshot attached.`
+        `${activeProduct.name} (${activeProduct.price}) — payment screenshot attached.`
       )}`
     : "";
 
@@ -68,6 +68,9 @@ export default function MerchandisePage() {
                     {product.name}
                   </h2>
                   <p className="mt-2 text-sm leading-relaxed text-ink/70">{product.desc}</p>
+                  <p className="mt-3 font-heading text-xl font-bold text-crimson">
+                    {product.price}
+                  </p>
                   <button
                     type="button"
                     onClick={() => setSelected(i)}
@@ -108,6 +111,9 @@ export default function MerchandisePage() {
               {t.merchPage.modalTitle}
             </h3>
             <p className="mt-1 text-center text-sm text-ink/60">{activeProduct.name}</p>
+            <p className="mt-1 text-center font-heading text-lg font-bold text-crimson">
+              {activeProduct.price}
+            </p>
 
             <div className="mx-auto mt-5 w-full max-w-[220px] overflow-hidden rounded-2xl border border-gold/30 bg-white p-3 shadow-md">
               <FakeQR />

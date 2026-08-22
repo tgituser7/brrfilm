@@ -231,8 +231,12 @@ export const translations = {
     support: {
       eyebrow: "सहयोग करें",
       title: "इस मिशन में हमारा साथ दें",
-      description:
-        "आप दो तरीकों से इस पावन अभियान में योगदान दे सकते हैं — हमारा मर्चेंडाइज़ अपनाकर या सीधे दान करके।",
+      paragraphs: [
+        "अगर आप इस फ़िल्म से जुड़ना या टीम में सम्मिलित होना चाहते हैं, तो हमारी एक निश्चित टीम आपका मार्गदर्शन करेगी।",
+        "अपना संदेश भेजने में विलंब न करें — अभी कॉल या संपर्क करें।",
+        "रोज़-रोज़ ऐसी पारिवारिक-धार्मिक और सनातन संस्कृति को जोड़ने वाली फ़िल्में नहीं बनतीं, इसीलिए पहले आएं, पहले जुड़ें और पहले लाभ पाएं।",
+        "हमसे सीधा संपर्क करें — यह आपके ब्रांड और हमारी फ़िल्म के लिए एक सफल और प्रेरणादायक कदम होगा।",
+      ],
       merchTitle: "मर्चेंडाइज़ खरीदें",
       merchDesc: "बोलो राधे राधे की भावना को अपने साथ रखें — जल्द ही उपलब्ध।",
       merchCta: "अभी देखें",
@@ -249,14 +253,17 @@ export const translations = {
         {
           name: "बोलो राधे राधे टी-शर्ट",
           desc: "प्रीमियम क्वालिटी की सफ़ेद टी-शर्ट पर बोलो राधे राधे की आधिकारिक कलाकृति छपी हुई है।",
+          price: "₹450",
         },
         {
           name: "बोलो राधे राधे कैप",
           desc: "बोलो राधे राधे की आधिकारिक कलाकृति के साथ आरामदायक सफ़ेद कैप।",
+          price: "₹300",
         },
         {
           name: "बोलो राधे राधे मग",
           desc: "रोज़ के इस्तेमाल के लिए बोलो राधे राधे की कलाकृति वाला सिरेमिक मग।",
+          price: "₹250",
         },
       ],
       buyCta: "अभी खरीदें",
@@ -540,8 +547,12 @@ export const translations = {
     support: {
       eyebrow: "Support Us",
       title: "Stand With This Mission",
-      description:
-        "There are two ways you can contribute to this sacred cause — by buying our merchandise or by donating directly.",
+      paragraphs: [
+        "If you'd like to join this film or become part of the team, our dedicated team will guide you every step of the way.",
+        "Don't delay in reaching out — call or contact us right away.",
+        "Films that bring together family values, faith, and Sanatan culture like this aren't made every day — so connect early and be among the first to benefit.",
+        "Reach out to us directly — it will be a successful and inspiring step for your brand and for our film.",
+      ],
       merchTitle: "Buy Merchandise",
       merchDesc: "Carry the spirit of Bolo Radhe Radhe with you — available soon.",
       merchCta: "View Now",
@@ -557,14 +568,17 @@ export const translations = {
         {
           name: "Bolo Radhe Radhe T-Shirt",
           desc: "Premium quality white T-shirt printed with the official Bolo Radhe Radhe artwork.",
+          price: "₹450",
         },
         {
           name: "Bolo Radhe Radhe Cap",
           desc: "Comfortable white cap featuring the official Bolo Radhe Radhe artwork.",
+          price: "₹300",
         },
         {
           name: "Bolo Radhe Radhe Mug",
           desc: "A ceramic mug for everyday use, featuring the Bolo Radhe Radhe artwork.",
+          price: "₹250",
         },
       ],
       buyCta: "Buy Now",
