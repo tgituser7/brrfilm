@@ -242,10 +242,33 @@ export const translations = {
     },
     merchPage: {
       eyebrow: "मर्चेंडाइज़",
-      heading: "जल्द आ रहा है",
+      heading: "आधिकारिक मर्चेंडाइज़",
       description:
-        "बोलो राधे राधे का आधिकारिक मर्चेंडाइज़ बनाया जा रहा है। भक्ति और संस्कृति से जुड़े खास उत्पादों के लिए जल्द ही यहाँ वापस आएं।",
-      backHome: "मुखपृष्ठ पर वापस जाएं",
+        "बोलो राधे राधे की भावना को अपने साथ रखें — भक्ति और संस्कृति से प्रेरित खास उत्पाद।",
+      products: [
+        {
+          name: "बोलो राधे राधे टी-शर्ट",
+          desc: "प्रीमियम क्वालिटी की सफ़ेद टी-शर्ट पर बोलो राधे राधे की आधिकारिक कलाकृति छपी हुई है।",
+        },
+        {
+          name: "बोलो राधे राधे कैप",
+          desc: "बोलो राधे राधे की आधिकारिक कलाकृति के साथ आरामदायक सफ़ेद कैप।",
+        },
+        {
+          name: "बोलो राधे राधे मग",
+          desc: "रोज़ के इस्तेमाल के लिए बोलो राधे राधे की कलाकृति वाला सिरेमिक मग।",
+        },
+      ],
+      buyCta: "अभी खरीदें",
+      modalTitle: "भुगतान करें",
+      qrCaption: "भुगतान के लिए स्कैन करें",
+      qrDemoLabel: "डेमो क्यूआर कोड — शीघ्र अपडेट होगा",
+      instructions:
+        "क्यूआर कोड स्कैन करके भुगतान करें, फिर भुगतान का स्क्रीनशॉट नीचे दिए गए व्हाट्सएप नंबर पर भेजें — आपका ऑर्डर कन्फ़र्म कर दिया जाएगा।",
+      whatsappLabel: "व्हाट्सएप नंबर",
+      whatsappCta: "व्हाट्सएप पर स्क्रीनशॉट भेजें",
+      note: "भुगतान विवरण अभी डेमो के रूप में दिखाए जा रहे हैं — वास्तविक भुगतान जानकारी शीघ्र जोड़ी जाएगी।",
+      close: "बंद करें",
     },
     donatePage: {
       eyebrow: "दान करें",
@@ -528,10 +551,32 @@ export const translations = {
     },
     merchPage: {
       eyebrow: "Merchandise",
-      heading: "Coming Soon",
-      description:
-        "Official Bolo Radhe Radhe merchandise is being crafted. Check back soon for devotional and culture-inspired products.",
-      backHome: "Back to Home",
+      heading: "Official Merchandise",
+      description: "Carry the spirit of Bolo Radhe Radhe with you — devotional, culture-inspired products.",
+      products: [
+        {
+          name: "Bolo Radhe Radhe T-Shirt",
+          desc: "Premium quality white T-shirt printed with the official Bolo Radhe Radhe artwork.",
+        },
+        {
+          name: "Bolo Radhe Radhe Cap",
+          desc: "Comfortable white cap featuring the official Bolo Radhe Radhe artwork.",
+        },
+        {
+          name: "Bolo Radhe Radhe Mug",
+          desc: "A ceramic mug for everyday use, featuring the Bolo Radhe Radhe artwork.",
+        },
+      ],
+      buyCta: "Buy Now",
+      modalTitle: "Complete Your Payment",
+      qrCaption: "Scan to Pay",
+      qrDemoLabel: "Demo QR — will be updated soon",
+      instructions:
+        "Scan the QR code to pay, then send a screenshot of the payment to the WhatsApp number below — your order will be confirmed.",
+      whatsappLabel: "WhatsApp Number",
+      whatsappCta: "Send Screenshot on WhatsApp",
+      note: "Payment details shown here are a placeholder for now — real payment information will be added soon.",
+      close: "Close",
     },
     donatePage: {
       eyebrow: "Donate",

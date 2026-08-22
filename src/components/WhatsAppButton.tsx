@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "918451897298";
+import { WHATSAPP_NUMBER } from "@/lib/links";
 
 export function WhatsAppButton() {
   return (
