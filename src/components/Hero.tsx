@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
+import { SpiritualParticles } from "./SpiritualParticles";
 import { IconCalendar, IconNamaste, IconPlay } from "./icons";
 
 export function Hero() {
@@ -86,6 +87,7 @@ export function Hero() {
           className="object-cover object-[68%_40%]"
         />
         <div className="bg-hero-scrim pointer-events-none absolute inset-0" />
+        <SpiritualParticles />
         <div className="relative w-full max-w-6xl px-6 lg:px-10">{content}</div>
       </div>
     </section>

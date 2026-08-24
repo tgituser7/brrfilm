@@ -19,10 +19,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { BackgroundMusicPrompt } from "@/components/BackgroundMusicPrompt";
 import { CountdownWidget } from "@/components/CountdownWidget";
 import { CountdownSection } from "@/components/CountdownSection";
+import { WelcomeIntro } from "@/components/WelcomeIntro";
 
 export default function Home() {
   return (
     <>
+      <WelcomeIntro />
       <BackgroundMusicPrompt />
       {/* <CountdownWidget /> */}
       <SiteHeader />
