@@ -7,7 +7,9 @@ export function IdeaBehindFilm() {
   const { t } = useLanguage();
 
   return (
-    <section id="idea" className="relative overflow-hidden bg-devotional py-20 sm:py-28">
+    <section id="idea" className="relative overflow-hidden bg-maroon-950 py-20 sm:py-28">
+      <Image src="/ideabtf.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/92 via-maroon-950/85 to-maroon-950/94" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
       <div className="relative mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[0.9fr_1.3fr] lg:items-start lg:gap-14">
         <div className="lg:sticky lg:top-28">

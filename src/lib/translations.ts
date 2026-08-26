@@ -178,6 +178,56 @@ export const translations = {
       ],
       signature: "राधे श्याम",
     },
+    music: {
+      eyebrow: "संगीत",
+      title: "संगीत सूची",
+      firstHalf: "पहला भाग",
+      secondHalf: "दूसरा भाग",
+      songsFirstHalf: [
+        {
+          title: "श्री कृष्ण गोविंद हरे मुरारी",
+          credit: "गायक - रसराज कृष्ण दास, बोल व संगीत – रवि भाटिया",
+        },
+        {
+          title: "मनभावन मथुरा – मेरो पावन",
+          credit: "गायक - किशोर चतुर्वेदी, बोल व संगीत – रवि भाटिया",
+        },
+        {
+          title: "पतझड़ में पत्ते गिरते हैं",
+          credit: "गायक - अगम निगम, बोल व संगीत - रवि भाटिया",
+        },
+        {
+          title: "देखो लाडली चली ससुराल बिदाई",
+          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
+        },
+        {
+          title: "गौ माता सॉन्ग",
+          credit: "गायक - अनूप जलोटा व बी प्राक, बोल व संगीत – रवि जैन",
+        },
+      ],
+      songsSecondHalf: [
+        {
+          title: "मुझे तो रंग डाला",
+          credit: "गायक - विनीत सिंह, बोल व संगीत - रवि भाटिया",
+        },
+        {
+          title: "लव यू कृष्णा (अंग्रेज़ी)",
+          credit: "गायक - विभिन्न कलाकार, बोल व संगीत - रवि जैन",
+        },
+        {
+          title: "काला कौआ काटे - बोलो दिगचिक दिकचिक",
+          credit: "गायक - अमित खरे, बोल व संगीत - रवि भाटिया",
+        },
+        {
+          title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
+          credit: "गायिका - वैष्णवी भुयार, बोल व संगीत - रवि भाटिया",
+        },
+        {
+          title: "बोलो राधे राधे",
+          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
+        },
+      ],
+    },
     gallery: {
       eyebrow: "मीडिया",
       title: "फिल्म निर्माण की यात्रा",
@@ -493,6 +543,56 @@ export const translations = {
         "By Radharani's grace and the blessings of you all, when this film is complete and released, it will fill the lives of millions with the devotion of Radha Krishna.",
       ],
       signature: "Radhe Shyam",
+    },
+    music: {
+      eyebrow: "Music",
+      title: "Music Catalogue",
+      firstHalf: "First Half",
+      secondHalf: "Second Half",
+      songsFirstHalf: [
+        {
+          title: "Shri Krishna Govind Hare Murari",
+          credit: "Singer - Rasraj Krishna Das, Lyrics & Music – Ravi Bhatia",
+        },
+        {
+          title: "Manbhavan Mathura – Mero Pawan",
+          credit: "Singer - Kishore Chaturvedi, Lyrics & Music – Ravi Bhatia",
+        },
+        {
+          title: "Patjhad Mein Patte Girte Hai",
+          credit: "Singer - Agam Nigam, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Dekho Ladli Chali Sasural Bidai",
+          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
+        },
+        {
+          title: "Gau Mata Song",
+          credit: "Singer - Anoop Jalota & B Praak, Lyrics & Music – Ravi Jain",
+        },
+      ],
+      songsSecondHalf: [
+        {
+          title: "Mujhe To Rang Dala",
+          credit: "Singer - Vinit Singh, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Love You Krishna (English)",
+          credit: "Singer - Various Artist, Lyrics & Music - Ravi Jain",
+        },
+        {
+          title: "Kala Kauya Kate - Bolo Dighchik Dikchik",
+          credit: "Singer - Amit Khare, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
+          credit: "Singer - Vaishnavi Bhuyar, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Bolo Radhey Radhey",
+          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
+        },
+      ],
     },
     gallery: {
       eyebrow: "Media",

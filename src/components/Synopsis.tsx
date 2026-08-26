@@ -7,8 +7,9 @@ export function Synopsis() {
   const { t } = useLanguage();
 
   return (
-    <section id="synopsis" className="relative bg-ivory py-20 sm:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[1.3fr_0.9fr] lg:items-start lg:gap-14">
+    <section id="synopsis" className="relative overflow-hidden bg-ivory py-20 sm:py-28">
+      <Image src="/syno_bg.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+      <div className="relative mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[1.3fr_0.9fr] lg:items-start lg:gap-14">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-crimson">
             {t.synopsis.eyebrow}

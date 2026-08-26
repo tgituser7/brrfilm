@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Hero } from "@/components/Hero";
 import { FeatureRow } from "@/components/FeatureRow";
@@ -10,6 +11,7 @@ import { AboutDirector } from "@/components/AboutDirector";
 import { AboutRaveMedia } from "@/components/AboutRaveMedia";
 import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
+import { MusicCatalogue } from "@/components/MusicCatalogue";
 import { Gallery } from "@/components/Gallery";
 import { WatchInterest } from "@/components/WatchInterest";
 import { JoinSection } from "@/components/JoinSection";
@@ -31,8 +33,14 @@ export default function Home() {
       <main>
         <Hero />
         <CountdownSection />
-        <FeatureRow />
-        <AboutFilm />
+        <div className="relative overflow-hidden">
+          <Image src="/introfimbg.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+          <div className="pointer-events-none absolute inset-0 bg-cream/55" />
+          <div className="relative">
+            <FeatureRow />
+            <AboutFilm />
+          </div>
+        </div>
         <IdeaBehindFilm />
         <Synopsis />
         <StorySection />
@@ -41,6 +49,7 @@ export default function Home() {
         <AboutRaveMedia />
         <MissionVision />
         <MessageSection />
+        <MusicCatalogue />
         <Gallery />
         <WatchInterest />
         {/* <JoinSection /> */}

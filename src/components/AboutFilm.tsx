@@ -22,7 +22,7 @@ export function AboutFilm() {
   }
 
   return (
-    <section id="about" className="relative bg-cream py-20 sm:py-28">
+    <section id="about" className="relative py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-2 lg:items-center lg:gap-16">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-crimson">
