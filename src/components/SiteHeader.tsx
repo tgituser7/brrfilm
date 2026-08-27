@@ -26,6 +26,7 @@ export function SiteHeader() {
     { href: "/#story", label: t.nav.bhakti },
     { href: "/#significance", label: t.nav.gauMata },
     { href: "/#gallery", label: t.nav.media },
+    { href: "/supporters", label: t.nav.supporters },
     { href: JOIN_FORM_URL, label: t.nav.join, external: true },
     { href: "/#join-form", label: t.nav.contact },
   ];

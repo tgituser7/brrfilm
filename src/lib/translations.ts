@@ -11,6 +11,7 @@ export const translations = {
       bhakti: "भक्ति",
       gauMata: "गौ माता",
       media: "मीडिया",
+      supporters: "समर्थक",
       join: "सहयोगी बनें",
       news: "समाचार",
       contact: "संपर्क करें",
@@ -327,6 +328,10 @@ export const translations = {
       note: "भुगतान विवरण अभी डेमो के रूप में दिखाए जा रहे हैं — वास्तविक भुगतान जानकारी शीघ्र जोड़ी जाएगी।",
       close: "बंद करें",
     },
+    supportersPage: {
+      eyebrow: "आभार",
+      title: "हमारे सामाजिक संगठन और समर्थक",
+    },
     donatePage: {
       eyebrow: "दान करें",
       heading: "गौ माता सेवा में आपका योगदान",
@@ -377,6 +382,7 @@ export const translations = {
       bhakti: "Devotion",
       gauMata: "Gau Mata",
       media: "Media",
+      supporters: "Supporters",
       join: "Join Us",
       news: "News",
       contact: "Contact",
@@ -691,6 +697,10 @@ export const translations = {
       whatsappCta: "Send Screenshot on WhatsApp",
       note: "Payment details shown here are a placeholder for now — real payment information will be added soon.",
       close: "Close",
+    },
+    supportersPage: {
+      eyebrow: "With Gratitude",
+      title: "Our Social Associations & Supporters",
     },
     donatePage: {
       eyebrow: "Donate",
