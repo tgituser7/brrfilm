@@ -79,15 +79,15 @@ export function SiteHeader() {
           )}
         </nav>
 
-        <div className="flex items-center gap-3">
-          <div className="hidden items-center gap-2 sm:flex">
-              <a
+        <div className="flex items-center gap-4">
+          <div className="hidden items-center gap-2.5 sm:flex">
+            <a
               href={facebookFan.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[#1467d8]"
+              className="flex flex-shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[#1467d8]"
             >
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 flex-shrink-0" fill="currentColor">
                 <path d={facebookFan.path} />
               </svg>
               {facebookFan.name}
