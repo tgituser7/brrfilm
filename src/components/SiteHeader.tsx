@@ -23,8 +23,8 @@ export function SiteHeader() {
   const links = [
     { href: "/#top", label: t.nav.home },
     { href: "/#about", label: t.nav.about },
-    { href: "/#story", label: t.nav.bhakti },
-    { href: "/#significance", label: t.nav.gauMata },
+    // { href: "/#story", label: t.nav.bhakti },
+    // { href: "/#significance", label: t.nav.gauMata },
     { href: "/#gallery", label: t.nav.media },
     { href: "/supporters", label: t.nav.supporters },
     { href: "/sponsors", label: t.nav.sponsors },
