@@ -22,6 +22,13 @@ export function WatchInterest() {
     setOpen(true);
   }
 
+  function playBellSound() {
+    const audio = new Audio("/temple_bell_single_ring.mp3");
+    audio.play().catch(() => {});
+    setRinging(true);
+    setTimeout(() => setRinging(false), 1200);
+  }
+
   function closeModal() {
     setOpen(false);
     setStatus("idle");
@@ -50,6 +57,7 @@ export function WatchInterest() {
       });
       if (!res.ok) throw new Error("request_failed");
       setStatus("success");
+      playBellSound();
       setName("");
       setMobile("");
     } catch {
@@ -116,7 +124,7 @@ export function WatchInterest() {
             {status === "success" ? (
               <div className="py-4 text-center">
                 <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-gold/15 text-gold">
-                  <IconBell className="h-7 w-7" />
+                  <IconBell className={`h-7 w-7 ${ringing ? "animate-bell-ring" : ""}`} />
                 </span>
                 <p className="mt-5 font-heading text-lg font-semibold text-maroon-950">
                   {t.notify.formSuccess}
