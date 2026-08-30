@@ -149,7 +149,7 @@ function LogoTile({ sponsor, index }: { sponsor: Sponsor; index: number }) {
             src={sponsor.image}
             alt={sponsor.name}
             fill
-            sizes="150px"
+            unoptimized
             className="object-contain"
           />
         </div>
@@ -175,7 +175,9 @@ export default function SponsorsPage() {
     <>
       <SiteHeader />
       <main>
-        <section className="relative overflow-hidden bg-devotional px-6 pt-32 pb-20 sm:pt-40 sm:pb-28">
+        <section className="relative overflow-hidden bg-maroon-950 px-6 pt-32 pb-20 sm:pt-40 sm:pb-28">
+          <Image src="/sponsor_bg.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+          <div className="bg-devotional pointer-events-none absolute inset-0 opacity-90" />
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
 
           <div className="relative mx-auto max-w-4xl text-center">
