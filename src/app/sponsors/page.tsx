@@ -53,7 +53,7 @@ const CATEGORIES: { key: CategoryKey; items: Sponsor[] }[] = [
   {
     key: "social",
     items: [
-      { name: "Astha Jyoti", image: "/sponsors/bo_sal.png" },
+      { name: "Astha Jyoti", image: "/sponsors/stars_orange.png" },
       { name: "People & Nature Welfare Society", image: "/sponsors/earth_globe.png" },
       { name: "Dog Bless", image: "/sponsors/doo_bless.png" },
       { name: "NATA Foundation", image: "/sponsors/nata.png" },
@@ -69,7 +69,7 @@ const CATEGORIES: { key: CategoryKey; items: Sponsor[] }[] = [
       { name: "Star Report", image: "/sponsors/tara_times.png" },
       // { name: "Sandesh", image: "/sponsors/spiritual_logo_round.png" },
       { name: "Ek Sandesh", image: "/sponsors/ek_sandesh.png" },
-      { name: "Media Partner", image: "/sponsors/stars_orange.png" },
+      { name: "Media Partner", image: "/sponsors/media_s.jpeg"  },
     ],
   },
   {
