@@ -3,6 +3,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
+import { Bell3D } from "./Bell3D";
 import { IconBell } from "./icons";
 
 const MOBILE_REGEX = /^(\+91[-\s]?)?[6-9]\d{9}$/;
@@ -27,7 +28,7 @@ export function WatchInterest() {
   function ringBell() {
     setRinging(true);
     setTimeout(() => setRinging(false), 800);
-    setOpen(true);
+    setTimeout(() => setOpen(true), 500);
   }
 
   function playBellSound() {
@@ -97,12 +98,10 @@ export function WatchInterest() {
           type="button"
           onClick={ringBell}
           aria-label={t.notify.title}
-          className="group relative mx-auto mt-6 flex h-20 w-20 cursor-pointer items-center justify-center rounded-full bg-gradient-to-br from-saffron via-gold to-saffron shadow-xl shadow-maroon-900/25 transition-transform hover:scale-105"
+          className="group relative mx-auto mt-6 flex h-24 w-24 cursor-pointer items-center justify-center transition-transform hover:scale-105"
         >
-          <span className="absolute inset-0 animate-ping rounded-full bg-gold/50" />
-          <IconBell
-            className={`relative h-9 w-9 text-maroon-950 ${ringing ? "animate-bell-ring" : ""}`}
-          />
+          <span className="absolute inset-0 animate-ping rounded-full bg-gold/40" />
+          <Bell3D trigger={ringing} className="relative h-full w-full" />
         </button>
 
         <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-ink/70 sm:text-lg">

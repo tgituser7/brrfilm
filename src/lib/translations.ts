@@ -103,6 +103,9 @@ export const translations = {
         },
       ],
     },
+    multilingualChant: {
+      eyebrow: "एक भाव, अनेक भाषाएँ",
+    },
     significance: {
       eyebrow: "गौ माता",
       title: "क्यों पूजनीय हैं गौ माता",
@@ -503,6 +506,9 @@ export const translations = {
             "A triumph of unity, and faith — the message of Radhe Radhe that transcends every boundary and generation.",
         },
       ],
+    },
+    multilingualChant: {
+      eyebrow: "One Devotion, Countless Languages",
     },
     significance: {
       eyebrow: "Gau Mata",

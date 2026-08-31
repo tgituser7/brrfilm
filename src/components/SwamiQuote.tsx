@@ -13,7 +13,7 @@ export function SwamiQuote() {
 
   return (
     <section className="relative overflow-hidden py-20 sm:py-28">
-      <Image src="/Cow_in_green3.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+      <Image src="/Gau_Mata_under.jpeg" alt="" fill sizes="100vw" className="object-cover" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/88 via-maroon-950/75 to-maroon-950/88" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
 

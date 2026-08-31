@@ -7,6 +7,7 @@ import { SwamiQuote } from "@/components/SwamiQuote";
 import { IdeaBehindFilm } from "@/components/IdeaBehindFilm";
 import { Synopsis } from "@/components/Synopsis";
 import { StorySection } from "@/components/StorySection";
+import { MultilingualChant } from "@/components/MultilingualChant";
 import { Significance } from "@/components/Significance";
 import { AboutDirector } from "@/components/AboutDirector";
 import { GomataSevaForum } from "@/components/GomataSevaForum";
@@ -47,6 +48,7 @@ export default function Home() {
         <IdeaBehindFilm />
         <Synopsis />
         <StorySection />
+        <MultilingualChant />
         <Significance />
         <AboutDirector />
         <GomataSevaForum />
