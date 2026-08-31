@@ -3,11 +3,13 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { Hero } from "@/components/Hero";
 import { FeatureRow } from "@/components/FeatureRow";
 import { AboutFilm } from "@/components/AboutFilm";
+import { SwamiQuote } from "@/components/SwamiQuote";
 import { IdeaBehindFilm } from "@/components/IdeaBehindFilm";
 import { Synopsis } from "@/components/Synopsis";
 import { StorySection } from "@/components/StorySection";
 import { Significance } from "@/components/Significance";
 import { AboutDirector } from "@/components/AboutDirector";
+import { GomataSevaForum } from "@/components/GomataSevaForum";
 import { AboutRaveMedia } from "@/components/AboutRaveMedia";
 import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
@@ -41,11 +43,13 @@ export default function Home() {
             <AboutFilm />
           </div>
         </div>
+        <SwamiQuote />
         <IdeaBehindFilm />
         <Synopsis />
         <StorySection />
         <Significance />
         <AboutDirector />
+        <GomataSevaForum />
         <AboutRaveMedia />
         <MissionVision />
         <MessageSection />

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { IconBell } from "./icons";
@@ -15,6 +15,14 @@ export function WatchInterest() {
   const [mobile, setMobile] = useState("");
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [fieldError, setFieldError] = useState<string | null>(null);
+  const [notifiedCount, setNotifiedCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/notify")
+      .then((res) => res.json())
+      .then((data) => setNotifiedCount(data.count))
+      .catch(() => {});
+  }, []);
 
   function ringBell() {
     setRinging(true);
@@ -58,6 +66,7 @@ export function WatchInterest() {
       if (!res.ok) throw new Error("request_failed");
       setStatus("success");
       playBellSound();
+      setNotifiedCount((c) => (c === null ? c : c + 1));
       setName("");
       setMobile("");
     } catch {
@@ -99,6 +108,15 @@ export function WatchInterest() {
         <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-ink/70 sm:text-lg">
           {t.notify.description}
         </p>
+
+        {notifiedCount !== null && notifiedCount > 0 && (
+          <div className="mx-auto mt-6 inline-flex items-center gap-2 rounded-full border border-gold/30 bg-cream/80 px-4 py-2">
+            <IconBell className="h-4 w-4 text-crimson" />
+            <span className="text-sm font-semibold text-maroon-900">
+              {notifiedCount.toLocaleString()} {t.notify.notifiedCount}
+            </span>
+          </div>
+        )}
       </div>
 
       {open && (

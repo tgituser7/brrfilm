@@ -6,6 +6,12 @@ const COLLECTION = "interested_users";
 
 const MOBILE_REGEX = /^(\+91[-\s]?)?[6-9]\d{9}$/;
 
+export async function GET() {
+  const client = await getMongoClient();
+  const count = await client.db(DB_NAME).collection(COLLECTION).countDocuments();
+  return NextResponse.json({ count });
+}
+
 export async function POST(request: Request) {
   let body: { name?: unknown; mobile?: unknown };
   try {

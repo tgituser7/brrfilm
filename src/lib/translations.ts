@@ -47,6 +47,13 @@ export const translations = {
       moreLink: "और जानें",
       videoCaption: "॥ राधे राधे ॥",
     },
+    swamiQuote: {
+      eyebrow: "आशीर्वचन",
+      quote: "एक सुन्दर और सार्थक प्रयास।",
+      name: "स्वामी श्री गोपालानंद सरस्वती जी महाराज",
+      description:
+        "बोल राधे राधे एक ऐसी फिल्म है जिसमें जन्म से लेकर मृत्यु तक, आरोग्य से लेकर अध्यात्म तक, और अर्थव्यवस्था से लेकर आनंद तक—कैसे मनुष्य गाय माता से यह सब प्राप्त कर सकता है, इसका एक सुंदर मार्गदर्शन प्राप्त होगा।",
+    },
     idea: {
       eyebrow: "प्रेरणा",
       title: "फ़िल्म के पीछे की सोच",
@@ -145,6 +152,11 @@ export const translations = {
         "एक बहुमुखी पेशेवर के रूप में, उन्होंने तीन दशकों से अधिक समय तक विभिन्न विधाओं और प्रारूपों में काम किया है। अपनी रचनात्मक दृष्टि और तकनीकी सटीकता के लिए जाने जाने वाले, वे मज़बूत संचार और सहयोगात्मक कौशल के साथ अपनी परियोजनाओं के सुचारू क्रियान्वयन को सुनिश्चित करते हैं।",
       ],
     },
+    gomataSevaForum: {
+      eyebrow: "सहयोग से",
+      description:
+        "गोमाता सेवा फोरम गौ माता की सेवा, संरक्षण और कल्याण के लिए समर्पित एक सामाजिक संगठन है, जो इस पुनीत अभियान में हमारे साथ जुड़ा है।",
+    },
     raveMedia: {
       title: "रेव मीडिया के बारे में",
       paragraphs: [
@@ -237,8 +249,9 @@ export const translations = {
     },
     notify: {
       eyebrow: "सूचना पाएं",
-      title: "देखनी है या दिलचस्पी है?",
+      title: "फ़िल्म देखनी है या उसमें दिलचस्पी है?",
       description: "बेल दबाएँ और रिलीज़, ट्रेलर व खास अपडेट सबसे पहले पाएं।",
+      notifiedCount: "फैंस सूचना के लिए सब्सक्राइब कर चुके हैं",
       modalTitle: "अपनी जानकारी दें",
       modalSubtitle: "हमारी टीम आपको फ़िल्म से जुड़ी हर अपडेट सबसे पहले देगी।",
       formName: "आपका नाम",
@@ -435,6 +448,13 @@ export const translations = {
       moreLink: "Learn More",
       videoCaption: "|| Radhe Radhe ||",
     },
+    swamiQuote: {
+      eyebrow: "Words of Blessing",
+      quote: "A beautiful and meaningful effort.",
+      name: "Swami Shri Gopalanand Saraswati Ji Maharaj",
+      description:
+        "Bolo Radhe Radhe is a film that offers a beautiful guide to how a human being can receive everything from Gau Mata — from birth to death, from health to spirituality, and from livelihood to joy.",
+    },
     idea: {
       eyebrow: "Inspiration",
       title: "Idea Behind the Film",
@@ -533,6 +553,11 @@ export const translations = {
         "A versatile professional, he has worked across various genres and formats for over three decades. Known for his creative vision and technical precision, he combines strong communication and collaborative skills to ensure the seamless execution of his projects.",
       ],
     },
+    gomataSevaForum: {
+      eyebrow: "In Association With",
+      description:
+        "Gomata Seva Forum is a social organization dedicated to the service, protection, and welfare of Gau Mata, standing alongside us in this sacred mission.",
+    },
     raveMedia: {
       title: "Rave Media",
       paragraphs: [
@@ -625,8 +650,9 @@ export const translations = {
     },
     notify: {
       eyebrow: "Get Notified",
-      title: "Want to Watch or Interested?",
+      title: "Want to Watch or Interested in the Film?",
       description: "Tap the bell and be the first to know about the release, trailer, and exclusive updates.",
+      notifiedCount: "fans already subscribed for notification",
       modalTitle: "Share Your Details",
       modalSubtitle: "Our team will keep you updated with everything about the film.",
       formName: "Your Name",
