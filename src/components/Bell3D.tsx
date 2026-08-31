@@ -41,7 +41,7 @@ export function Bell3D({
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 20);
-    camera.position.set(0, -0.35, 2.7);
+    camera.position.set(0, -0.35, 3.5);
     camera.lookAt(0, -1.0, 0);
 
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
@@ -104,14 +104,14 @@ export function Bell3D({
     const clapper = new THREE.Mesh(clapperGeo, clapperMat);
     clapper.position.y = -1.5;
 
-    const rodGeo = new THREE.CylinderGeometry(0.014, 0.014, 1.4, 8);
+    const rodGeo = new THREE.CylinderGeometry(0.018, 0.018, 0.22, 8);
     const rodMat = new THREE.MeshStandardMaterial({
       color: 0x8a6a1f,
       metalness: 0.7,
       roughness: 0.4,
     });
     const rod = new THREE.Mesh(rodGeo, rodMat);
-    rod.position.y = -0.8;
+    rod.position.y = -1.56;
 
     const pivot = new THREE.Group();
     pivot.add(bell, loop, mouth, rod, clapper);
