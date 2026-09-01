@@ -46,7 +46,7 @@ export function StorySection() {
                 sizes="(max-width: 640px) 100vw, 33vw"
                 className={`object-cover ${CHAPTER_IMAGE_POSITIONS[i]}`}
               />
-              <div className="absolute inset-0 bg-maroon-950/70" />
+              <div className="absolute inset-0 bg-maroon-950/60" />
 
               <span className="relative font-heading text-4xl font-bold text-gold/40">
                 {chapter.number}
