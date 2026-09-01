@@ -38,9 +38,9 @@ const COLUMN_2 = [
   "Vishwa Hindu Mahasangh Gouraksha Prakoshth, Gorakhpur",
   "Kashi Vikas Charitable Trust, Varanasi",
   "Zen Asia Foundation, Ulhasnagar",
-  "संत सेवा एवं गौ रक्षा कल्याण परिषद्, मुंबई",
-  "विहीम गौरक्षा प्रकोष्ठ सामिति, बांदा - उत्तर प्रदेश",
-  "श्री सेवा एवं शुद्ध संस्थान - अयोध्या, उत्तर प्रदेश",
+  "Sant Seva Evam Gau Raksha Kalyan Parishad, Mumbai",
+  "Vihim Gauraksha Prakoshth Samiti, Banda - Uttar Pradesh",
+  "Shri Seva Evam Shuddh Sansthan - Ayodhya, Uttar Pradesh",
 ];
 
 function SupportersColumn({ names }: { names: string[] }) {
