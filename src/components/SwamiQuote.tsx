@@ -55,6 +55,18 @@ export function SwamiQuote() {
         {t.swamiQuote.description}
       </p>
 
+      <div className="divider-ornament relative mx-auto mt-10 max-w-2xl px-6 text-center sm:mt-12">
+        <div className="w-full">
+          <p className="font-heading text-lg font-semibold text-gold-light sm:text-xl">
+            {t.swamiQuote.credentialLine1}
+          </p>
+          <p className="mt-1.5 font-heading text-lg font-semibold text-gold-light sm:text-xl">
+            {t.swamiQuote.credentialLine2}
+          </p>
+          <p className="mt-3 text-sm italic text-cream/60">{t.swamiQuote.credentialNote}</p>
+        </div>
+      </div>
+
       <div
         className="relative mx-auto mt-12 w-full max-w-[340px] px-6 sm:absolute sm:bottom-0 sm:right-6 sm:mt-0 sm:px-0 lg:right-16"
         style={DISSOLVE_MASK}

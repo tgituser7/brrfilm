@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 
+const CHAPTER_IMAGES = ["/the_origin.jpeg", "/The_village.jpeg", "/the_awakening.jpeg"];
+const CHAPTER_IMAGE_POSITIONS = ["object-center", "object-center", "object-[50%_75%]"];
+
 export function StorySection() {
   const { t } = useLanguage();
 
@@ -34,15 +37,24 @@ export function StorySection() {
           {t.story.chapters.map((chapter, i) => (
             <div
               key={chapter.number}
-              className="card-lift relative rounded-2xl border border-gold/20 bg-cream/[0.06] p-7 backdrop-blur-sm"
+              className="card-lift relative overflow-hidden rounded-2xl border border-gold/20 p-7 backdrop-blur-sm"
             >
-              <span className="font-heading text-4xl font-bold text-gold/40">
+              <Image
+                src={CHAPTER_IMAGES[i]}
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, 33vw"
+                className={`object-cover ${CHAPTER_IMAGE_POSITIONS[i]}`}
+              />
+              <div className="absolute inset-0 bg-maroon-950/70" />
+
+              <span className="relative font-heading text-4xl font-bold text-gold/40">
                 {chapter.number}
               </span>
-              <h3 className="mt-4 font-heading text-xl font-semibold text-cream">
+              <h3 className="relative mt-4 font-heading text-xl font-semibold text-cream">
                 {chapter.title}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-cream/65">
+              <p className="relative mt-3 text-sm leading-relaxed text-cream/65">
                 {chapter.description}
               </p>
               {i < t.story.chapters.length - 1 && (

@@ -53,6 +53,9 @@ export const translations = {
       name: "स्वामी श्री गोपालानंद सरस्वती जी महाराज",
       description:
         "बोल राधे राधे एक ऐसी फिल्म है जिसमें जन्म से लेकर मृत्यु तक, आरोग्य से लेकर अध्यात्म तक, और अर्थव्यवस्था से लेकर आनंद तक—कैसे मनुष्य गाय माता से यह सब प्राप्त कर सकता है, इसका एक सुंदर मार्गदर्शन प्राप्त होगा।",
+      credentialLine1: "31 वर्षों से गो पर्यावरण अध्यात्म चेतना पदयात्रा*",
+      credentialLine2: "हल्दी घाटी से संपूर्ण भारत वर्ष के प्रणेता",
+      credentialNote: "परम तपस्वी गो भैरव उपासक",
     },
     idea: {
       eyebrow: "प्रेरणा",
@@ -458,6 +461,9 @@ export const translations = {
       name: "Swami Shri Gopalanand Saraswati Ji Maharaj",
       description:
         "Bolo Radhe Radhe is a film that offers a beautiful guide to how a human being can receive everything from Gau Mata — from birth to death, from health to spirituality, and from livelihood to joy.",
+      credentialLine1: "Leading the Go-Environment-Spiritual Consciousness Padyatra for 31 years*",
+      credentialLine2: "A pioneer from Haldighati to all of India",
+      credentialNote: "Param Tapasvi, Go Bhairav Upasak",
     },
     idea: {
       eyebrow: "Inspiration",
