@@ -105,6 +105,7 @@ export const translations = {
     },
     multilingualChant: {
       eyebrow: "एक भाव, अनेक भाषाएँ",
+      description: "बोलो राधे राधे नौ भाषाओं में प्रस्तुत — एक भक्ति, हर भाषा में गूंजती हुई।",
     },
     significance: {
       eyebrow: "गौ माता",
@@ -509,6 +510,8 @@ export const translations = {
     },
     multilingualChant: {
       eyebrow: "One Devotion, Countless Languages",
+      description:
+        "Bolo Radhe Radhe comes to life in nine languages — one devotion, echoing in every tongue.",
     },
     significance: {
       eyebrow: "Gau Mata",

@@ -61,6 +61,10 @@ export function MultilingualChant() {
         >
           {current.lang}
         </p>
+
+        <p className="mx-auto mt-8 max-w-xl text-sm leading-relaxed text-cream/70 sm:text-base">
+          {t.multilingualChant.description}
+        </p>
       </div>
     </section>
   );
