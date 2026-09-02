@@ -193,9 +193,9 @@ export default function TeamPage() {
 
           <div className="relative mx-auto mt-16 max-w-6xl space-y-16">
             <div>
-              <h2 className="text-center font-heading text-2xl font-bold text-cream sm:text-3xl">
+              {/* <h2 className="text-center font-heading text-2xl font-bold text-cream sm:text-3xl">
                 {t.teamPage.technicalTeam}
-              </h2>
+              </h2> */}
 
               <div className="mt-10 grid items-start gap-10 sm:grid-cols-[1fr_1fr_0.7fr]">
                 <div>
@@ -241,7 +241,7 @@ export default function TeamPage() {
           </div>
 
           <div className="relative mx-auto mt-14 max-w-6xl">
-            <SubHeading dark={false}>{t.teamPage.wellWishers}</SubHeading>
+            {/* <SubHeading dark={false}>{t.teamPage.wellWishers}</SubHeading> */}
             <div className="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
               <NameList names={WELL_WISHERS_1} dark={false} />
               <NameList names={WELL_WISHERS_2} dark={false} />
