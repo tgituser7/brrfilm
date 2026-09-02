@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import {
   IconDrop,
@@ -16,8 +17,9 @@ export function Significance() {
   const { t } = useLanguage();
 
   return (
-    <section id="significance" className="relative bg-ivory py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+    <section id="significance" className="relative overflow-hidden bg-ivory py-24 sm:py-32">
+      <Image src="/significance_bg.png" alt="" fill sizes="100vw" className="object-cover" />
+      <div className="relative mx-auto max-w-6xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-crimson">
           {t.significance.eyebrow}
         </p>
@@ -29,7 +31,7 @@ export function Significance() {
         </p>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-6xl gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="relative mx-auto mt-16 grid max-w-6xl gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3">
         {t.significance.cards.map((card, i) => {
           const Icon = icons[i % icons.length];
           return (

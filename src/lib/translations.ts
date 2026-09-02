@@ -13,6 +13,7 @@ export const translations = {
       media: "मीडिया",
       supporters: "समर्थक",
       sponsors: "प्रायोजक",
+      team: "टीम",
       join: "सहयोगी बनें",
       news: "समाचार",
       contact: "संपर्क करें",
@@ -353,6 +354,18 @@ export const translations = {
       eyebrow: "आभार",
       title: "हमारे सामाजिक संगठन और समर्थक",
     },
+    teamPage: {
+      title: "हमारी टीम",
+      technicalTeam: "तकनीकी टीम",
+      wellWishersAssociates: "शुभचिंतक एवं सहयोगी",
+      productionTeam: "प्रोडक्शन टीम",
+      financialConsultant: "वित्तीय सलाहकार",
+      gratitude: "आभार",
+      wellWishers: "शुभचिंतक",
+      researchDevelopment: "अनुसंधान एवं विकास",
+      spiritualMentors: "आध्यात्मिक आशीर्वाद - गुरुजन",
+      womenVolunteers: "महिला स्वयंसेवक",
+    },
     sponsorsPage: {
       title: "हमारे प्रायोजक",
       categories: {
@@ -421,6 +434,7 @@ export const translations = {
       media: "Media",
       supporters: "Supporters",
       sponsors: "Sponsors",
+      team: "Team",
       join: "Join Us",
       news: "News",
       contact: "Contact",
@@ -760,6 +774,18 @@ export const translations = {
     supportersPage: {
       eyebrow: "With Gratitude",
       title: "Our Social Associations & Supporters",
+    },
+    teamPage: {
+      title: "Our Team",
+      technicalTeam: "Technical Team",
+      wellWishersAssociates: "Well Wishers & Associates",
+      productionTeam: "Production Team",
+      financialConsultant: "Financial Consultant",
+      gratitude: "Gratitude",
+      wellWishers: "Well Wishers",
+      researchDevelopment: "Research & Development",
+      spiritualMentors: "Spiritual Blessings — Mentors",
+      womenVolunteers: "Women Volunteers",
     },
     sponsorsPage: {
       title: "Our Sponsors",
