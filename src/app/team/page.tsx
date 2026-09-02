@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { useLanguage } from "@/lib/LanguageContext";
@@ -173,7 +174,15 @@ export default function TeamPage() {
     <>
       <SiteHeader />
       <main>
-        <section className="relative overflow-hidden bg-devotional px-6 pt-32 pb-20 sm:pt-40 sm:pb-28">
+        <section className="relative overflow-hidden bg-maroon-950 px-6 pt-32 pb-20 sm:pt-40 sm:pb-28">
+          <Image
+            src="/technical_team_bg.jpeg"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/45 via-maroon-950/40 to-maroon-950/60" />
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
 
           <div className="relative mx-auto max-w-4xl text-center">
@@ -220,7 +229,9 @@ export default function TeamPage() {
           </div>
         </section>
 
-        <section className="relative bg-ivory px-6 py-20 sm:py-28">
+        <section className="relative overflow-hidden bg-ivory px-6 py-20 sm:py-28">
+          <Image src="/wellwisherbg.jpeg" alt="" fill sizes="100vw" className="object-cover" />
+          <div className="pointer-events-none absolute inset-0 bg-ivory/75" />
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-20" />
 
           <div className="relative mx-auto max-w-4xl text-center">
