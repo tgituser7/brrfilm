@@ -202,51 +202,55 @@ export const translations = {
     },
     music: {
       eyebrow: "संगीत",
-      title: "संगीत सूची",
+      title: "गीत-संगीत सूची",
       firstHalf: "पहला भाग",
       secondHalf: "दूसरा भाग",
       songsFirstHalf: [
         {
-          title: "श्री कृष्ण गोविंद हरे मुरारी",
-          credit: "गायक - रसराज कृष्ण दास, बोल व संगीत – रवि भाटिया",
+          title: "मनभावन मथुरा, मेरो पावन वृन्दावन",
+          credit: "गायक - किशोर चतुर्वेदी, गीत एवं संगीत – रवि भाटिया",
         },
         {
-          title: "मनभावन मथुरा – मेरो पावन",
-          credit: "गायक - किशोर चतुर्वेदी, बोल व संगीत – रवि भाटिया",
+          title: "धर्म का मैं कर्म करूँ - प्रभु लाज तू मेरी रखना",
+          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, गीत एवं संगीत – रवि भाटिया",
         },
         {
-          title: "पतझड़ में पत्ते गिरते हैं",
-          credit: "गायक - अगम निगम, बोल व संगीत - रवि भाटिया",
+          title: "पतझड़ में पत्ते गिरते हैं, बादल सावन में बरसता है",
+          credit: "गायक - अगम निगम, गीत एवं संगीत - रवि भाटिया",
         },
         {
-          title: "देखो लाडली चली ससुराल बिदाई",
-          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
+          title: "कोई नहीं है इस जग में मेरी गौमाता के जैसा",
+          credit: "गायक - अनूप जलोटा व बी प्राक, गीत एवं संगीत – रवि जैन",
         },
         {
-          title: "गौ माता सॉन्ग",
-          credit: "गायक - अनूप जलोटा व बी प्राक, बोल व संगीत – रवि जैन",
+          title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
+          credit: "गायिका - वैष्णवी भुयार, गीत एवं संगीत - रवि भाटिया",
         },
       ],
       songsSecondHalf: [
         {
-          title: "मुझे तो रंग डाला",
-          credit: "गायक - विनीत सिंह, बोल व संगीत - रवि भाटिया",
+          title: "कृष्णा कृष्णा - लव यू कृष्णा",
+          credit: "गायक - विभिन्न कलाकार, गीत एवं संगीत - रवि जैन",
         },
         {
-          title: "लव यू कृष्णा (अंग्रेज़ी)",
-          credit: "गायक - विभिन्न कलाकार, बोल व संगीत - रवि जैन",
+          title: "बोलो राधे राधे - टाइटल सोंग",
+          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
+        },
+        {
+          title: "चल उड़ मनवा - आसमान की ओर",
+          credit: "गायिका - दिव्यांशी मौर्या, गीत एवं संगीत - रवि भाटिया",
+        },
+        {
+          title: "मुझे तो रंग डाला",
+          credit: "गायक - विनीत सिंह, गीत एवं संगीत - रवि भाटिया",
         },
         {
           title: "काला कौआ काटे - बोलो दिगचिक दिकचिक",
-          credit: "गायक - अमित खरे, बोल व संगीत - रवि भाटिया",
+          credit: "गायक - अमित खरे, गीत एवं संगीत - रवि भाटिया",
         },
         {
-          title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
-          credit: "गायिका - वैष्णवी भुयार, बोल व संगीत - रवि भाटिया",
-        },
-        {
-          title: "बोलो राधे राधे",
-          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
+          title: "देखो लाडली चली ससुराल बिदाई",
+          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
         },
       ],
     },
@@ -630,46 +634,50 @@ export const translations = {
       secondHalf: "Second Half",
       songsFirstHalf: [
         {
-          title: "Shri Krishna Govind Hare Murari",
-          credit: "Singer - Rasraj Krishna Das, Lyrics & Music – Ravi Bhatia",
-        },
-        {
-          title: "Manbhavan Mathura – Mero Pawan",
+          title: "Manbhavan Mathura, Mero Pawan Vrindavan",
           credit: "Singer - Kishore Chaturvedi, Lyrics & Music – Ravi Bhatia",
         },
         {
-          title: "Patjhad Mein Patte Girte Hai",
+          title: "Dharam Ka Main Karam Karoon - Prabhu Laaj Tu Meri Rakhna",
+          credit: "Singer - Rasraj Krishna Das, Manmaan Mishra, Lyrics & Music – Ravi Bhatia",
+        },
+        {
+          title: "Patjhad Mein Patte Girte Hai, Baadal Sawan Mein Barasta Hai",
           credit: "Singer - Agam Nigam, Lyrics & Music - Ravi Bhatia",
         },
         {
-          title: "Dekho Ladli Chali Sasural Bidai",
-          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
+          title: "Koi Nahin Hai Is Jag Mein Meri Gaumata Ke Jaisa",
+          credit: "Singer - Anoop Jalota & B Praak, Lyrics & Music – Ravi Jain",
         },
         {
-          title: "Gau Mata Song",
-          credit: "Singer - Anoop Jalota & B Praak, Lyrics & Music – Ravi Jain",
+          title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
+          credit: "Singer - Vaishnavi Bhuyar, Lyrics & Music - Ravi Bhatia",
         },
       ],
       songsSecondHalf: [
         {
-          title: "Mujhe To Rang Dala",
-          credit: "Singer - Vinit Singh, Lyrics & Music - Ravi Bhatia",
+          title: "Krishna Krishna - Love You Krishna",
+          credit: "Singer - Various Artist, Lyrics & Music - Ravi Jain",
         },
         {
-          title: "Love You Krishna (English)",
-          credit: "Singer - Various Artist, Lyrics & Music - Ravi Jain",
+          title: "Bolo Radhey Radhey - Title Song",
+          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
+        },
+        {
+          title: "Chal Ud Manwa - Aasmaan Ki Ore",
+          credit: "Singer - Divyanshi Maurya, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Mujhe To Rang Dala",
+          credit: "Singer - Vinit Singh, Lyrics & Music - Ravi Bhatia",
         },
         {
           title: "Kala Kauya Kate - Bolo Dighchik Dikchik",
           credit: "Singer - Amit Khare, Lyrics & Music - Ravi Bhatia",
         },
         {
-          title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
-          credit: "Singer - Vaishnavi Bhuyar, Lyrics & Music - Ravi Bhatia",
-        },
-        {
-          title: "Bolo Radhey Radhey",
-          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
+          title: "Dekho Ladli Chali Sasural Bidai",
+          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
         },
       ],
     },
