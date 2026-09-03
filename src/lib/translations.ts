@@ -212,11 +212,15 @@ export const translations = {
         },
         {
           title: "धर्म का मैं कर्म करूँ - प्रभु लाज तू मेरी रखना",
-          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, गीत एवं संगीत – रवि भाटिया",
+          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, शैलजा मिश्रा, शुभम आदिगौर, गीत एवं संगीत – रवि भाटिया",
         },
         {
           title: "पतझड़ में पत्ते गिरते हैं, बादल सावन में बरसता है",
           credit: "गायक - अगम निगम, गीत एवं संगीत - रवि भाटिया",
+        },
+        {
+          title: "देखो लाडली चली ससुराल बिदाई",
+          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
         },
         {
           title: "कोई नहीं है इस जग में मेरी गौमाता के जैसा",
@@ -243,10 +247,6 @@ export const translations = {
         {
           title: "काला कौआ काटे - बोलो दिगचिक दिकचिक",
           credit: "गायक - अमित खरे, गीत एवं संगीत - रवि भाटिया",
-        },
-        {
-          title: "देखो लाडली चली ससुराल बिदाई",
-          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
@@ -639,11 +639,15 @@ export const translations = {
         },
         {
           title: "Dharam Ka Main Karam Karoon - Prabhu Laaj Tu Meri Rakhna",
-          credit: "Singer - Rasraj Krishna Das, Manmaan Mishra, Lyrics & Music – Ravi Bhatia",
+          credit: "Singer - Rasraj Krishna Das, Manmaan Mishra, Shailja Mishra, Shubham Aadigaur, Lyrics & Music – Ravi Bhatia",
         },
         {
           title: "Patjhad Mein Patte Girte Hai, Baadal Sawan Mein Barasta Hai",
           credit: "Singer - Agam Nigam, Lyrics & Music - Ravi Bhatia",
+        },
+        {
+          title: "Dekho Ladli Chali Sasural Bidai",
+          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
         },
         {
           title: "Koi Nahin Hai Is Jag Mein Meri Gaumata Ke Jaisa",
@@ -670,10 +674,6 @@ export const translations = {
         {
           title: "Kala Kauya Kate - Bolo Dighchik Dikchik",
           credit: "Singer - Amit Khare, Lyrics & Music - Ravi Bhatia",
-        },
-        {
-          title: "Dekho Ladli Chali Sasural Bidai",
-          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
         },
         {
           title: "Bolo Radhey Radhey - Title Song",
