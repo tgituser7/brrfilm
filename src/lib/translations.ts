@@ -233,10 +233,6 @@ export const translations = {
           credit: "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर, गीत एवं संगीत - रवि जैन",
         },
         {
-          title: "बोलो राधे राधे - टाइटल सोंग",
-          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
-        },
-        {
           title: "चल उड़ मनवा - आसमान की ओर",
           credit: "गायिका - दिव्यांशी मौर्या, गीत एवं संगीत - रवि भाटिया",
         },
@@ -251,6 +247,10 @@ export const translations = {
         {
           title: "देखो लाडली चली ससुराल बिदाई",
           credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
+        },
+        {
+          title: "बोलो राधे राधे - टाइटल सोंग",
+          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
         },
       ],
     },
@@ -660,10 +660,6 @@ export const translations = {
           credit: "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar, Lyrics & Music - Ravi Jain",
         },
         {
-          title: "Bolo Radhey Radhey - Title Song",
-          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
-        },
-        {
           title: "Chal Ud Manwa - Aasmaan Ki Ore",
           credit: "Singer - Divyanshi Maurya, Lyrics & Music - Ravi Bhatia",
         },
@@ -678,6 +674,10 @@ export const translations = {
         {
           title: "Dekho Ladli Chali Sasural Bidai",
           credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
+        },
+        {
+          title: "Bolo Radhey Radhey - Title Song",
+          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
         },
       ],
     },
