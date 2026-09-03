@@ -220,7 +220,7 @@ export const translations = {
         },
         {
           title: "कोई नहीं है इस जग में मेरी गौमाता के जैसा",
-          credit: "गायक - अनूप जलोटा व बी प्राक, गीत एवं संगीत – रवि जैन",
+          credit: "गायक - अनूप जलोटा व रवि जैन, गीत एवं संगीत – रवि जैन",
         },
         {
           title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
@@ -230,7 +230,7 @@ export const translations = {
       songsSecondHalf: [
         {
           title: "कृष्णा कृष्णा - लव यू कृष्णा",
-          credit: "गायक - विभिन्न कलाकार, गीत एवं संगीत - रवि जैन",
+          credit: "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर, गीत एवं संगीत - रवि जैन",
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
@@ -647,7 +647,7 @@ export const translations = {
         },
         {
           title: "Koi Nahin Hai Is Jag Mein Meri Gaumata Ke Jaisa",
-          credit: "Singer - Anoop Jalota & B Praak, Lyrics & Music – Ravi Jain",
+          credit: "Singer - Anoop Jalota & Ravi Jain, Lyrics & Music – Ravi Jain",
         },
         {
           title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
@@ -657,7 +657,7 @@ export const translations = {
       songsSecondHalf: [
         {
           title: "Krishna Krishna - Love You Krishna",
-          credit: "Singer - Various Artist, Lyrics & Music - Ravi Jain",
+          credit: "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar, Lyrics & Music - Ravi Jain",
         },
         {
           title: "Bolo Radhey Radhey - Title Song",
