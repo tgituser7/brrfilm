@@ -18,7 +18,8 @@ type CategoryKey =
   | "devotionalTv"
   | "educational"
   | "events"
-  | "merchandise";
+  | "merchandise"
+  | "appPartner";
 
 const CATEGORIES: { key: CategoryKey; items: Sponsor[] }[] = [
   {
@@ -70,6 +71,7 @@ const CATEGORIES: { key: CategoryKey; items: Sponsor[] }[] = [
       // { name: "Sandesh", image: "/sponsors/spiritual_logo_round.png" },
       { name: "Ek Sandesh", image: "/sponsors/ek_sandesh.png" },
       { name: "Media Partner", image: "/sponsors/media_s.jpeg"  },
+      { name: "Dhenu TV", image: "/sponsors/DhenuTV (1).png" },
     ],
   },
   {
@@ -130,6 +132,10 @@ const CATEGORIES: { key: CategoryKey; items: Sponsor[] }[] = [
       { name: "Sticker Bazaar", image: "/sponsors/sticker_bazaar.png" },
       { name: "Fosterwa", image: "/sponsors/posterwa.png" },
     ],
+  },
+  {
+    key: "appPartner",
+    items: [{ name: "Gaubook App", image: "/sponsors/gaubookorg.jpeg" }],
   },
 ];
 

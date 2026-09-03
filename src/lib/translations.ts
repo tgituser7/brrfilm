@@ -380,6 +380,7 @@ export const translations = {
         educational: "शैक्षणिक व संस्थागत",
         events: "इवेंट्स",
         merchandise: "मर्चेंडाइज़ साझेदार",
+        appPartner: "आधिकारिक ऐप पार्टनर",
       },
     },
     donatePage: {
@@ -801,6 +802,7 @@ export const translations = {
         educational: "Educational & Institutional",
         events: "Events",
         merchandise: "Merchandise Partners",
+        appPartner: "Official App Partner",
       },
     },
     donatePage: {
