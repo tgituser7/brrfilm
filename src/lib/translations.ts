@@ -83,9 +83,9 @@ export const translations = {
     },
     story: {
       eyebrow: "भक्ति",
-      title: "यात्रा तीन अध्यायों में",
+      title: "एक सुन्दर और सार्थक प्रयास - बोलो राधे राधे",
       intro:
-        "मिथक से वर्तमान तक — बोलो राधे राधे की कथा तीन भावनात्मक अध्यायों में बुनी गई है।",
+        "भारत की भूमि से विशेष सिनमाई प्रस्तुति",
       chapters: [
         {
           number: "०१",
@@ -262,7 +262,7 @@ export const translations = {
         },
         {
           title: "बोलू झूठ तो कसम राम की काला कौवा काटे",
-          credit: "गायक - भगवान सिंह सिंगोरिया, रायसेन मप्र, गीत एवं संगीत - रवि भाटिया",
+          credit: "गायक - अमित खरे, संतोष राठोर, विनीत सिंह, सोनाली दत्ता, गीत एवं संगीत - रवि भाटिया",
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
@@ -525,9 +525,9 @@ export const translations = {
     },
     story: {
       eyebrow: "Devotion",
-      title: "A Journey in Three Chapters",
+      title: "A Beautiful and Meaningful Effort - Bolo Radhe Radhe",
       intro:
-        "From myth to the present day — the story of Bolo Radhe Radhe unfolds across three emotional chapters.",
+        "A special cinematic presentation from the land of India.",
       chapters: [
         {
           number: "01",
@@ -705,7 +705,7 @@ export const translations = {
         },
         {
           title: "Bolu Jhooth To Kasam Ram Ki Kala Kauwa Kaate",
-          credit: "Singer - Bhagwan Singh Singoriya, Raisen Madhya Pradesh, Lyrics & Music - Ravi Bhatia",
+          credit: "Singers - Amit Khare, Santosh Rathore, Vineet Singh, Sonali Dutta, Lyrics & Music - Ravi Bhatia",
         },
         {
           title: "Bolo Radhey Radhey - Title Song",

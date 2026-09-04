@@ -19,7 +19,7 @@ export function StorySection() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-maroon-950/90 via-maroon-950/85 to-maroon-950/95" />
+      <div className="absolute inset-0 bg-gradient-to-b from-maroon-950/65 via-maroon-950/55 to-maroon-950/75" />
       <div className="relative mx-auto max-w-5xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
           {t.story.eyebrow}
@@ -48,10 +48,7 @@ export function StorySection() {
               />
               <div className="absolute inset-0 bg-maroon-950/60" />
 
-              <span className="relative font-heading text-4xl font-bold text-gold/40">
-                {chapter.number}
-              </span>
-              <h3 className="relative mt-4 font-heading text-xl font-semibold text-cream">
+              <h3 className="relative font-heading text-xl font-semibold text-cream">
                 {chapter.title}
               </h3>
               <p className="relative mt-3 text-sm leading-relaxed text-cream/65">

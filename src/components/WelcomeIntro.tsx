@@ -158,7 +158,7 @@ export function WelcomeIntro() {
           />
         </span>
         <p className="mt-4 font-heading text-2xl font-bold text-gold-light sm:text-3xl">
-          ॥ राधे राधे ॥
+          ॥ जय गुरु जी ॥
         </p>
       </div>
     </div>
