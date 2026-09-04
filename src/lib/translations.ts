@@ -179,8 +179,20 @@ export const translations = {
       title: "मिशन और विज़न",
       mission: {
         title: "हमारा मिशन",
-        description:
-          "यह एक डमी विवरण है। यहाँ टीम का वास्तविक मिशन कथन बाद में जोड़ा जाएगा — जो बताएगा कि यह फ़िल्म क्यों बनाई जा रही है।",
+        paragraphs: [
+          "एक कहानी, एक संदेश — मानवता और सनातन संस्कृति के पुनर्जागरण की ओर।",
+          "फिल्म एक विशाल और प्रभावशाली माध्यम है। अच्छी और सार्थक कहानियों के माध्यम से हम समाज को समकालीन विषयों पर जागरूक कर सकते हैं और ऐसे संदेश दे सकते हैं, जो केवल मनोरंजन तक सीमित न रहकर मानव जीवन को दिशा देने का कार्य करें।",
+          "आज मनुष्य विज्ञान और विकास के नए दौर में पहुंच चुका है, लेकिन दुर्भाग्य से जागरूकता, संवेदनशीलता और सही दृष्टि के अभाव में मानव स्वयं ही जीव-जगत के प्रति हिंसक होता जा रहा है। जीव हत्या और पशु हत्या जैसे विषय हमारे समाज के सामने एक गंभीर प्रश्न बनकर खड़े हैं। जगह-जगह पशुओं को काटने और बेचने की दुकानें खुलती जा रही हैं।",
+          "ऐसे वातावरण में एक बड़ा प्रश्न उठता है — क्या ऐसी मानसिकता के साथ रामराज्य की कल्पना संभव है?",
+          "“बोलो राधे राधे” इसी प्रश्न को एक पारिवारिक और भावनात्मक कहानी के माध्यम से गाँव से शहर तक ले जाने वाली फिल्म है। यह किसी व्यक्ति या वर्ग के विरुद्ध नहीं, बल्कि मानवीय संवेदनाओं और जीव मात्र के प्रति करुणा की आवाज है।",
+          "फिल्म का मूल संदेश है — धरती पर हर जीव को जीने का अधिकार है। मनुष्य को अपने स्वार्थ के लिए किसी निर्दोष जीव की हत्या करने का अधिकार नहीं है।",
+          "“बोलो राधे राधे” में परिवार, रिश्ते, संस्कार, कर्म, मानवीय संवेदनाएं और हमारे सनातन जीवन-मूल्यों को भगवद्गीता के विचारों के साथ जोड़ा गया है।",
+          "यह फिल्म यह समझाने का प्रयास करेगी कि सनातन संस्कृति केवल पूजा-पद्धति का नाम नहीं है, बल्कि करुणा, कर्तव्य, अहिंसा, सेवा, संस्कार और प्रत्येक जीव के प्रति सम्मान की जीवन-दृष्टि है।",
+          "गाँव की मिट्टी से लेकर शहर की आधुनिक जीवनशैली तक की यात्रा करते हुए यह कहानी दर्शकों के सामने एक ऐसा आईना रखेगी, जिसमें वे स्वयं से प्रश्न कर सकें —",
+          "हम किस दिशा में जा रहे हैं?",
+          "हमारे संस्कार हमें क्या सिखाते हैं?",
+          "और क्या हमारी प्रगति प्रकृति एवं जीव-जगत की कीमत पर होनी चाहिए?",
+        ],
       },
       vision: {
         title: "हमारा विज़न",
@@ -212,7 +224,7 @@ export const translations = {
         },
         {
           title: "धर्म का मैं कर्म करूँ - प्रभु लाज तू मेरी रखना",
-          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, शैलजा मिश्रा, शुभम आदिगौर, गीत एवं संगीत – रवि भाटिया",
+          credit: "गायक - रसराज कृष्ण दास, शैलजा मिश्रा, शुभम आदिगौर, गीत - रवि भाटिया, संगीत - मनमान मिश्र",
         },
         {
           title: "पतझड़ में पत्ते गिरते हैं, बादल सावन में बरसता है",
@@ -245,8 +257,8 @@ export const translations = {
           credit: "गायक - विनीत सिंह, गीत एवं संगीत - रवि भाटिया",
         },
         {
-          title: "काला कौआ काटे - बोलो दिगचिक दिकचिक",
-          credit: "गायक - अमित खरे, गीत एवं संगीत - रवि भाटिया",
+          title: "बोलू झूठ तो कसम राम की काला कौवा काटे",
+          credit: "गायक - भगवान सिंह सिंगोरिया, रायसेन मप्र, गीत एवं संगीत - रवि भाटिया",
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
@@ -606,8 +618,20 @@ export const translations = {
       title: "Mission & Vision",
       mission: {
         title: "Our Mission",
-        description:
-          "This is placeholder text. The team's actual mission statement — explaining why this film is being made — will be added here soon.",
+        paragraphs: [
+          "One Story, One Message — Toward the Renaissance of Humanity and Sanatan Culture.",
+          "Cinema is a vast and powerful medium. Through good and meaningful stories, we can make society aware of contemporary issues and convey messages that go beyond mere entertainment to give direction to human life.",
+          "Today, humankind has entered a new era of science and progress, but unfortunately, in the absence of awareness, sensitivity, and the right vision, humanity itself is becoming increasingly violent toward the animal kingdom. The killing and slaughter of animals stand before our society as a grave question. Shops for slaughtering and selling animals are opening up everywhere.",
+          "In such an environment, a great question arises — is the vision of Ram Rajya possible with such a mindset?",
+          "“Bolo Radhe Radhe” carries this very question through a family and emotional story, from the village to the city. It is not against any individual or group, but a voice of human compassion and empathy for all living beings.",
+          "The film's core message is — every living being has the right to live on this earth. No human has the right to kill an innocent creature for their own selfish ends.",
+          "“Bolo Radhe Radhe” weaves together family, relationships, values, karma, human sensibilities, and our eternal Sanatan life-values with the teachings of the Bhagavad Gita.",
+          "This film will attempt to convey that Sanatan culture is not merely a name for a form of worship, but a way of life rooted in compassion, duty, non-violence, service, values, and respect for every living being.",
+          "Journeying from the soil of the village to the modern lifestyle of the city, this story will hold up a mirror before its audience, in which they may ask themselves —",
+          "Where are we headed?",
+          "What do our values teach us?",
+          "And should our progress come at the cost of nature and all living beings?",
+        ],
       },
       vision: {
         title: "Our Vision",
@@ -639,7 +663,7 @@ export const translations = {
         },
         {
           title: "Dharam Ka Main Karam Karoon - Prabhu Laaj Tu Meri Rakhna",
-          credit: "Singer - Rasraj Krishna Das, Manmaan Mishra, Shailja Mishra, Shubham Aadigaur, Lyrics & Music – Ravi Bhatia",
+          credit: "Singer - Rasraj Krishna Das, Shailja Mishra, Shubham Aadigaur, Lyrics - Ravi Bhatia, Music - Manmaan Mishra",
         },
         {
           title: "Patjhad Mein Patte Girte Hai, Baadal Sawan Mein Barasta Hai",
@@ -672,8 +696,8 @@ export const translations = {
           credit: "Singer - Vinit Singh, Lyrics & Music - Ravi Bhatia",
         },
         {
-          title: "Kala Kauya Kate - Bolo Dighchik Dikchik",
-          credit: "Singer - Amit Khare, Lyrics & Music - Ravi Bhatia",
+          title: "Bolu Jhooth To Kasam Ram Ki Kala Kauwa Kaate",
+          credit: "Singer - Bhagwan Singh Singoriya, Raisen Madhya Pradesh, Lyrics & Music - Ravi Bhatia",
         },
         {
           title: "Bolo Radhey Radhey - Title Song",

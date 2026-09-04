@@ -11,7 +11,7 @@ export function MissionVision() {
     {
       icon: IconTarget,
       title: t.missionVision.mission.title,
-      paragraphs: [t.missionVision.mission.description],
+      paragraphs: t.missionVision.mission.paragraphs,
     },
     {
       icon: IconEye,
