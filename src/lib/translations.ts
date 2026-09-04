@@ -14,6 +14,7 @@ export const translations = {
       supporters: "समर्थक",
       sponsors: "प्रायोजक",
       team: "टीम",
+      artists: "कलाकार",
       join: "सहयोगी बनें",
       news: "समाचार",
       contact: "संपर्क करें",
@@ -386,6 +387,12 @@ export const translations = {
       spiritualMentors: "आध्यात्मिक आशीर्वाद - गुरुजन",
       womenVolunteers: "महिला स्वयंसेवक",
     },
+    artistsPage: {
+      eyebrow: "कलाकार",
+      title: "फ़िल्म के कलाकार",
+      leadTitle: "मुख्य कलाकार",
+      castTitle: "अपेक्षित कलाकार",
+    },
     sponsorsPage: {
       title: "हमारे प्रायोजक",
       categories: {
@@ -456,6 +463,7 @@ export const translations = {
       supporters: "Supporters",
       sponsors: "Sponsors",
       team: "Team",
+      artists: "Artists",
       join: "Join Us",
       news: "News",
       contact: "Contact",
@@ -827,6 +835,12 @@ export const translations = {
       researchDevelopment: "Research & Development",
       spiritualMentors: "Spiritual Blessings — Mentors",
       womenVolunteers: "Women Volunteers",
+    },
+    artistsPage: {
+      eyebrow: "Artists",
+      title: "Cast of the Film",
+      leadTitle: "Lead Artists",
+      castTitle: "Expected Cast",
     },
     sponsorsPage: {
       title: "Our Sponsors",
