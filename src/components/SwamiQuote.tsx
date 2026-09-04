@@ -12,7 +12,7 @@ export function SwamiQuote() {
   const { t } = useLanguage();
 
   return (
-    <section className="relative overflow-hidden py-20 sm:py-28">
+    <section className="relative overflow-hidden pt-20 sm:pt-28">
       <Image src="/Gau_Mata_under.jpeg" alt="" fill sizes="100vw" className="object-cover" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/88 via-maroon-950/75 to-maroon-950/88" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
@@ -48,36 +48,29 @@ export function SwamiQuote() {
           <p className="mt-6 text-base font-semibold text-gold-light sm:text-lg">
             — {t.swamiQuote.name}
           </p>
+          <p className="mt-2 text-xs leading-relaxed text-cream/60 sm:text-sm">
+            {t.swamiQuote.credentialLine1} · {t.swamiQuote.credentialLine2}
+          </p>
+          <p className="mt-0.5 text-xs italic text-cream/45 sm:text-sm">
+            {t.swamiQuote.credentialNote}
+          </p>
         </div>
       </div>
 
-      <p className="relative mx-auto mt-12 max-w-3xl px-6 text-center text-lg leading-relaxed text-cream/80 sm:mt-16 sm:text-xl">
-        {t.swamiQuote.description}
-      </p>
+      <div className="relative mx-auto mt-12 grid max-w-6xl items-center gap-8 px-6 sm:mt-16 sm:grid-cols-[1.3fr_1fr] sm:gap-6">
+        <p className="text-center text-lg leading-relaxed text-cream/80 sm:text-left sm:text-xl">
+          {t.swamiQuote.description}
+        </p>
 
-      <div className="divider-ornament relative mx-auto mt-10 max-w-2xl px-6 text-center sm:mt-12">
-        <div className="w-full">
-          <p className="font-heading text-lg font-semibold text-gold-light sm:text-xl">
-            {t.swamiQuote.credentialLine1}
-          </p>
-          <p className="mt-1.5 font-heading text-lg font-semibold text-gold-light sm:text-xl">
-            {t.swamiQuote.credentialLine2}
-          </p>
-          <p className="mt-3 text-sm italic text-cream/60">{t.swamiQuote.credentialNote}</p>
+        <div className="mx-auto w-full max-w-[340px] self-end" style={DISSOLVE_MASK}>
+          <Image
+            src="/swami_sir.png"
+            alt={t.swamiQuote.name}
+            width={1024}
+            height={1536}
+            className="h-auto w-full object-cover"
+          />
         </div>
-      </div>
-
-      <div
-        className="relative mx-auto mt-12 w-full max-w-[340px] px-6 sm:absolute sm:bottom-0 sm:right-6 sm:mt-0 sm:px-0 lg:right-16"
-        style={DISSOLVE_MASK}
-      >
-        <Image
-          src="/swami_sir.png"
-          alt={t.swamiQuote.name}
-          width={1024}
-          height={1536}
-          className="h-auto w-full object-cover"
-        />
       </div>
     </section>
   );

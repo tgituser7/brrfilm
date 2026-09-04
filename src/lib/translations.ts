@@ -335,7 +335,7 @@ export const translations = {
       merchCta: "अभी देखें",
       donateTitle: "सहयोग करें",
       donateDesc: "आपका हर योगदान इस मिशन को आगे बढ़ाने में सहायक होगा।",
-      donateCta: "अभी दान करें",
+      donateCta: "अभी सहयोग करें",
     },
     merchPage: {
       eyebrow: "मर्चेंडाइज़",

@@ -14,10 +14,10 @@ export function MessageSection() {
         <div className="flex flex-col items-center gap-4">
           <div className="w-full max-w-[380px] overflow-hidden rounded-2xl border border-gold/30 shadow-xl shadow-maroon-900/15">
             <Image
-              src="/bgbrr1.png"
+              src="/imagwgosewak.jpg"
               alt={`${t.hero.title1} ${t.hero.title2}`}
-              width={1448}
-              height={1086}
+              width={4961}
+              height={3508}
               className="h-auto w-full object-cover"
             />
           </div>

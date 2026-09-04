@@ -149,7 +149,13 @@ export function WelcomeIntro() {
       <div ref={canvasContainerRef} className="pointer-events-none absolute inset-0" />
       <div className="animate-welcome-in relative flex flex-col items-center">
         <span className="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border border-gold/50 shadow-lg shadow-maroon-950/40">
-          <Image src="/guriji.jpeg" alt="" fill sizes="80px" className="object-cover" />
+          <Image
+            src="/guriji.jpeg"
+            alt=""
+            fill
+            sizes="80px"
+            className="object-cover object-top"
+          />
         </span>
         <p className="mt-4 font-heading text-2xl font-bold text-gold-light sm:text-3xl">
           ॥ राधे राधे ॥

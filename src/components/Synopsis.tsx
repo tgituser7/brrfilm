@@ -26,13 +26,22 @@ export function Synopsis() {
           </div>
         </div>
 
-        <div className="lg:sticky lg:top-28">
+        <div className="space-y-6 lg:sticky lg:top-28">
           <div className="mx-auto max-w-sm overflow-hidden rounded-[1.75rem] border border-gold/25 shadow-2xl shadow-maroon-900/15">
             <Image
               src="/ri3.jpeg"
               alt={t.synopsis.title}
               width={1536}
               height={1024}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+          <div className="mx-auto max-w-sm overflow-hidden rounded-[1.75rem] border border-gold/25 shadow-2xl shadow-maroon-900/15">
+            <Image
+              src="/filmstoryimage.jpeg"
+              alt={t.synopsis.title}
+              width={1600}
+              height={900}
               className="h-auto w-full object-cover"
             />
           </div>
