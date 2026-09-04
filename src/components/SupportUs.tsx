@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/lib/LanguageContext";
-import { IconDonate, IconShoppingBag } from "./icons";
+import { IconDonate } from "./icons";
 
 export function SupportUs() {
   const { t } = useLanguage();
@@ -28,8 +29,14 @@ export function SupportUs() {
 
       <div className="relative mx-auto mt-14 grid max-w-4xl gap-6 px-6 sm:grid-cols-2">
         <div className="card-lift flex flex-col items-center rounded-[1.75rem] border border-maroon-900/10 bg-cream px-8 py-12 text-center shadow-sm">
-          <span className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-saffron/20 to-gold/20 text-maroon-800">
-            <IconShoppingBag className="h-8 w-8" />
+          <span className="relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-full shadow-md shadow-maroon-900/10">
+            <Image
+              src="/merchandise_logo.jpeg"
+              alt={t.support.merchTitle}
+              fill
+              sizes="64px"
+              className="object-cover"
+            />
           </span>
           <h3 className="mt-5 font-heading text-xl font-semibold text-maroon-950">
             {t.support.merchTitle}

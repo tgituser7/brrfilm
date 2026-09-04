@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import * as THREE from "three";
 import { makeGlowTexture } from "@/lib/glowTexture";
-import { IconOm } from "./icons";
 
 const PARTICLE_COUNT = 140;
 const HOLD_MS = 2200;
@@ -148,8 +148,8 @@ export function WelcomeIntro() {
     >
       <div ref={canvasContainerRef} className="pointer-events-none absolute inset-0" />
       <div className="animate-welcome-in relative flex flex-col items-center">
-        <span className="flex h-16 w-16 items-center justify-center rounded-full border border-gold/50 bg-cream/10 text-gold">
-          <IconOm className="h-8 w-8" />
+        <span className="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border border-gold/50 shadow-lg shadow-maroon-950/40">
+          <Image src="/guriji.jpeg" alt="" fill sizes="80px" className="object-cover" />
         </span>
         <p className="mt-4 font-heading text-2xl font-bold text-gold-light sm:text-3xl">
           ॥ राधे राधे ॥
