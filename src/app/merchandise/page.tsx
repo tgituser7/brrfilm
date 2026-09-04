@@ -46,8 +46,9 @@ export default function MerchandisePage() {
           </div>
         </section>
 
-        <section className="relative bg-cream px-6 py-16 sm:py-20">
-          <div className="bg-mandala pointer-events-none absolute inset-0 opacity-30" />
+        <section className="relative overflow-hidden bg-cream px-6 py-16 sm:py-20">
+          <Image src="/merchandise_bg.png" alt="" fill sizes="100vw" className="object-cover" />
+          <div className="bg-mandala pointer-events-none absolute inset-0 opacity-20" />
           <div className="relative mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {products.map((product, i) => (
               <div
