@@ -47,7 +47,7 @@ const EXPECTED_CAST = [
   { actor: "Amit Jaiswal", role: "Pooran", image: "/artists/Amit_Jaiswal_Pooran.png" },
   { actor: "Devendra Modi", role: "Girdhari", image: "/artists/Devendra_Modi_Girdhari.png" },
   { actor: "Brijendra Kala", role: "Guruji", image: "/artists/Brijendra_Kala_Guruji.png" },
-  { actor: "Ankit Mishra", role: "To Be Decided", image: "/artists/Ankit_Mishra.jpeg" },
+  { actor: "Ankit Mishra", role: "Bhanu", image: "/artists/Ankit_Mishra.jpeg" },
 ];
 
 export default function ArtistsPage() {

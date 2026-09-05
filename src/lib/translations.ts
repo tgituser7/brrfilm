@@ -229,7 +229,7 @@ export const translations = {
         },
         {
           title: "धर्म का मैं कर्म करूँ - प्रभु लाज तू मेरी रखना",
-          credit: "गायक - रसराज कृष्ण दास, शैलजा मिश्रा, शुभम आदिगौर, गीत - रवि भाटिया, संगीत - मनमान मिश्र",
+          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, शैलजा मिश्रा, शुभम आदिगौर, गीत - रवि भाटिया, संगीत - मनमान मिश्र",
         },
         {
           title: "पतझड़ में पत्ते गिरते हैं, बादल सावन में बरसता है",
@@ -688,7 +688,7 @@ export const translations = {
         },
         {
           title: "Dharam Ka Main Karam Karoon - Prabhu Laaj Tu Meri Rakhna",
-          credit: "Singer - Rasraj Krishna Das, Shailja Mishra, Shubham Aadigaur, Lyrics - Ravi Bhatia, Music - Manmaan Mishra",
+          credit: "Singers - Rasraj Krishna Das, Manmaan Mishra, Shailja Mishra, Shubham Aadigaur, Lyrics - Ravi Bhatia, Music - Manmaan Mishra",
         },
         {
           title: "Patjhad Mein Patte Girte Hai, Baadal Sawan Mein Barasta Hai",
