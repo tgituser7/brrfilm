@@ -377,6 +377,8 @@ export const translations = {
     },
     teamPage: {
       title: "हमारी टीम",
+      coreTeamTitle: "प्रमुख टीम सदस्य",
+      teamMembersTitle: "टीम सदस्य",
       technicalTeam: "तकनीकी टीम",
       wellWishersAssociates: "शुभचिंतक एवं सहयोगी",
       productionTeam: "प्रोडक्शन टीम",
@@ -826,6 +828,8 @@ export const translations = {
     },
     teamPage: {
       title: "Our Team",
+      coreTeamTitle: "Key Team Members",
+      teamMembersTitle: "Team Members",
       technicalTeam: "Technical Team",
       wellWishersAssociates: "Well Wishers & Associates",
       productionTeam: "Production Team",

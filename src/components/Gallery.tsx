@@ -10,7 +10,13 @@ const photos = [
   "/gallery-4.jpg",
   "/gallery-5.jpg",
   "/gallery-6.jpg",
+  "/gallery-7.jpeg",
+  "/gallery-8.jpeg",
 ];
+
+const PHOTO_POSITIONS: Record<number, string> = {
+  7: "object-[60%_center]",
+};
 
 export function Gallery() {
   const { t } = useLanguage();
@@ -41,7 +47,9 @@ export function Gallery() {
               alt={`${t.hero.title1} ${t.hero.title2} — ${i + 1}`}
               fill
               sizes="(max-width: 640px) 50vw, 33vw"
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
+              className={`object-cover transition-transform duration-500 group-hover:scale-110 ${
+                PHOTO_POSITIONS[i] ?? "object-center"
+              }`}
             />
           </div>
         ))}

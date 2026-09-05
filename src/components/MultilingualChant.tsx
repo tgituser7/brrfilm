@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const PHRASES = [
@@ -39,7 +38,15 @@ export function MultilingualChant() {
 
   return (
     <section className="relative overflow-hidden bg-devotional py-20 sm:py-28">
-      <Image src="/firebg.png" alt="" fill sizes="100vw" className="object-cover object-[center_80%]" />
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+        src="/fire.mov"
+        className="absolute inset-0 h-full w-full object-cover object-[center_80%]"
+      />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/70 via-maroon-950/40 to-maroon-950/70" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
       <div className="relative mx-auto max-w-3xl px-6 text-center">
