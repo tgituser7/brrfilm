@@ -32,17 +32,17 @@ const KT_TEAM = [
 const PRODUCTION_TEAM_1 = [
   "Producer - Hriday Kumar Bhatia",
   "Co-producer - Bijay Kumar Tibrewal",
-  "Creative Producer - Sonu Tyagi",
   "Executive Producer - Gautam Ailawadi",
   "Cultural Supervision - Rakesh Rantakar",
   "Production Designer - S. Satyam",
   "Line Producer, Uttar Pradesh - Pradeep Mishra",
-  "Associate Director - Mann Mishra",
-  "Assistant Director - Nilamber Puthal",
+  "Creative Director - Mann Mishra",
+  "Associate Art Director - Nilamber Puthal",
   "Assistant Director - Ketan Diwakar",
-  "Creative Director - Suraj Tiwari",
+  "Creative Producer - Suraj Tiwari",
   "Chief Assistant Director - Arunidhi Sharma",
   "Associate Art Director - Pitambar",
+  "Assistant Production - Binitha, Soni",
 ];
 
 const PRODUCTION_TEAM_2 = [
@@ -51,8 +51,8 @@ const PRODUCTION_TEAM_2 = [
   "Traditional Costume Designer - Ankita Rai",
   "Styles & Grooming - Priya & Lucky",
   "Dress Men - Ashish Gautam",
-  "Make-up Main Artist - Rajesh Kumar",
-  "Hair Grooming - Rajesh Kumar, Rakesh Saini",
+  "Make-up Artist - Rajesh Kumar, Rakesh Saini",
+  "Hair Grooming - Renu Chaudhary",
   "Musical Supervision - Ravi Jain",
   "Technical Supervision - Madhukar Pawar",
   "Action Master - Vikram Dahiya",
@@ -60,12 +60,12 @@ const PRODUCTION_TEAM_2 = [
   "Worldwide Marketing - Inderjeet Majumdar (USA), Sandeep Sinha (UK)",
 ];
 
-const FINANCIAL_CONSULTANT = ["Debu Raj Soni", "Pawan Sharma", "Pravesh Bhatia"];
+const FINANCIAL_CONSULTANT = ["Pawan Sharma", "Pravesh Bhatia"];
 
 const GRATITUDE = [
   "Shyam Singhania (Social Worker, Entrepreneur & Visionary)",
   "Dr. Satish Chand Dvivedi (Former State Minister, Uttar Pradesh)",
-  "Dr. Rajender Pensiya - DM, Sambhal",
+  "Dr. Rajender Pensiya - DM, Moradabad",
   "Dileep Dhanraj Gupta (Ex-Union Minister of State)",
   "Shyam Bihari Gupta (Gau Seva Ayog, Uttar Pradesh)",
 ];
