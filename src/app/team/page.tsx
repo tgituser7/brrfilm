@@ -60,6 +60,14 @@ const PRODUCTION_TEAM_2 = [
   "Worldwide Marketing - Inderjeet Majumdar (USA), Sandeep Sinha (UK)",
 ];
 
+const MUSIC_PRODUCTION_TEAM = [
+  "Nihal Sharma",
+  "Sachin Chauhan",
+  "Shekhar Sehgal",
+  "Ashish Prabhakar",
+  "Santosh Sinha",
+];
+
 const FINANCIAL_CONSULTANT = ["Pawan Sharma", "Pravesh Bhatia"];
 
 const GRATITUDE = [
@@ -247,7 +255,7 @@ export default function TeamPage() {
                 {t.teamPage.teamMembersTitle}
               </h2>
 
-              <div className="mt-10 grid items-start gap-10 sm:grid-cols-[1fr_1fr_0.7fr]">
+              <div className="mt-10 grid items-start gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_0.7fr_0.8fr]">
                 <div>
                   <SubHeading dark>{t.teamPage.productionTeam}</SubHeading>
                   <div className="mt-5">
@@ -255,7 +263,7 @@ export default function TeamPage() {
                   </div>
                 </div>
                 <div>
-                  <div aria-hidden="true" className="h-7 sm:h-8" />
+                  <div aria-hidden="true" className="hidden h-7 sm:block sm:h-8" />
                   <div className="mt-5">
                     <NameList names={PRODUCTION_TEAM_2} dark />
                   </div>
@@ -272,6 +280,12 @@ export default function TeamPage() {
                     <div className="mt-5">
                       <NameList names={GRATITUDE} dark />
                     </div>
+                  </div>
+                </div>
+                <div>
+                  <SubHeading dark>{t.teamPage.musicProductionTeam}</SubHeading>
+                  <div className="mt-5">
+                    <NameList names={MUSIC_PRODUCTION_TEAM} dark />
                   </div>
                 </div>
               </div>

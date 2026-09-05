@@ -382,6 +382,7 @@ export const translations = {
       technicalTeam: "तकनीकी टीम",
       wellWishersAssociates: "शुभचिंतक एवं सहयोगी",
       productionTeam: "प्रोडक्शन टीम",
+      musicProductionTeam: "संगीत निर्माण टीम",
       financialConsultant: "वित्तीय सलाहकार",
       gratitude: "आभार",
       wellWishers: "शुभचिंतक",
@@ -394,6 +395,12 @@ export const translations = {
       title: "फ़िल्म के कलाकार",
       leadTitle: "मुख्य कलाकार",
       castTitle: "अपेक्षित कलाकार",
+    },
+    newsCoverage: {
+      eyebrow: "समाचार में",
+      title: "समाचारों में बोलो राधे राधे",
+      intro:
+        "देश भर के समाचार पत्रों ने हमारी फ़िल्म को कवर किया है — यहाँ देखें कुछ प्रमुख खबरें।",
     },
     sponsorsPage: {
       title: "हमारे प्रायोजक",
@@ -833,6 +840,7 @@ export const translations = {
       technicalTeam: "Technical Team",
       wellWishersAssociates: "Well Wishers & Associates",
       productionTeam: "Production Team",
+      musicProductionTeam: "Music Production Team",
       financialConsultant: "Financial Consultant",
       gratitude: "Gratitude",
       wellWishers: "Well Wishers",
@@ -845,6 +853,12 @@ export const translations = {
       title: "Cast of the Film",
       leadTitle: "Lead Artists",
       castTitle: "Expected Cast",
+    },
+    newsCoverage: {
+      eyebrow: "In the News",
+      title: "Bolo Radhe Radhe in the News",
+      intro:
+        "Newspapers across the country have covered our film — here are some of the highlights.",
     },
     sponsorsPage: {
       title: "Our Sponsors",

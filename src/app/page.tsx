@@ -16,6 +16,7 @@ import { MissionVision } from "@/components/MissionVision";
 import { MessageSection } from "@/components/MessageSection";
 import { MusicCatalogue } from "@/components/MusicCatalogue";
 import { Gallery } from "@/components/Gallery";
+import { NewsCoverage } from "@/components/NewsCoverage";
 import { WatchInterest } from "@/components/WatchInterest";
 import { JoinSection } from "@/components/JoinSection";
 import { JoinMission } from "@/components/JoinMission";
@@ -57,6 +58,7 @@ export default function Home() {
         <MessageSection />
         <MusicCatalogue />
         <Gallery />
+        <NewsCoverage />
         <WatchInterest />
         {/* <JoinSection /> */}
         <JoinMission />
