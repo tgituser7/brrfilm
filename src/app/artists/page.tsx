@@ -48,6 +48,7 @@ const EXPECTED_CAST = [
   { actor: "Devendra Modi", role: "Girdhari", image: "/artists/Devendra_Modi_Girdhari.png" },
   { actor: "Brijendra Kala", role: "Guruji", image: "/artists/Brijendra_Kala_Guruji.png" },
   { actor: "Ankit Mishra", role: "Bhanu", image: "/artists/Ankit_Mishra.jpeg" },
+  { actor: "Pankaj Gupta", role: "Dhyaan Chand", image: "/artists/pankaj_gupta.jpeg" },
 ];
 
 export default function ArtistsPage() {
