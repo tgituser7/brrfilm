@@ -1,9 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { FakeQR } from "@/components/FakeQR";
 import { IconDonate } from "@/components/icons";
 import { useLanguage } from "@/lib/LanguageContext";
 
@@ -38,7 +38,13 @@ export default function DonatePage() {
             <div className="mx-auto w-full max-w-xs">
               <div className="relative rounded-[1.75rem] border border-gold/30 bg-ivory p-5 shadow-2xl shadow-maroon-900/15">
                 <div className="overflow-hidden rounded-2xl border border-maroon-900/10">
-                  <FakeQR />
+                  <Image
+                    src="/scanqr.jpg"
+                    alt={t.donatePage.qrCaption}
+                    width={408}
+                    height={402}
+                    className="h-auto w-full object-contain"
+                  />
                 </div>
                 <p className="mt-4 text-center font-heading text-base font-semibold text-maroon-950">
                   {t.donatePage.qrCaption}

@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useState } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { FakeQR } from "@/components/FakeQR";
 import { IconShoppingBag } from "@/components/icons";
 import { useLanguage } from "@/lib/LanguageContext";
 import { WHATSAPP_NUMBER, WHATSAPP_NUMBER_DISPLAY } from "@/lib/links";
@@ -117,7 +116,13 @@ export default function MerchandisePage() {
             </p>
 
             <div className="mx-auto mt-5 w-full max-w-[220px] overflow-hidden rounded-2xl border border-gold/30 bg-white p-3 shadow-md">
-              <FakeQR />
+              <Image
+                src="/scanqr.jpg"
+                alt={t.merchPage.qrCaption}
+                width={408}
+                height={402}
+                className="h-auto w-full object-contain"
+              />
             </div>
             <p className="mt-3 text-center font-heading text-sm font-semibold text-maroon-950">
               {t.merchPage.qrCaption}
@@ -125,6 +130,15 @@ export default function MerchandisePage() {
             <p className="mt-1 text-center text-xs font-semibold uppercase tracking-wide text-crimson/70">
               {t.merchPage.qrDemoLabel}
             </p>
+
+            <div className="mx-auto mt-4 w-full max-w-[220px] rounded-xl border border-maroon-900/10 bg-cream px-4 py-3 text-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-maroon-800/70">
+                {t.merchPage.upiLabel}
+              </p>
+              <p className="mt-1 font-heading text-base font-semibold text-maroon-950">
+                {t.merchPage.upiValue}
+              </p>
+            </div>
 
             <p className="mt-5 text-sm leading-relaxed text-ink/75">{t.merchPage.instructions}</p>
 
