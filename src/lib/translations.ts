@@ -164,7 +164,7 @@ export const translations = {
     gomataSevaForum: {
       eyebrow: "सहयोग से",
       description:
-        "गोमाता सेवा फोरम गौ माता की सेवा, संरक्षण और कल्याण के लिए समर्पित एक सामाजिक संगठन है, जो इस पुनीत अभियान में हमारे साथ जुड़ा है।",
+        "गोमाता सेवा फोरम, भुवनेश्वर, गौ माता की सेवा, संरक्षण और कल्याण के लिए समर्पित एक सामाजिक संगठन है, जो इस पुनीत अभियान में हमारे साथ जुड़ा है।",
     },
     raveMedia: {
       title: "रेव मीडिया के बारे में",
@@ -623,7 +623,7 @@ export const translations = {
     gomataSevaForum: {
       eyebrow: "In Association With",
       description:
-        "Gomata Seva Forum is a social organization dedicated to the service, protection, and welfare of Gau Mata, standing alongside us in this sacred mission.",
+        "Gomata Seva Forum, Bhubaneswar, is a social organization dedicated to the service, protection, and welfare of Gau Mata, standing alongside us in this sacred mission.",
     },
     raveMedia: {
       title: "Rave Media",
