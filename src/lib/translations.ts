@@ -225,49 +225,59 @@ export const translations = {
       songsFirstHalf: [
         {
           title: "मनभावन मथुरा, मेरो पावन वृन्दावन",
-          credit: "गायक - किशोर चतुर्वेदी, गीत एवं संगीत – रवि भाटिया",
+          credits: ["गायक - किशोर चतुर्वेदी", "गीत एवं संगीत – रवि भाटिया"],
         },
         {
           title: "धर्म का मैं कर्म करूँ - प्रभु लाज तू मेरी रखना",
-          credit: "गायक - रसराज कृष्ण दास, मनमान मिश्र, शैलजा मिश्रा, शुभम आदिगौर, गीत - रवि भाटिया, संगीत - मनमान मिश्र",
+          credits: [
+            "गायक - स्वामी रसराज कृष्ण दास, मनमान मिश्र, शैलजा मिश्रा, शुभम आदिगौर",
+            "गीत - रवि भाटिया",
+            "संगीत - मनमान मिश्र",
+          ],
         },
         {
           title: "पतझड़ में पत्ते गिरते हैं, बादल सावन में बरसता है",
-          credit: "गायक - अगम निगम, गीत एवं संगीत - रवि भाटिया",
+          credits: ["गायक - अगम निगम", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
-          title: "देखो लाडली चली ससुराल बिदाई",
-          credit: "गायिका - डॉ. आभा आर दीक्षित, बोल – रवि भाटिया, संगीत - माधव गिरि",
+          title: "देखो लाडली चली ससुराल बिदाई - अवधी विदाई गीत",
+          credits: ["गायिका - डॉ. आभा आर दीक्षित", "बोल – रवि भाटिया", "संगीत - माधव गिरि"],
         },
         {
           title: "कोई नहीं है इस जग में मेरी गौमाता के जैसा",
-          credit: "गायक - अनूप जलोटा व रवि जैन, गीत एवं संगीत – रवि जैन",
+          credits: ["गायक - अनूप जलोटा व रवि जैन", "गीत एवं संगीत – रवि जैन"],
         },
         {
           title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
-          credit: "गायिका - वैष्णवी भुयार, गीत एवं संगीत - रवि भाटिया",
+          credits: ["गायिका - वैष्णवी भुयार", "गीत एवं संगीत - रवि भाटिया"],
         },
       ],
       songsSecondHalf: [
         {
           title: "कृष्णा कृष्णा - लव यू कृष्णा",
-          credit: "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर, गीत एवं संगीत - रवि जैन",
+          credits: [
+            "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर",
+            "गीत एवं संगीत - रवि जैन",
+          ],
         },
         {
           title: "चल उड़ मनवा - आसमान की ओर",
-          credit: "गायिका - दिव्यांशी मौर्या, गीत एवं संगीत - रवि भाटिया",
+          credits: ["गायिका - दिव्यांशी मौर्या", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
           title: "मुझे तो रंग डाला",
-          credit: "गायक - विनीत सिंह, गीत एवं संगीत - रवि भाटिया",
+          credits: ["गायक - विनीत सिंह", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
           title: "बोलू झूठ तो कसम राम की काला कौवा काटे",
-          credit: "गायक - अमित खरे, संतोष राठोर, विनीत सिंह, सोनाली दत्ता, गीत एवं संगीत - रवि भाटिया",
+          credits: [
+            "गायक - अमित खरे, संतोष राठोर, विनीत सिंह, सोनाली दत्ता",
+            "गीत एवं संगीत - रवि भाटिया",
+          ],
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
-          credit: "गायक - लव पोदार, बोल - लालू जी व रवि भाटिया, संगीत - शेखर सहगल",
+          credits: ["गायक - लव पोदार", "बोल - लालू जी व रवि भाटिया", "संगीत - शेखर सहगल"],
         },
       ],
     },
@@ -686,49 +696,59 @@ export const translations = {
       songsFirstHalf: [
         {
           title: "Manbhavan Mathura, Mero Pawan Vrindavan",
-          credit: "Singer - Kishore Chaturvedi, Lyrics & Music – Ravi Bhatia",
+          credits: ["Singer - Kishore Chaturvedi", "Lyrics & Music – Ravi Bhatia"],
         },
         {
           title: "Dharam Ka Main Karam Karoon - Prabhu Laaj Tu Meri Rakhna",
-          credit: "Singers - Rasraj Krishna Das, Manmaan Mishra, Shailja Mishra, Shubham Aadigaur, Lyrics - Ravi Bhatia, Music - Manmaan Mishra",
+          credits: [
+            "Singers - Swami Rasraj Krishna Das, Manmaan Mishra, Shailja Mishra, Shubham Aadigaur",
+            "Lyrics - Ravi Bhatia",
+            "Music - Manmaan Mishra",
+          ],
         },
         {
           title: "Patjhad Mein Patte Girte Hai, Baadal Sawan Mein Barasta Hai",
-          credit: "Singer - Agam Nigam, Lyrics & Music - Ravi Bhatia",
+          credits: ["Singer - Agam Nigam", "Lyrics & Music - Ravi Bhatia"],
         },
         {
-          title: "Dekho Ladli Chali Sasural Bidai",
-          credit: "Singer - Dr. Abha R Dixit, Lyrics – Ravi Bhatia, Music - Madhav Giri",
+          title: "Dekho Ladli Chali Sasural Bidai - Avadhi Vidai Geet",
+          credits: ["Singer - Dr. Abha R Dixit", "Lyrics – Ravi Bhatia", "Music - Madhav Giri"],
         },
         {
           title: "Koi Nahin Hai Is Jag Mein Meri Gaumata Ke Jaisa",
-          credit: "Singer - Anoop Jalota & Ravi Jain, Lyrics & Music – Ravi Jain",
+          credits: ["Singer - Anoop Jalota & Ravi Jain", "Lyrics & Music – Ravi Jain"],
         },
         {
           title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
-          credit: "Singer - Vaishnavi Bhuyar, Lyrics & Music - Ravi Bhatia",
+          credits: ["Singer - Vaishnavi Bhuyar", "Lyrics & Music - Ravi Bhatia"],
         },
       ],
       songsSecondHalf: [
         {
           title: "Krishna Krishna - Love You Krishna",
-          credit: "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar, Lyrics & Music - Ravi Jain",
+          credits: [
+            "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar",
+            "Lyrics & Music - Ravi Jain",
+          ],
         },
         {
           title: "Chal Ud Manwa - Aasmaan Ki Ore",
-          credit: "Singer - Divyanshi Maurya, Lyrics & Music - Ravi Bhatia",
+          credits: ["Singer - Divyanshi Maurya", "Lyrics & Music - Ravi Bhatia"],
         },
         {
           title: "Mujhe To Rang Dala",
-          credit: "Singer - Vinit Singh, Lyrics & Music - Ravi Bhatia",
+          credits: ["Singer - Vinit Singh", "Lyrics & Music - Ravi Bhatia"],
         },
         {
           title: "Bolu Jhooth To Kasam Ram Ki Kala Kauwa Kaate",
-          credit: "Singers - Amit Khare, Santosh Rathore, Vineet Singh, Sonali Dutta, Lyrics & Music - Ravi Bhatia",
+          credits: [
+            "Singers - Amit Khare, Santosh Rathore, Vineet Singh, Sonali Dutta",
+            "Lyrics & Music - Ravi Bhatia",
+          ],
         },
         {
           title: "Bolo Radhey Radhey - Title Song",
-          credit: "Singer - Luv Podar, Lyrics - Lalu Ji & Ravi Bhatia, Music - Shekhar Sehgal",
+          credits: ["Singer - Luv Podar", "Lyrics - Lalu Ji & Ravi Bhatia", "Music - Shekhar Sehgal"],
         },
       ],
     },

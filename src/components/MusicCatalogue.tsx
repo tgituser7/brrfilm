@@ -7,7 +7,7 @@ import { IconMusicNote } from "./icons";
 function SongList({
   songs,
 }: {
-  songs: readonly { title: string; credit: string }[];
+  songs: readonly { title: string; credits: readonly string[] }[];
 }) {
   return (
     <ul className="space-y-6">
@@ -16,9 +16,13 @@ function SongList({
           <p className="font-heading text-lg font-semibold text-gold-light sm:text-xl">
             {song.title}
           </p>
-          <p className="mt-1 text-sm leading-relaxed text-cream/70 sm:text-base">
-            {song.credit}
-          </p>
+          <div className="mt-1 space-y-0.5">
+            {song.credits.map((line) => (
+              <p key={line} className="text-sm leading-relaxed text-cream/70 sm:text-base">
+                {line}
+              </p>
+            ))}
+          </div>
         </li>
       ))}
     </ul>
