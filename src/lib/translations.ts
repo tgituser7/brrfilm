@@ -423,9 +423,9 @@ export const translations = {
     },
     donatePage: {
       eyebrow: "सहयोग करें",
-      heading: "गौ माता सेवा में आपका योगदान",
+      heading: "सनातनी फ़िल्म के सहयोग में आपका योगदान",
       description:
-        "आपका हर दान गौ माता की सेवा, फ़िल्म निर्माण और इस भक्ति अभियान को आगे बढ़ाने में सीधे उपयोग होता है।",
+        "आपका हर दान इस सनातनी फ़िल्म के निर्माण और इस भक्ति अभियान को आगे बढ़ाने में सीधे उपयोग होता है।",
       qrCaption: "भुगतान के लिए स्कैन करें",
       qrDemoLabel: "आधिकारिक भुगतान क्यूआर कोड",
       upiLabel: "यूपीआई आईडी",
@@ -467,7 +467,7 @@ export const translations = {
     },
     nav: {
       home: "Home",
-      about: "About the Film",
+      about: "About Film",
       bhakti: "Devotion",
       gauMata: "Gau Mata",
       media: "Media",
@@ -883,9 +883,9 @@ export const translations = {
     },
     donatePage: {
       eyebrow: "Donate",
-      heading: "Support the Service of Gau Mata",
+      heading: "Support the Sanatani Film",
       description:
-        "Every donation goes directly toward Gau Mata seva, the making of this film, and carrying this mission of devotion forward.",
+        "Every donation goes directly toward the making of this Sanatani film and carrying this mission of devotion forward.",
       qrCaption: "Scan to Pay",
       qrDemoLabel: "Official Payment QR Code",
       upiLabel: "UPI ID",
