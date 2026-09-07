@@ -13,6 +13,15 @@ import {
 
 const icons = [IconSun, IconEarth, IconLotusHeart, IconDrop, IconHandHeart, IconFlute];
 
+const CARD_IMAGES = [
+  "/Kamdhenu.jpeg",
+  "/motherearth.jpeg",
+  "/Ahimsa.jpeg",
+  "/Ayurvedic.jpeg",
+  "/GauSeva.jpeg",
+  "/KrishnaHeard.jpeg",
+];
+
 export function Significance() {
   const { t } = useLanguage();
 
@@ -37,15 +46,23 @@ export function Significance() {
           return (
             <div
               key={card.title}
-              className="card-lift rounded-2xl border border-maroon-900/10 bg-cream p-7 shadow-sm"
+              className="card-lift relative overflow-hidden rounded-2xl border border-maroon-900/10 p-7 shadow-sm"
             >
-              <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-saffron/20 to-gold/20 text-maroon-800">
+              <Image
+                src={CARD_IMAGES[i % CARD_IMAGES.length]}
+                alt=""
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-cream/60" />
+              <span className="relative inline-flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-saffron/20 to-gold/20 text-maroon-800">
                 <Icon className="h-7 w-7" />
               </span>
-              <h3 className="mt-5 font-heading text-lg font-semibold text-maroon-950">
+              <h3 className="relative mt-5 font-heading text-lg font-semibold text-maroon-950">
                 {card.title}
               </h3>
-              <p className="mt-2.5 text-sm leading-relaxed text-ink/70">
+              <p className="relative mt-2.5 text-sm leading-relaxed text-ink/70">
                 {card.description}
               </p>
             </div>
