@@ -49,6 +49,9 @@ const EXPECTED_CAST = [
   { actor: "Brijendra Kala", role: "Guruji", image: "/artists/Brijendra_Kala_Guruji.png" },
   { actor: "Ankit Mishra", role: "Bhanu", image: "/artists/Ankit_Mishra.jpeg" },
   { actor: "Pankaj Gupta", role: "Dhyaan Chand", image: "/artists/pankaj_gupta.jpeg" },
+  { actor: "Kunwar Labhanshu", role: "Manohar", image: "/artists/KunwarLabhanshu.png" },
+  { actor: "Samrat Katiyar", role: "Madhav", image: "/artists/SamratKatiyar.png" },
+  { actor: "Krishna Mishra", role: "Roshan", image: "/artists/KrishnaMishra.png" },
 ];
 
 export default function ArtistsPage() {
