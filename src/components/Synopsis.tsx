@@ -36,12 +36,19 @@ export function Synopsis() {
               className="h-auto w-full object-cover"
             />
           </div>
-          <div className="mx-auto mt-6 w-full max-w-md sm:max-w-lg">
+          <div
+            className="mx-auto mt-6 w-full max-w-md sm:max-w-lg"
+            style={{
+              maskImage: "linear-gradient(to bottom, transparent 0%, black 10%, black 100%)",
+              WebkitMaskImage:
+                "linear-gradient(to bottom, transparent 0%, black 10%, black 100%)",
+            }}
+          >
             <Image
-              src="/filmstoryimage.png"
+              src="/filmstoryimage2.png"
               alt={t.synopsis.title}
-              width={1536}
-              height={1024}
+              width={1671}
+              height={941}
               className="h-auto w-full object-contain"
             />
           </div>
