@@ -265,7 +265,7 @@ export const translations = {
           credits: ["गायिका - दिव्यांशी मौर्या", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
-          title: "मुझे तो रंग डाला",
+          title: "कान्हा तेरे रंग ने मेरा तन मन रंग डाला",
           credits: ["गायक - विनीत सिंह", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
@@ -736,7 +736,7 @@ export const translations = {
           credits: ["Singer - Divyanshi Maurya", "Lyrics & Music - Ravi Bhatia"],
         },
         {
-          title: "Mujhe To Rang Dala",
+          title: "Kanha Tere Rang Ne Mera Tan Man Rang Dala",
           credits: ["Singer - Vinit Singh", "Lyrics & Music - Ravi Bhatia"],
         },
         {
