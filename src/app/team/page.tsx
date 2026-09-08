@@ -102,6 +102,8 @@ const WELL_WISHERS_1 = [
   "Ved Prakash Ahuja, BJP, Rampur",
   "Damodar Mishra - SSD Ayurvedik Solutions Pvt Ltd",
   "Sanjeev Raut - Patna, Bihar",
+  "Pankaj Gupta, Lucknow",
+  "Vipul Kumar - Tarun Bahar Social Foundation, Bihar",
 ];
 
 const WELL_WISHERS_2 = [
