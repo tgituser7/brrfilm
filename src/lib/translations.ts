@@ -248,25 +248,24 @@ export const translations = {
           credits: ["गायक - अनूप जलोटा व रवि जैन", "गीत एवं संगीत – रवि जैन"],
         },
         {
-          title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
-          credits: ["गायिका - वैष्णवी भुयार", "गीत एवं संगीत - रवि भाटिया"],
+          title: "हुंकार भर - प्रहार कर ( गौरक्षा गीत )",
+          credits: [
+            "सिंगर - संदीप राय, अमित पानीग्राही, निशि दुबे",
+            "गीत और संगीत - रवि भाटिया",
+          ],
         },
       ],
       songsSecondHalf: [
         {
-          title: "कृष्णा कृष्णा - लव यू कृष्णा",
-          credits: [
-            "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर, निशी दुबे",
-            "गीत एवं संगीत - रवि जैन",
-          ],
-        },
-        {
-          title: "चल उड़ मनवा - आसमान की ओर",
-          credits: ["गायिका - दिव्यांशी मौर्या", "गीत एवं संगीत - रवि भाटिया"],
-        },
-        {
           title: "कान्हा तेरे रंग ने मेरा तन मन रंग डाला",
           credits: ["गायक - विनीत सिंह", "गीत एवं संगीत - रवि भाटिया"],
+        },
+        {
+          title: "कृष्णा कृष्णा - लव यू कृष्णा (English Song)",
+          credits: [
+            "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर",
+            "गीत एवं संगीत - रवि जैन",
+          ],
         },
         {
           title: "बोलू झूठ तो कसम राम की काला कौवा काटे",
@@ -274,6 +273,14 @@ export const translations = {
             "गायक - अमित खरे, संतोष राठोर, विनीत सिंह, सोनाली दत्ता",
             "गीत एवं संगीत - रवि भाटिया",
           ],
+        },
+        {
+          title: "चल उड़ मनवा - आसमान की ओर",
+          credits: ["गायिका - दिव्यांशी मौर्या", "गीत एवं संगीत - रवि भाटिया"],
+        },
+        {
+          title: "मोहे लगी तोरी धुन – सुन कृष्णा सुन",
+          credits: ["गायिका - वैष्णवी भुयार", "गीत एवं संगीत - रवि भाटिया"],
         },
         {
           title: "बोलो राधे राधे - टाइटल सोंग",
@@ -719,25 +726,24 @@ export const translations = {
           credits: ["Singer - Anoop Jalota & Ravi Jain", "Lyrics & Music – Ravi Jain"],
         },
         {
-          title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
-          credits: ["Singer - Vaishnavi Bhuyar", "Lyrics & Music - Ravi Bhatia"],
+          title: "Hunkar Bhar - Prahar Kar (Gau Raksha Geet)",
+          credits: [
+            "Singers - Sandeep Rai, Amit Panigrahi, Nishi Dubey",
+            "Lyrics & Music - Ravi Bhatia",
+          ],
         },
       ],
       songsSecondHalf: [
         {
-          title: "Krishna Krishna - Love You Krishna",
-          credits: [
-            "Singers - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar, Nishee Dube",
-            "Lyrics & Music - Ravi Jain",
-          ],
-        },
-        {
-          title: "Chal Ud Manwa - Aasmaan Ki Ore",
-          credits: ["Singer - Divyanshi Maurya", "Lyrics & Music - Ravi Bhatia"],
-        },
-        {
           title: "Kanha Tere Rang Ne Mera Tan Man Rang Dala",
           credits: ["Singer - Vinit Singh", "Lyrics & Music - Ravi Bhatia"],
+        },
+        {
+          title: "Krishna Krishna - Love You Krishna",
+          credits: [
+            "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar",
+            "Lyrics & Music - Ravi Jain",
+          ],
         },
         {
           title: "Bolu Jhooth To Kasam Ram Ki Kala Kauwa Kaate",
@@ -745,6 +751,14 @@ export const translations = {
             "Singers - Amit Khare, Santosh Rathore, Vineet Singh, Sonali Dutta",
             "Lyrics & Music - Ravi Bhatia",
           ],
+        },
+        {
+          title: "Chal Ud Manwa - Aasmaan Ki Ore",
+          credits: ["Singer - Divyanshi Maurya", "Lyrics & Music - Ravi Bhatia"],
+        },
+        {
+          title: "Mohe Lagi Tori Dhun – Sun Krishna Sun",
+          credits: ["Singer - Vaishnavi Bhuyar", "Lyrics & Music - Ravi Bhatia"],
         },
         {
           title: "Bolo Radhey Radhey - Title Song",
