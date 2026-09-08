@@ -52,6 +52,8 @@ const EXPECTED_CAST = [
   { actor: "Kunwar Labhanshu", role: "Manohar", image: "/artists/KunwarLabhanshu.png" },
   { actor: "Samrat Katiyar", role: "Madhav", image: "/artists/SamratKatiyar.png" },
   { actor: "Krishna Mishra", role: "Roshan", image: "/artists/KrishnaMishra.png" },
+  { actor: "Keshav Sharma", role: "Pooran", image: "/artists/keshav_sharma.jpeg" },
+  { actor: "Sandeep Sharma", role: "Pujari", image: "/artists/sandeep_sharma.jpg" },
 ];
 
 export default function ArtistsPage() {
