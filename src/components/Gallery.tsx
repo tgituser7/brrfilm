@@ -12,10 +12,12 @@ const photos = [
   "/gallery-6.jpg",
   "/gallery-7.jpeg",
   "/gallery-8.jpeg",
+  "/gallery-9.jpg",
 ];
 
 const PHOTO_POSITIONS: Record<number, string> = {
   7: "object-[60%_center]",
+  8: "object-[15%_center]",
 };
 
 export function Gallery() {
