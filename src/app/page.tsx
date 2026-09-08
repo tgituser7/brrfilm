@@ -26,10 +26,40 @@ import { BackgroundMusicPrompt } from "@/components/BackgroundMusicPrompt";
 import { CountdownWidget } from "@/components/CountdownWidget";
 import { CountdownSection } from "@/components/CountdownSection";
 import { WelcomeIntro } from "@/components/WelcomeIntro";
+import { JsonLd } from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/seo";
 
 export default function Home() {
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Movie",
+          name: "Bolo Radhe Radhe",
+          alternateName: "बोलो राधे राधे",
+          url: SITE_URL,
+          image: `${SITE_URL}/topimage.png`,
+          description:
+            "Bolo Radhe Radhe — a sacred cinematic saga of Gau Mata, the farmer, and the village.",
+          director: { "@type": "Person", name: "Ravi Bhatia" },
+          productionCompany: { "@type": "Organization", name: "Rave Media" },
+          inLanguage: "hi",
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Rave Media",
+          url: SITE_URL,
+          logo: `${SITE_URL}/ravelogo.png`,
+          sameAs: [
+            "https://www.youtube.com/@boloradheradheofficial-jj5xh",
+            "https://www.instagram.com/brr_movie",
+          ],
+        }}
+      />
       <WelcomeIntro />
       <BackgroundMusicPrompt />
       {/* <CountdownWidget /> */}
