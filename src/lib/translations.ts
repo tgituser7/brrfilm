@@ -256,7 +256,7 @@ export const translations = {
         {
           title: "कृष्णा कृष्णा - लव यू कृष्णा",
           credits: [
-            "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर",
+            "गायिका - तान्या सोजतिया, नताशा बिलिमोरिया, ऐश्वर्या नायर, निशी दुबे",
             "गीत एवं संगीत - रवि जैन",
           ],
         },
@@ -727,7 +727,7 @@ export const translations = {
         {
           title: "Krishna Krishna - Love You Krishna",
           credits: [
-            "Singer - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar",
+            "Singers - Tanya Sojatia, Natasha Billimoria, Aishwarya Nayar, Nishee Dube",
             "Lyrics & Music - Ravi Jain",
           ],
         },
