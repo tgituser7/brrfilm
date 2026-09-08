@@ -20,7 +20,7 @@ export function SwamiQuote() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-8 px-6 sm:grid-cols-[1fr_1.3fr] sm:gap-6">
         <div className="mr-auto w-full max-w-[340px]" style={DISSOLVE_MASK}>
           <Image
-            src="/swami_gopalanand_ji.png"
+            src="/swami_gopalanand_jiupdated.png"
             alt={t.swamiQuote.name}
             width={1024}
             height={1536}
