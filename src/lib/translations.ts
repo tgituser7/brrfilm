@@ -189,10 +189,6 @@ export const translations = {
           "फिल्म का मूल संदेश है — धरती पर हर जीव को जीने का अधिकार है। मनुष्य को अपने स्वार्थ के लिए किसी निर्दोष जीव की हत्या करने का अधिकार नहीं है।",
           "“बोलो राधे राधे” में परिवार, रिश्ते, संस्कार, कर्म, मानवीय संवेदनाएं और हमारे सनातन जीवन-मूल्यों को भगवद्गीता के विचारों के साथ जोड़ा गया है।",
           "यह फिल्म यह समझाने का प्रयास करेगी कि सनातन संस्कृति केवल पूजा-पद्धति का नाम नहीं है, बल्कि करुणा, कर्तव्य, अहिंसा, सेवा, संस्कार और प्रत्येक जीव के प्रति सम्मान की जीवन-दृष्टि है।",
-          "गाँव की मिट्टी से लेकर शहर की आधुनिक जीवनशैली तक की यात्रा करते हुए यह कहानी दर्शकों के सामने एक ऐसा आईना रखेगी, जिसमें वे स्वयं से प्रश्न कर सकें —",
-          "हम किस दिशा में जा रहे हैं?",
-          "हमारे संस्कार हमें क्या सिखाते हैं?",
-          "और क्या हमारी प्रगति प्रकृति एवं जीव-जगत की कीमत पर होनी चाहिए?",
         ],
       },
       vision: {
@@ -667,10 +663,6 @@ export const translations = {
           "The film's core message is — every living being has the right to live on this earth. No human has the right to kill an innocent creature for their own selfish ends.",
           "“Bolo Radhe Radhe” weaves together family, relationships, values, karma, human sensibilities, and our eternal Sanatan life-values with the teachings of the Bhagavad Gita.",
           "This film will attempt to convey that Sanatan culture is not merely a name for a form of worship, but a way of life rooted in compassion, duty, non-violence, service, values, and respect for every living being.",
-          "Journeying from the soil of the village to the modern lifestyle of the city, this story will hold up a mirror before its audience, in which they may ask themselves —",
-          "Where are we headed?",
-          "What do our values teach us?",
-          "And should our progress come at the cost of nature and all living beings?",
         ],
       },
       vision: {

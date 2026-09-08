@@ -100,6 +100,8 @@ const WELL_WISHERS_1 = [
   "Naresh Chandel - Moradabad, UP",
   "Vivek Shrivastava",
   "Ved Prakash Ahuja, BJP, Rampur",
+  "Damodar Mishra - SSD Ayurvedik Solutions Pvt Ltd",
+  "Sanjeev Raut - Patna, Bihar",
 ];
 
 const WELL_WISHERS_2 = [
