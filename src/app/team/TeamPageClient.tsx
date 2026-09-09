@@ -114,8 +114,6 @@ const WELL_WISHERS_2 = [
   "P.C. Yadav, Senior Marketing Expert",
   "Pandit Rakesh Sharma, Producer, Rudrapur",
   "Rahul Agarwal (Bhole Chatoore King), Lucknow",
-  "Sadhvi Nishtha Devi Saraswati Ji",
-  "Devi Indulekha Ji, Bhandirvan, Vrindavan",
   "Rakesh Ratnakar - New Delhi",
   "Rashtriya Kavi Yuvraj Jain - Mumbai",
   "Raj Kumar Gupta, Gau Sewak, Kanpur",
@@ -170,6 +168,8 @@ const WOMEN_VOLUNTEERS = [
   "Sadhna Tulakia - Pune, Maharashtra",
   "Rekha Gupta - New Delhi",
   "Anamika Sahu - Sneh Foundation, Lucknow",
+  "Sadhvi Nishtha Devi Saraswati Ji",
+  "Devi Indulekha Ji, Bhandirvan, Vrindavan",
 ];
 
 function NameList({ names, dark }: { names: string[]; dark: boolean }) {
