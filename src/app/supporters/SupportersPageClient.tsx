@@ -41,6 +41,8 @@ const COLUMN_2 = [
   "Sant Seva Evam Gau Raksha Kalyan Parishad, Mumbai",
   "Vihim Gauraksha Prakoshth Samiti, Banda - Uttar Pradesh",
   "Shri Seva Evam Shuddh Sansthan - Ayodhya, Uttar Pradesh",
+  "Ratnakar Dramatic Art Production",
+  "Tarun Bahar Social Foundation, Bihar",
 ];
 
 function SupportersColumn({ names }: { names: string[] }) {

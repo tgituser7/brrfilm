@@ -58,6 +58,7 @@ const PRODUCTION_TEAM_2 = [
   "Action Master - Vikram Dahiya",
   "Team Leader, Office Communication - Yug Bhatia",
   "Worldwide Marketing - Inderjeet Majumdar (USA), Sandeep Sinha (UK)",
+  "Designers - Trupti Raj, Ram Maurya",
 ];
 
 const MUSIC_PRODUCTION_TEAM = [
@@ -98,10 +99,10 @@ const WELL_WISHERS_1 = [
   "Manish Sahu - Radha Krishna Temple",
   "Neeraj Kumar (John), Sultanpur, UP",
   "Naresh Chandel - Moradabad, UP",
-  "Vivek Shrivastava",
+  "Vivek Shrivastava, Lucknow",
   "Ved Prakash Ahuja, BJP, Rampur",
   "Damodar Mishra - SSD Ayurvedik Solutions Pvt Ltd",
-  "Sanjeev Raut - Patna, Bihar",
+  "Sujeet Raut - Patna, Bihar",
   "Pankaj Gupta, Lucknow",
   "Vipul Kumar - Tarun Bahar Social Foundation, Bihar",
 ];
@@ -164,7 +165,7 @@ const WOMEN_VOLUNTEERS = [
   "Nirali Namdev, Social Worker, Mumbai",
   "Namrata Chaudhry - Indore",
   "Nidhi Mishra - Content Creator, Bhopal",
-  "Sadhan Tulakia - Pune, Maharashtra",
+  "Sadhna Tulakia - Pune, Maharashtra",
   "Rekha Gupta - New Delhi",
   "Anamika Sahu - Sneh Foundation, Lucknow",
 ];
