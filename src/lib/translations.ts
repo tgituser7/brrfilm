@@ -409,6 +409,7 @@ export const translations = {
       researchDevelopment: "अनुसंधान एवं विकास",
       spiritualMentors: "आध्यात्मिक आशीर्वाद - गुरुजन",
       womenVolunteers: "महिला स्वयंसेवक",
+      websiteCredit: "वेबसाइट निर्माण - रेव मीडिया",
     },
     artistsPage: {
       eyebrow: "कलाकार",
@@ -887,6 +888,7 @@ export const translations = {
       researchDevelopment: "Research & Development",
       spiritualMentors: "Spiritual Blessings — Mentors",
       womenVolunteers: "Women Volunteers",
+      websiteCredit: "Website Developed by Rave Media",
     },
     artistsPage: {
       eyebrow: "Artists",

@@ -337,6 +337,10 @@ export function TeamPageClient() {
               </div>
             </div>
           </div>
+
+          <p className="relative mt-16 text-center text-xs font-semibold uppercase tracking-[0.2em] text-maroon-900/50">
+            {t.teamPage.websiteCredit}
+          </p>
         </section>
       </main>
       <SiteFooter />
