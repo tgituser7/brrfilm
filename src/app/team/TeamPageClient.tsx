@@ -80,6 +80,7 @@ const GRATITUDE = [
 ];
 
 const WELL_WISHERS_1 = [
+  "Ankit Mishra, Siddharthnagar, UP",
   "Ajit Kumar Baid, Mangalam Audio World",
   "Anil Kumar Puri - Businessman, Kanpur",
   "Anil Mishra, Chandipur, UP",
