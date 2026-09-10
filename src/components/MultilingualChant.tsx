@@ -1,7 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
+
+const DISSOLVE_MASK = {
+  maskImage: "radial-gradient(ellipse 62% 72% at center, black 30%, transparent 100%)",
+  WebkitMaskImage: "radial-gradient(ellipse 62% 72% at center, black 30%, transparent 100%)",
+};
 
 const PHRASES = [
   { lang: "हिन्दी", text: "बोलो राधे राधे" },
@@ -49,6 +55,20 @@ export function MultilingualChant() {
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/70 via-maroon-950/40 to-maroon-950/70" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
+
+      <div
+        className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 lg:left-8 lg:block xl:left-12 xl:w-80"
+        style={DISSOLVE_MASK}
+      >
+        <Image
+          src="/RussianActress.png"
+          alt=""
+          fill
+          sizes="320px"
+          className="object-cover"
+        />
+      </div>
+
       <div className="relative mx-auto max-w-3xl px-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
           {t.multilingualChant.eyebrow}
