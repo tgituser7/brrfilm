@@ -12,12 +12,12 @@ const photos = [
   "/gallery-6.jpg",
   "/gallery-7.jpeg",
   "/gallery-8.jpeg",
-  "/gallery-9.jpg",
 ];
+
+const FEATURED_PHOTO = "/gallery-9.jpg";
 
 const PHOTO_POSITIONS: Record<number, string> = {
   7: "object-[60%_center]",
-  8: "object-[15%_center]",
 };
 
 export function Gallery() {
@@ -55,6 +55,18 @@ export function Gallery() {
             />
           </div>
         ))}
+      </div>
+
+      <div className="relative mx-auto mt-6 max-w-6xl px-6 sm:mt-8">
+        <div className="card-lift group relative aspect-[16/9] overflow-hidden rounded-xl border border-gold/15">
+          <Image
+            src={FEATURED_PHOTO}
+            alt={`${t.hero.title1} ${t.hero.title2} — ${photos.length + 1}`}
+            fill
+            sizes="100vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
       </div>
     </section>
   );

@@ -3,6 +3,11 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 
+const DISSOLVE_MASK = {
+  maskImage: "radial-gradient(ellipse 65% 72% at center, black 30%, transparent 100%)",
+  WebkitMaskImage: "radial-gradient(ellipse 65% 72% at center, black 30%, transparent 100%)",
+};
+
 export function IdeaBehindFilm() {
   const { t } = useLanguage();
 
@@ -13,19 +18,15 @@ export function IdeaBehindFilm() {
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
       <div className="relative mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[0.9fr_1.3fr] lg:items-center lg:gap-14">
         <div className="lg:sticky lg:top-28">
-          <div className="mx-auto max-w-sm overflow-hidden rounded-[1.75rem] border border-gold/25 shadow-2xl shadow-maroon-950/30">
+          <div className="mx-auto w-full max-w-sm" style={DISSOLVE_MASK}>
             <Image
-              src="/ri4.jpeg"
+              src="/RussianActress.png"
               alt={t.idea.title}
-              width={1369}
-              height={1149}
+              width={1087}
+              height={1447}
               className="h-auto w-full object-cover"
             />
           </div>
-          <p className="mt-4 text-center font-heading text-base text-cream/80">
-            {t.director.name}{" "}
-            <span className="text-cream/50">({t.hero.directorLabel})</span>
-          </p>
         </div>
 
         <div>
