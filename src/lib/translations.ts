@@ -37,6 +37,7 @@ export const translations = {
       releaseDate: "20 अगस्त 2027 को सिनेमाघरों में",
       ctaTrailer: "ट्रेलर देखें",
       ctaJoin: "फ़िल्म से जुड़ें",
+      ctaNotify: "सूचित रहें",
     },
     features: [
       { title: "गौ माता", desc: "हमारी संस्कृति, हमारा स्वाभिमान" },
@@ -296,7 +297,7 @@ export const translations = {
       intro: "फ़िल्म निर्माण से जुड़े कुछ खास पल और मुलाकातें यहाँ देखें।",
     },
     notify: {
-      eyebrow: "सूचना पाएं",
+      eyebrow: "सूचित रहें",
       title: "फ़िल्म देखनी है या उसमें दिलचस्पी है?",
       description: "बेल दबाएँ और रिलीज़, ट्रेलर व खास अपडेट सबसे पहले पाएं।",
       notifiedCount: "फैंस सूचना के लिए सब्सक्राइब कर चुके हैं",
@@ -517,6 +518,7 @@ export const translations = {
       releaseDate: "In Theatres 20 August 2027",
       ctaTrailer: "Watch Trailer",
       ctaJoin: "Join the Film",
+      ctaNotify: "Get Notified",
     },
     features: [
       { title: "Gau Mata", desc: "Our culture, our pride" },

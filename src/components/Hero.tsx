@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
 import { SpiritualParticles } from "./SpiritualParticles";
-import { IconCalendar, IconNamaste, IconPlay } from "./icons";
+import { IconBell, IconCalendar, IconNamaste, IconPlay } from "./icons";
 
 export function Hero() {
   const { t } = useLanguage();
@@ -49,11 +49,20 @@ export function Hero() {
       </div>
 
       <div
-        className="animate-fade-up mt-6 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm"
+        className="animate-fade-up mt-6 flex flex-col items-center gap-3 sm:flex-row sm:items-start"
         style={{ animationDelay: "0.5s" }}
       >
-        <IconCalendar className="h-4 w-4 text-crimson" />
-        <span className="text-sm font-semibold text-maroon-900">{t.hero.releaseDate}</span>
+        <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm">
+          <IconCalendar className="h-4 w-4 text-crimson" />
+          <span className="text-sm font-semibold text-maroon-900">{t.hero.releaseDate}</span>
+        </div>
+        <a
+          href="#notify"
+          className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-cream"
+        >
+          <IconBell className="h-4 w-4 text-crimson" />
+          <span className="text-sm font-semibold text-maroon-900">{t.hero.ctaNotify}</span>
+        </a>
       </div>
     </div>
   );
