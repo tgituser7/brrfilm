@@ -56,17 +56,19 @@ export function MultilingualChant() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/70 via-maroon-950/40 to-maroon-950/70" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
 
-      <div
-        className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 lg:left-8 lg:block xl:left-12 xl:w-80"
-        style={DISSOLVE_MASK}
-      >
-        <Image
-          src="/RussianActress.png"
-          alt=""
-          fill
-          sizes="320px"
-          className="object-cover"
-        />
+      <div className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 flex-col items-center py-6 lg:left-8 lg:flex xl:left-12 xl:w-80">
+        <div className="relative w-full flex-1" style={DISSOLVE_MASK}>
+          <Image
+            src="/RussianActress.png"
+            alt=""
+            fill
+            sizes="320px"
+            className="object-cover"
+          />
+        </div>
+        <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[0.3em] text-gold-light">
+          {t.multilingualChant.introducingLabel}
+        </p>
       </div>
 
       <div className="relative mx-auto max-w-3xl px-6 text-center">
