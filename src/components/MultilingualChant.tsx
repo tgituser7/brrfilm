@@ -5,8 +5,8 @@ import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const DISSOLVE_MASK = {
-  maskImage: "radial-gradient(ellipse 62% 72% at center, black 30%, transparent 100%)",
-  WebkitMaskImage: "radial-gradient(ellipse 62% 72% at center, black 30%, transparent 100%)",
+  maskImage: "radial-gradient(ellipse 82% 90% at center, black 45%, transparent 100%)",
+  WebkitMaskImage: "radial-gradient(ellipse 82% 90% at center, black 45%, transparent 100%)",
 };
 
 const PHRASES = [
@@ -56,19 +56,20 @@ export function MultilingualChant() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/70 via-maroon-950/40 to-maroon-950/70" />
       <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
 
-      <div className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 flex-col items-center py-6 lg:left-8 lg:flex xl:left-12 xl:w-80">
-        <div className="relative w-full flex-1" style={DISSOLVE_MASK}>
+      <div className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 lg:block xl:w-80">
+        <div className="relative h-full w-full" style={DISSOLVE_MASK}>
           <Image
-            src="/RussianActress.png"
+            src="/russinabg.png"
             alt=""
             fill
             sizes="320px"
             className="object-cover"
           />
+          <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-maroon-950/60 to-transparent" />
+          <p className="absolute inset-x-0 bottom-5 text-center text-xs font-semibold uppercase tracking-[0.3em] text-gold-light">
+            {t.multilingualChant.introducingLabel}
+          </p>
         </div>
-        <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[0.3em] text-gold-light">
-          {t.multilingualChant.introducingLabel}
-        </p>
       </div>
 
       <div className="relative mx-auto max-w-3xl px-6 text-center">

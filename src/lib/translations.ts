@@ -117,7 +117,7 @@ export const translations = {
     multilingualChant: {
       eyebrow: "एक भाव, अनेक भाषाएँ",
       description: "बोलो राधे राधे नौ भाषाओं में प्रस्तुत — एक भक्ति, हर भाषा में गूंजती हुई।",
-      introducingLabel: "रूसी अभिनेत्री का परिचय",
+      introducingLabel: "रूसी मॉडल की झलक",
     },
     significance: {
       eyebrow: "गौ माता",
