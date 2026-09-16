@@ -73,7 +73,7 @@ const FINANCIAL_CONSULTANT = ["Pawan Sharma", "Pravesh Bhatia"];
 
 const GRATITUDE = [
   "Shyam Singhania (Social Worker, Entrepreneur & Visionary)",
-  "Dr. Satish Chand Dvivedi (Former State Minister, Uttar Pradesh)",
+  "Dr. Satish Chand Dvivedi (Former Basic Education Minister, Uttar Pradesh)",
   "Dr. Rajender Pensiya - DM, Moradabad",
   "Dileep Dhanraj Gupta (Ex-Union Minister of State)",
   "Shyam Bihari Gupta (Gau Seva Ayog, Uttar Pradesh)",
