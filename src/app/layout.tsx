@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     "Krishna devotion movie",
     "Radhe Radhe",
     "Indian devotional cinema",
+    "2027 releasing film",
+    "2027 releasing bolloywood film",
+    "2027 releasing bollywood movie"
   ],
   authors: [{ name: "Rave Media" }],
   creator: "Rave Media",
