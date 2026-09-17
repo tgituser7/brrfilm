@@ -30,6 +30,7 @@ export function SiteHeader() {
     { href: "/sponsors", label: t.nav.sponsors },
     { href: "/team", label: t.nav.team },
     { href: "/artists", label: t.nav.artists },
+    { href: "/volunteer", label: t.nav.volunteers },
     { href: JOIN_FORM_URL, label: t.nav.join, external: true },
   ];
 

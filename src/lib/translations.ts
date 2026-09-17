@@ -15,6 +15,7 @@ export const translations = {
       sponsors: "प्रायोजक",
       team: "टीम",
       artists: "कलाकार",
+      volunteers: "स्वयंसेवक",
       join: "सहयोगी बनें",
       news: "समाचार",
       contact: "संपर्क करें",
@@ -419,6 +420,16 @@ export const translations = {
       leadTitle: "मुख्य कलाकार",
       castTitle: "अपेक्षित कलाकार",
     },
+    volunteerPage: {
+      eyebrow: "स्वयंसेवक",
+      title: "उनकी आवाज़ में, उनका अनुभव",
+      intro:
+        "बोलो राधे राधे केवल एक फ़िल्म नहीं, एक अभियान है — जिसे देश भर के स्वयंसेवकों का समय, श्रम और भक्ति सींच रही है। सुनिए उनकी अपनी ज़ुबानी।",
+      ctaTitle: "आप भी इस मिशन से जुड़ें",
+      ctaDescription:
+        "गौ माता, किसान और गांव की इस पवित्र यात्रा में स्वयंसेवक के रूप में योगदान दें।",
+      ctaButton: "स्वयंसेवक बनें",
+    },
     newsCoverage: {
       eyebrow: "समाचार में",
       title: "समाचारों में बोलो राधे राधे",
@@ -496,6 +507,7 @@ export const translations = {
       sponsors: "Sponsors",
       team: "Team",
       artists: "Artists",
+      volunteers: "Volunteers",
       join: "Join Us",
       news: "News",
       contact: "Contact",
@@ -899,6 +911,16 @@ export const translations = {
       title: "Cast of the Film",
       leadTitle: "Lead Artists",
       castTitle: "Expected Cast",
+    },
+    volunteerPage: {
+      eyebrow: "Volunteers",
+      title: "In Their Own Words",
+      intro:
+        "Bolo Radhe Radhe isn't just a film — it's a movement, carried forward by the time, effort, and devotion of volunteers across the country. Here's what it means to them.",
+      ctaTitle: "Join This Mission",
+      ctaDescription:
+        "Lend your hands to this sacred journey of Gau Mata, the farmer, and the village — as a volunteer.",
+      ctaButton: "Become a Volunteer",
     },
     newsCoverage: {
       eyebrow: "In the News",
