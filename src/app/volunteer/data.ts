@@ -1,7 +1,14 @@
-// Placeholder testimonials — replace each entry with a real volunteer's
-// name, city/role, an actual photo path (see `image` on VolunteerPageClient),
-// and their own words before this page goes live.
+// Entries without an `image` are placeholders — replace with a real
+// volunteer's name, city/role, photo path, and their own words.
 export const TESTIMONIALS = [
+  {
+    name: "Bhagwan Singh Singoria",
+    role: "Volunteer, Madhya Pradesh",
+    quote:
+      "गौ माता ही हमारी धारा को बदल सकती है, और यह फिल्म इसका एक बड़ा संदेश देती है।",
+    initials: "BS",
+    image: "/volunteer/bhagwansing.jpeg",
+  },
   {
     name: "Aarav Mehta",
     role: "Volunteer, Lucknow",

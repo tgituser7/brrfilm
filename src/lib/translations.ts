@@ -422,7 +422,7 @@ export const translations = {
     },
     volunteerPage: {
       eyebrow: "स्वयंसेवक",
-      title: "उनकी आवाज़ में, उनका अनुभव",
+      title: "धर्मो रक्षति रक्षितः",
       intro:
         "बोलो राधे राधे केवल एक फ़िल्म नहीं, एक अभियान है — जिसे देश भर के स्वयंसेवकों का समय, श्रम और भक्ति सींच रही है। सुनिए उनकी अपनी ज़ुबानी।",
       ctaTitle: "आप भी इस मिशन से जुड़ें",
@@ -914,7 +914,7 @@ export const translations = {
     },
     volunteerPage: {
       eyebrow: "Volunteers",
-      title: "In Their Own Words",
+      title: "धर्मो रक्षति रक्षितः",
       intro:
         "Bolo Radhe Radhe isn't just a film — it's a movement, carried forward by the time, effort, and devotion of volunteers across the country. Here's what it means to them.",
       ctaTitle: "Join This Mission",

@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { IconHandHeart, IconNamaste } from "@/components/icons";
+import { IconNamaste } from "@/components/icons";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
 import { TESTIMONIALS, AVATAR_TINTS } from "./data";
@@ -18,8 +19,8 @@ export function VolunteerPageClient() {
         <section className="relative overflow-hidden bg-devotional px-6 pt-32 pb-16 sm:pt-40 sm:pb-20">
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
           <div className="relative mx-auto max-w-2xl text-center">
-            <span className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold/40 bg-cream/10 text-gold-light">
-              <IconHandHeart className="h-7 w-7" />
+            <span className="relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2 border-gold/50 shadow-lg shadow-maroon-950/25">
+              <Image src="/the_cow.png" alt="" fill sizes="80px" className="object-cover" />
             </span>
             <p className="mt-5 text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
               {t.volunteerPage.eyebrow}
@@ -35,38 +36,52 @@ export function VolunteerPageClient() {
 
         <section className="relative bg-cream px-6 py-16 sm:py-20">
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-30" />
-          <div className="relative mx-auto grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="relative mx-auto grid max-w-5xl gap-6 sm:grid-cols-2">
             {TESTIMONIALS.map((volunteer, i) => (
               <figure
                 key={volunteer.name}
-                className="card-lift flex flex-col rounded-[1.75rem] border border-maroon-900/10 bg-ivory p-7 shadow-xl shadow-maroon-900/10"
+                className="card-lift flex items-stretch gap-5 rounded-[1.75rem] border border-maroon-900/10 bg-ivory p-7 shadow-xl shadow-maroon-900/10"
               >
-                <span
-                  aria-hidden="true"
-                  className="font-heading text-5xl leading-none text-gold/50"
-                >
-                  &ldquo;
-                </span>
-                <blockquote className="mt-2 flex-1 text-sm leading-relaxed text-ink/75 sm:text-[0.95rem]">
-                  {volunteer.quote}
-                </blockquote>
-                <figcaption className="mt-6 flex items-center gap-3">
+                {volunteer.image ? (
+                  <span className="relative h-56 w-36 flex-shrink-0 self-start overflow-hidden rounded-2xl border border-maroon-900/10 shadow-sm">
+                    <Image
+                      src={volunteer.image}
+                      alt={volunteer.name}
+                      fill
+                      sizes="144px"
+                      className="object-cover"
+                    />
+                  </span>
+                ) : (
                   <span
-                    className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border font-heading text-sm font-semibold ${
+                    className={`flex h-56 w-36 flex-shrink-0 self-start items-center justify-center rounded-2xl border font-heading text-lg font-semibold ${
                       AVATAR_TINTS[i % AVATAR_TINTS.length]
                     }`}
                   >
                     {volunteer.initials}
                   </span>
-                  <span>
+                )}
+                <div className="flex flex-1 flex-col">
+                  <div className="flex-1">
+                    <span
+                      aria-hidden="true"
+                      className="font-heading text-4xl leading-none text-gold/50"
+                    >
+                      &ldquo;
+                    </span>
+                    <blockquote className="mt-1 text-sm leading-relaxed text-ink/75 sm:text-[0.95rem]">
+                      {volunteer.quote}
+                    </blockquote>
+                  </div>
+                  <figcaption className="mt-4">
                     <span className="block font-heading text-sm font-semibold text-maroon-950">
                       {volunteer.name}
                     </span>
-                    <span className="block text-xs font-semibold uppercase tracking-wide text-crimson/70">
+                    <span className="mt-0.5 block text-xs font-semibold uppercase tracking-wide text-crimson/70">
                       {volunteer.role}
                     </span>
-                  </span>
-                </figcaption>
+                  </figcaption>
+                </div>
               </figure>
             ))}
           </div>
