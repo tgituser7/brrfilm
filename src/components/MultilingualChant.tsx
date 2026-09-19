@@ -59,7 +59,7 @@ export function MultilingualChant() {
       <div className="pointer-events-none absolute left-0 top-0 hidden h-full w-72 lg:block xl:w-80">
         <div className="relative h-full w-full" style={DISSOLVE_MASK}>
           <Image
-            src="/russinabg.png"
+            src="/actress.png"
             alt=""
             fill
             sizes="320px"

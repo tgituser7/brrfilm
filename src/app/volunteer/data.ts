@@ -10,6 +10,20 @@ export const TESTIMONIALS = [
     image: "/volunteer/bhagwansing.jpeg",
   },
   {
+    name: "Om Prakash Yajurvedi",
+    role: "Trustee - Panini Gurukul, Varanasi",
+    quote: "इस फिल्म के माध्यम से आध्यात्मिक और सनातन धर्म का संदेश मिलता है।",
+    initials: "OY",
+    image: "/volunteer/OmPrakashYajurvedi.png",
+  },
+  {
+    name: "Virendra Kumar Pathak",
+    role: "Managing Director - Ved Panth Educational Services",
+    quote: "इस फिल्म के ज़रिए गौ संरक्षण और मानवता की सिद्धि होगी।",
+    initials: "VP",
+    image: "/volunteer/VirendraKumar.png",
+  },
+  {
     name: "Aarav Mehta",
     role: "Volunteer, Lucknow",
     quote:
