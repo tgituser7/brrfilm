@@ -24,6 +24,21 @@ export const TESTIMONIALS = [
     image: "/volunteer/VirendraKumar.png",
   },
   {
+    name: "Ramakant Upadhyay",
+    role: "Rajya Mantri, Lucknow",
+    quote: "बोलो राधे का आध्यात्मिक और सांस्कृतिक सन्देश मिलेगा।",
+    initials: "RU",
+    image: "/volunteer/ramakant.png",
+  },
+  {
+    name: "Vikas Sharma",
+    role: "Founder, Vrindavan Kunj Gali, Vrindavan",
+    quote:
+      "बोलो राधे राधे फिल्म और रवि भाटिया जी के लिए शुभ संदेश, और फिल्म की सफलता तथा सभी सनातनियों से सहयोग की कामना।",
+    initials: "VS",
+    image: "/volunteer/vikassharma.png",
+  },
+  {
     name: "Aarav Mehta",
     role: "Volunteer, Lucknow",
     quote:
