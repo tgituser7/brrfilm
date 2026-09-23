@@ -2,19 +2,18 @@
 
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
-import { IconEye, IconTarget } from "./icons";
 
 export function MissionVision() {
   const { t } = useLanguage();
 
   const cards = [
     {
-      icon: IconTarget,
+      image: "/mission.png",
       title: t.missionVision.mission.title,
       paragraphs: t.missionVision.mission.paragraphs,
     },
     {
-      icon: IconEye,
+      image: "/vision.png",
       title: t.missionVision.vision.title,
       paragraphs: t.missionVision.vision.paragraphs,
     },
@@ -34,13 +33,13 @@ export function MissionVision() {
       </div>
 
       <div className="relative mx-auto mt-14 grid max-w-5xl gap-6 px-6 sm:grid-cols-2">
-        {cards.map(({ icon: Icon, title, paragraphs }) => (
+        {cards.map(({ image, title, paragraphs }) => (
           <div
             key={title}
             className="card-lift rounded-2xl border border-gold/25 bg-maroon-950/50 p-8 shadow-lg shadow-maroon-950/20 backdrop-blur-sm"
           >
-            <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-gold/40 bg-cream/10 text-gold">
-              <Icon className="h-7 w-7" />
+            <span className="relative mx-auto block h-24 w-24 overflow-hidden rounded-full">
+              <Image src={image} alt="" fill sizes="96px" className="object-cover" />
             </span>
             <h3 className="mt-5 text-center font-heading text-xl font-semibold text-cream">
               {title}
