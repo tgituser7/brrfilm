@@ -127,7 +127,7 @@ const WELL_WISHERS_2 = [
   "Sachin Dharap, Kawachi Group, Maharashtra",
   "Sudhir Garg, Social Activist, Uttar Pradesh",
   "Van Bihari Rajput, Mathura",
-  "Vikas Sharma - Vrindavan Kunj Gali",
+  "Vikas Krishnatrey - Vrindavan Kunj Gali",
   "Yogiraj Aachrya Satyawan - Uttrakhand",
 ];
 

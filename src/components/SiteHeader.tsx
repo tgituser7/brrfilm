@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
-import { JOIN_FORM_URL } from "@/lib/links";
 import { LanguageToggle } from "./LanguageToggle";
 import { IconOm } from "./icons";
 import { facebookFan, socials } from "./socials";
@@ -34,7 +33,6 @@ export function SiteHeader() {
     { href: "/team", label: t.nav.team },
     { href: "/artists", label: t.nav.artists },
     { href: "/volunteer", label: t.nav.volunteers },
-    { href: JOIN_FORM_URL, label: t.nav.join, external: true },
   ];
 
   return (
@@ -46,11 +44,11 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-2.5 sm:px-8">
-        <Link href="/#top" className="flex items-center gap-2.5">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/50 bg-devotional text-gold">
+        <Link href="/#top" className="flex flex-shrink-0 items-center gap-2.5">
+          <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-gold/50 bg-devotional text-gold">
             <IconOm className="h-5 w-5" />
           </span>
-          <span className="font-heading leading-tight">
+          <span className="font-heading leading-tight whitespace-nowrap">
             <span className="block text-sm font-semibold text-maroon-800">
               {t.hero.title1}
             </span>
@@ -61,27 +59,15 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-6 xl:flex">
-          {links.map((link) =>
-            link.external ? (
-              <a
-                key={link.href}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
-              >
-                {link.label}
-              </a>
-            ) : (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
-              >
-                {link.label}
-              </Link>
-            )
-          )}
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
 
         <div className="flex items-center gap-4">
@@ -145,29 +131,16 @@ export function SiteHeader() {
       {menuOpen && (
         <div className="border-t border-maroon-900/10 bg-ivory/98 px-5 py-4 backdrop-blur-md xl:hidden">
           <nav className="flex flex-col gap-4">
-            {links.map((link) =>
-              link.external ? (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setMenuOpen(false)}
-                  className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
-                >
-                  {link.label}
-                </a>
-              ) : (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
-                >
-                  {link.label}
-                </Link>
-              )
-            )}
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className="text-sm font-medium text-maroon-950/85 hover:text-crimson"
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
           <div className="mt-4 flex flex-wrap items-center gap-2">
             <a

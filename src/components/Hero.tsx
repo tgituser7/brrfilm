@@ -7,7 +7,7 @@ import { SpiritualParticles } from "./SpiritualParticles";
 import { IconBell, IconCalendar, IconNamaste, IconPlay } from "./icons";
 
 export function Hero() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const content = (
     <div className="mx-auto max-w-xl text-center sm:mx-0 sm:text-left">
@@ -16,7 +16,7 @@ export function Hero() {
       </p>
 
       <div
-        className="animate-fade-up mt-6 space-y-1 text-base leading-relaxed text-ink/80 sm:mt-[19rem] sm:text-lg"
+        className="animate-fade-up mt-6 space-y-1 text-base leading-relaxed text-ink/80 sm:mt-[3rem] sm:text-lg"
         style={{ animationDelay: "0.2s" }}
       >
         {t.hero.tagline.map((line) => (
@@ -25,7 +25,9 @@ export function Hero() {
       </div>
 
       <div
-        className="animate-fade-up mt-5 flex flex-col items-center gap-4 sm:flex-row sm:items-start"
+        className={`animate-fade-up flex flex-col items-center gap-4 sm:flex-row sm:items-start ${
+          language === "hi" ? "mt-5 sm:mt-[10.25rem]" : "mt-5 sm:mt-[12.25rem]"
+        }`}
         style={{ animationDelay: "0.4s" }}
       >
         <a

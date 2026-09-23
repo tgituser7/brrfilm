@@ -10,6 +10,13 @@ export const TESTIMONIALS = [
     image: "/volunteer/RakeshKumarPandey.jpg",
   },
   {
+    name: "Dr. Shyam Agarwal",
+    role: "Agarwal Eye Hospital, Mumbai",
+    quote: "A social and traditional cinematic mission towards Sanatan Dharma.",
+    initials: "SA",
+    image: "/volunteer/shyamagarwal.png",
+  },
+  {
     name: "Bhagwan Singh Singoria",
     role: "Volunteer, Madhya Pradesh",
     quote:
@@ -39,7 +46,7 @@ export const TESTIMONIALS = [
     image: "/volunteer/ramakant.png",
   },
   {
-    name: "Vikas Sharma",
+    name: "Vikas Krishnatrey",
     role: "Founder, Vrindavan Kunj Gali, Vrindavan",
     quote:
       "बोलो राधे राधे फिल्म और रवि भाटिया जी के लिए शुभ संदेश, और फिल्म की सफलता तथा सभी सनातनियों से सहयोग की कामना।",
@@ -47,11 +54,93 @@ export const TESTIMONIALS = [
     image: "/volunteer/vikassharma.png",
   },
   {
-    name: "Aarav Mehta",
-    role: "Volunteer, Lucknow",
+    name: "Damodar Mishra",
+    role: "SSD Ayurvedik Solutions Pvt Ltd",
     quote:
-      "Joining Bolo Radhe Radhe as a volunteer changed how I see my own village. Every hour I give feels like an offering, not a task.",
-    initials: "AM",
+      "सनातन और गौरक्षा पर बन रही है यह फिल्म — हर सनातनी को इससे जुड़ना चाहिए।",
+    initials: "DM",
+    image: "/volunteer/damodarmishra.jpg",
+  },
+  {
+    name: "Diwakar Vedansh Ji",
+    role: "Spiritual Speaker",
+    quote:
+      "बोलो राधे राधे सनातन संस्कृति का गौरव बढ़ाने वाली एक सम्पूर्ण पारिवारिक फिल्म है।",
+    initials: "DV",
+    image: "/volunteer/diwakarvedansh.jpg",
+  },
+  {
+    name: "Govind Sharma",
+    role: "Bhajan Singer",
+    quote: "ब्रज की सुन्दरता और पावनता को बोलो राधे राधे ने भजन में कैद कर लिया है।",
+    initials: "GS",
+    image: "/volunteer/govindsharma.png",
+  },
+  {
+    name: "Mohan Das Ji",
+    role: "Swami",
+    quote:
+      "यह फिल्म हर सनातनी के मन को छू लेगी — हर सनातनी को यह संदेश सुनना चाहिए।",
+    initials: "MD",
+    image: "/volunteer/mohandasji.jpg",
+  },
+  {
+    name: "Umesh Sharma Ji",
+    role: "Geeta Shodh Sansthan, Mathura",
+    quote: "बोलो राधे राधे ब्रज की एक बेहद सुंदर फिल्म है, जो हर दिल को छू जाएगी।",
+    initials: "US",
+    image: "/volunteer/umeshsharma.jpg",
+  },
+  {
+    name: "Naveen Bhandari",
+    role: "Gau Sewak",
+    quote: "गौ माता हमारी धर्म, संस्कृति और आस्था की प्रतीक हैं।",
+    initials: "NB",
+    image: "/volunteer/naveenbhandari.jpg",
+  },
+  {
+    name: "Ramesh Goenka",
+    role: "Bollywood Playback Singer",
+    quote: "बोलो राधे राधे को मेरी शुभकामनाएं — यह फिल्म ज़रूर सफल होगी।",
+    initials: "RG",
+    image: "/volunteer/rameshgoenka.jpg",
+  },
+  {
+    name: "Kumar Sapan",
+    role: "Singer",
+    quote:
+      "बोलो राधे राधे एक सामाजिक अवधारणा और पारिवारिक फिल्म है — इसकी सच्चाई हर किसी को जाननी चाहिए।",
+    initials: "KS",
+    image: "/volunteer/kumarsapan.jpg",
+  },
+  {
+    name: "Vaishnavi Bhuyar",
+    role: "Playback Singer",
+    quote: "बोलो राधे राधे के पहले हिंदी बॉलीवुड गीत 'सन कृष्णा सन' में अपनी आवाज़ दी।",
+    initials: "VB",
+    image: "/volunteer/vaishnavibhuyar.jpg",
+  },
+  {
+    name: "Adv. Manish Sahu",
+    role: "Radha Krishna Temple",
+    quote: "बोलो राधे राधे नई पीढ़ी के लिए एक दिव्य फिल्म है।",
+    initials: "MS",
+    image: "/volunteer/manishsahu.jpg",
+  },
+  {
+    name: "Mahant Mohini Bihari Sharan",
+    role: "Vrindavan",
+    quote:
+      "गौवंश की रक्षा कीजिये — गौ माता को बचाना ही पृथ्वी को बचाना है। जय गौमाता।",
+    initials: "MB",
+    image: "/volunteer/mohinibiharisharan.png",
+  },
+  {
+    name: "Avantika Ji",
+    role: "Gau Sewika",
+    quote: "बोलो राधे राधे फिल्म की सच्चाई हर किसी को जाननी चाहिए।",
+    initials: "AV",
+    image: "/volunteer/avantika.jpg",
   },
   {
     name: "Santosh Dube",
@@ -59,41 +148,6 @@ export const TESTIMONIALS = [
     quote: "किसानों के सम्मान की आवाज़ बनेगी यह फिल्म।",
     initials: "SD",
     image: "/volunteer/santoshdube.png",
-  },
-  {
-    name: "Priya Nair",
-    role: "Volunteer, Mumbai",
-    quote:
-      "I've spent weekends helping with outreach and every single time I leave more inspired than when I arrived. This mission gives back more than it asks.",
-    initials: "PN",
-  },
-  {
-    name: "Rohan Verma",
-    role: "Volunteer, Kanpur",
-    quote:
-      "Gau Seva was always close to my heart, but this film gave me a way to act on it — organising screenings, spreading the word, standing with the team.",
-    initials: "RV",
-  },
-  {
-    name: "Sneha Iyer",
-    role: "Volunteer, Bengaluru",
-    quote:
-      "What struck me most was how welcoming everyone was. Within a week of volunteering I felt like family, not a helper on the sidelines.",
-    initials: "SI",
-  },
-  {
-    name: "Vikram Chauhan",
-    role: "Volunteer, Vrindavan",
-    quote:
-      "I help coordinate with local gaushalas for the team. Watching a project this size treat Gau Mata's dignity as non-negotiable — that's rare, and it's why I stayed.",
-    initials: "VC",
-  },
-  {
-    name: "Anjali Deshmukh",
-    role: "Volunteer, Pune",
-    quote:
-      "My grandmother used to tell me stories just like this one. Volunteering here feels like I'm helping carry those stories forward for someone else's grandchildren.",
-    initials: "AD",
   },
 ];
 
