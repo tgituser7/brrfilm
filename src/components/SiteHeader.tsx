@@ -8,6 +8,9 @@ import { LanguageToggle } from "./LanguageToggle";
 import { IconOm } from "./icons";
 import { facebookFan, socials } from "./socials";
 
+const whatsappChannel = socials.find((s) => s.name === "WhatsApp Channel")!;
+const otherSocials = socials.filter((s) => s.name !== "WhatsApp Channel");
+
 export function SiteHeader() {
   const { t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
@@ -94,7 +97,18 @@ export function SiteHeader() {
               </svg>
               {facebookFan.name}
             </a>
-            {socials.map((s) => (
+            <a
+              href={whatsappChannel.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-[#1ebe57]"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 flex-shrink-0" fill="currentColor">
+                <path d={whatsappChannel.path} />
+              </svg>
+              {whatsappChannel.name}
+            </a>
+            {otherSocials.map((s) => (
               <a
                 key={s.name}
                 href={s.href}
@@ -108,7 +122,6 @@ export function SiteHeader() {
                 </svg>
               </a>
             ))}
-          
           </div>
           <LanguageToggle />
           <button
@@ -157,7 +170,29 @@ export function SiteHeader() {
             )}
           </nav>
           <div className="mt-4 flex flex-wrap items-center gap-2">
-            {socials.map((s) => (
+            <a
+              href={facebookFan.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+                <path d={facebookFan.path} />
+              </svg>
+              {facebookFan.name}
+            </a>
+            <a
+              href={whatsappChannel.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 rounded-full bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+                <path d={whatsappChannel.path} />
+              </svg>
+              {whatsappChannel.name}
+            </a>
+            {otherSocials.map((s) => (
               <a
                 key={s.name}
                 href={s.href}
@@ -171,17 +206,6 @@ export function SiteHeader() {
                 </svg>
               </a>
             ))}
-            <a
-              href={facebookFan.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 rounded-full bg-[#1877F2] px-3 py-1.5 text-xs font-semibold text-white"
-            >
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
-                <path d={facebookFan.path} />
-              </svg>
-              {facebookFan.name}
-            </a>
           </div>
         </div>
       )}

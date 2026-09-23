@@ -2,6 +2,14 @@
 // volunteer's name, city/role, photo path, and their own words.
 export const TESTIMONIALS = [
   {
+    name: "Er. Rakesh Kumar Pandey",
+    role: "Psychologist | Engineer | Social Entrepreneur — Founder & Director, ANIKA Educational and Health Welfare Trust",
+    quote:
+      "Bolo Radhe Radhe beautifully brings together family values, farmers, spirituality and our roots — reminding us that true success lies in compassion, not just education and career. Let's keep our values alive!",
+    initials: "RP",
+    image: "/volunteer/RakeshKumarPandey.jpg",
+  },
+  {
     name: "Bhagwan Singh Singoria",
     role: "Volunteer, Madhya Pradesh",
     quote:
@@ -44,6 +52,13 @@ export const TESTIMONIALS = [
     quote:
       "Joining Bolo Radhe Radhe as a volunteer changed how I see my own village. Every hour I give feels like an offering, not a task.",
     initials: "AM",
+  },
+  {
+    name: "Santosh Dube",
+    role: "Shri Ram Seva and Shodh Sanstha, Ayodhya",
+    quote: "किसानों के सम्मान की आवाज़ बनेगी यह फिल्म।",
+    initials: "SD",
+    image: "/volunteer/santoshdube.png",
   },
   {
     name: "Priya Nair",
