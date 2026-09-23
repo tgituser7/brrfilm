@@ -430,6 +430,9 @@ export const translations = {
       ctaDescription:
         "गौ माता, किसान और गांव की इस पवित्र यात्रा में स्वयंसेवक के रूप में योगदान दें।",
       ctaButton: "स्वयंसेवक बनें",
+      shortsEyebrow: "उन्हीं की ज़ुबानी",
+      shortsTitle: "वीडियो में सुनिए",
+      shortsIntro: "हमारे यूट्यूब चैनल से — स्वयंसेवकों की आवाज़ में, उनकी अपनी वीडियो समीक्षा।",
     },
     newsCoverage: {
       eyebrow: "समाचार में",
@@ -923,6 +926,9 @@ export const translations = {
       ctaDescription:
         "Lend your hands to this sacred journey of Gau Mata, the farmer, and the village — as a volunteer.",
       ctaButton: "Become a Volunteer",
+      shortsEyebrow: "In Their Own Voice",
+      shortsTitle: "Watch What They Said",
+      shortsIntro: "Straight from our YouTube channel — volunteers sharing their own video reviews.",
     },
     newsCoverage: {
       eyebrow: "In the News",

@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { IconNamaste } from "@/components/icons";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
-import { TESTIMONIALS, AVATAR_TINTS } from "./data";
+import { TESTIMONIALS, AVATAR_TINTS, SHORTS } from "./data";
 
 export function VolunteerPageClient() {
   const { t } = useLanguage();
@@ -88,6 +88,43 @@ export function VolunteerPageClient() {
         </section>
 
         <section className="relative overflow-hidden bg-maroon-950 px-6 py-16 sm:py-20">
+          <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
+          <div className="relative mx-auto max-w-2xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-saffron-light">
+              {t.volunteerPage.shortsEyebrow}
+            </p>
+            <h2 className="mt-3 font-heading text-2xl font-bold text-cream sm:text-3xl">
+              {t.volunteerPage.shortsTitle}
+            </h2>
+            <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-cream/70 sm:text-base">
+              {t.volunteerPage.shortsIntro}
+            </p>
+          </div>
+
+          <div className="relative mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {SHORTS.map((short) => (
+              <div key={short.videoId} className="group">
+                <div className="relative aspect-[9/16] w-full overflow-hidden rounded-[1.5rem] border-2 border-gold/40 bg-black shadow-xl shadow-maroon-950/40 transition-transform group-hover:-translate-y-1">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${short.videoId}`}
+                    title={short.name}
+                    className="absolute inset-0 h-full w-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="block font-heading text-sm font-semibold text-gold">
+                    {short.name}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-cream/60">{short.role}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="relative overflow-hidden bg-devotional px-6 py-16 sm:py-20">
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
           <div className="relative mx-auto max-w-xl text-center">
             <span className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold/40 bg-cream/10 text-gold-light">

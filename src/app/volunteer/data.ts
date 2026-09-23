@@ -157,3 +157,22 @@ export const AVATAR_TINTS = [
   "bg-saffron/20 text-maroon-900 border-saffron/40",
   "bg-maroon-800/15 text-maroon-900 border-maroon-800/25",
 ];
+
+// Video testimonials pulled from the channel's YouTube Shorts.
+export const SHORTS = [
+  {
+    name: "Dr. Shyam Agarwal",
+    role: "Agarwal Eye Hospital, Mumbai",
+    videoId: "yXGVVpMGLgA",
+  },
+  {
+    name: "Swami Shri Gopalanand Saraswati Ji Maharaj",
+    role: "Spiritual Guru",
+    videoId: "oYLXTpgMY1k",
+  },
+  {
+    name: "Ramakant Upadhyay",
+    role: "Rajya Mantri, Lucknow",
+    videoId: "_miNAL_Ap8k",
+  },
+];
