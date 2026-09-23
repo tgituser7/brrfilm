@@ -63,7 +63,7 @@ export function SiteHeader() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
+              className="whitespace-nowrap text-sm font-medium text-maroon-950/75 transition-colors hover:text-crimson"
             >
               {link.label}
             </Link>
