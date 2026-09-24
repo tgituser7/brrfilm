@@ -140,7 +140,7 @@ export const TESTIMONIALS = [
     role: "Gau Sewika",
     quote: "बोलो राधे राधे फिल्म की सच्चाई हर किसी को जाननी चाहिए।",
     initials: "AV",
-    image: "/volunteer/avantika.jpg",
+    image: "/volunteer/avantikaji.png",
   },
   {
     name: "Santosh Dube",
@@ -174,5 +174,45 @@ export const SHORTS = [
     name: "Ramakant Upadhyay",
     role: "Rajya Mantri, Lucknow",
     videoId: "_miNAL_Ap8k",
+  },
+  {
+    name: "Shri Narayan Giri Ji Maharaj",
+    role: "Spiritual Guru",
+    videoId: "2eGsoqry4w0",
+  },
+  {
+    name: "Van Bihari Rajput",
+    role: "Mathura",
+    videoId: "WVG3Md-WHnE",
+  },
+  {
+    name: "Kishor Chaturvedi",
+    role: "Singer",
+    videoId: "00bilkZzxic",
+  },
+  {
+    name: "Gaudas Ji",
+    role: "Gausewak, Mathura",
+    videoId: "n_tFrlfGnhg",
+  },
+  {
+    name: "Bhagat Lalu Ji",
+    role: "Devotee",
+    videoId: "tU1A1sOSkAk",
+  },
+  {
+    name: "Ajay Shankar",
+    role: "Music Director",
+    videoId: "a3tzUH_7ev4",
+  },
+  {
+    name: "Mahant Mohini Bihari Sharan",
+    role: "Vrindavan",
+    videoId: "J2YRDmko2xg",
+  },
+  {
+    name: "Yogi Ji & Dushyant Ji",
+    role: "Blessings for the film",
+    videoId: "UWHx2blMzBc",
   },
 ];
