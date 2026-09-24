@@ -196,7 +196,7 @@ export const SHORTS = [
     videoId: "n_tFrlfGnhg",
   },
   {
-    name: "Bhagat Lalu Ji",
+    name: "Bhakt Lalu Ji",
     role: "Devotee",
     videoId: "tU1A1sOSkAk",
   },
@@ -211,18 +211,13 @@ export const SHORTS = [
     videoId: "J2YRDmko2xg",
   },
   {
-    name: "Yogi Ji & Dushyant Ji",
+    name: "Yogi Dushyant Maharaj",
     role: "Blessings for the film",
     videoId: "UWHx2blMzBc",
   },
   {
-    name: "Bolo Radhe Radhe",
-    role: "Official Promo",
-    videoId: "pUNlXEQCayI",
-  },
-  {
-    name: "Bolo Radhe Radhe",
-    role: "Official Promo",
+    name: "Shivakar",
+    role: "Tribal Artist, Bhopal",
     videoId: "jFhd_HJtPAM",
   },
   {
@@ -231,13 +226,13 @@ export const SHORTS = [
     videoId: "V34kPLotYs8",
   },
   {
-    name: "Bolo Radhe Radhe",
-    role: "Official Promo",
+    name: "Durgesh Chauhan",
+    role: "Artist",
     videoId: "ZRH-lt2VMp0",
   },
   {
-    name: "Bolo Radhe Radhe",
-    role: "Official Promo",
+    name: "Dr. Shashikant Tiwari",
+    role: "Founder - Muskan Sanstha",
     videoId: "V6HaI-RDb0E",
   },
 ];
