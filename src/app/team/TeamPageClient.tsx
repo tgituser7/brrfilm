@@ -21,6 +21,13 @@ const KT_TEAM = [
       "Sandeep Singh is a young and dynamic Director of Photography, a professional master in lighting and camera techniques who always brings a fresh perspective and boundless energy to every project, with an eye for detail to create visually stunning narratives through innovative visual storytelling that captivates audiences. His expertise spans various formats, including films, commercials, and corporate projects. He has also worked closely with leading directors and production teams to bring their vision to life, promising to deliver high-quality content.",
   },
   {
+    name: "Jagtar Singh Mangal",
+    role: "Director of Photography",
+    image: "/jagat_singh.jpeg",
+    description:
+      "Jagtar Singh Mangal is a seasoned Director of Photography known for his keen visual sensibility and command over lighting and camera craft. Bringing years of on-set experience across films and television, he shapes every frame with precision and artistry, collaborating closely with directors to translate their vision into compelling, cinematic imagery.",
+  },
+  {
     name: "Ashish Batra",
     role: "Film Editor",
     image: "/ashish_batra.png",
@@ -225,7 +232,7 @@ export function TeamPageClient() {
             </h2>
           </div>
 
-          <div className="relative mx-auto mt-12 grid max-w-6xl gap-6 sm:grid-cols-3">
+          <div className="relative mx-auto mt-12 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {KT_TEAM.map((member) => (
               <div
                 key={member.name}

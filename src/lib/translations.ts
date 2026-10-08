@@ -470,6 +470,14 @@ export const translations = {
       thankYou: "आपकी उदारता के लिए हृदय से धन्यवाद 🙏",
       backHome: "मुखपृष्ठ पर वापस जाएं",
     },
+    notFound: {
+      eyebrow: "पृष्ठ नहीं मिला",
+      code: "४०४",
+      title: "यह राह यहाँ समाप्त होती है",
+      message:
+        "जो पृष्ठ आप खोज रहे हैं वह उपलब्ध नहीं है। शायद यह हट गया हो या पता बदल गया हो — कृपया मुखपृष्ठ पर लौटें।",
+      cta: "मुखपृष्ठ पर वापस जाएं",
+    },
     footer: {
       brand: "बोलो राधे राधे",
       tagline: "एक फ़िल्म... एक भावना... एक भक्ति...",
@@ -965,6 +973,14 @@ export const translations = {
       note: "Please pay only to the official QR code or UPI ID shown above.",
       thankYou: "Thank you from the heart for your generosity 🙏",
       backHome: "Back to Home",
+    },
+    notFound: {
+      eyebrow: "Page Not Found",
+      code: "404",
+      title: "This Path Ends Here",
+      message:
+        "The page you're looking for isn't available. It may have moved or no longer exists — please return to the homepage.",
+      cta: "Back to Home",
     },
     footer: {
       brand: "Bolo Radhe Radhe",
