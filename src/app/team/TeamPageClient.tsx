@@ -15,7 +15,7 @@ const KT_TEAM = [
   },
   {
     name: "Sandeep Singh",
-    role: "DOP",
+    role: "DOP (2nd Unit Cameraman)",
     image: "/sandeep_singh.png",
     description:
       "Sandeep Singh is a young and dynamic Director of Photography, a professional master in lighting and camera techniques who always brings a fresh perspective and boundless energy to every project, with an eye for detail to create visually stunning narratives through innovative visual storytelling that captivates audiences. His expertise spans various formats, including films, commercials, and corporate projects. He has also worked closely with leading directors and production teams to bring their vision to life, promising to deliver high-quality content.",
