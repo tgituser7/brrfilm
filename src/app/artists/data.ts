@@ -47,5 +47,5 @@ export const EXPECTED_CAST = [
   { actor: "Krishna Mishra", role: "Roshan", image: "/artists/KrishnaMishra.png" },
   { actor: "Keshav Sharma", role: "Pooran", image: "/artists/keshav_sharma.jpeg" },
   { actor: "Sundeep Sharma", role: "Pujari", image: "/artists/sandeep_sharma.jpg" },
-  { actor: "Prahavi Pathak", role: "Role TBD", image: "/artists/Prahavi_Pathak.jpeg" },
+  { actor: "Prahavi Pathak", role: "Priyanka", image: "/artists/Prahavi_Pathak.jpeg" },
 ];
