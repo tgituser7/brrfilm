@@ -25,7 +25,7 @@ const KT_TEAM = [
     role: "Director of Photography",
     image: "/jagat_singh.jpeg",
     description:
-      "Jagtar Singh Mangal is a seasoned Director of Photography known for his keen visual sensibility and command over lighting and camera craft. His credits include the film MSG: The Messenger of God and the TV series Adaalat, Agent Raghav, and Pyaar Se Bandhe Rishte, bringing years of on-set experience across films and television. He shapes every frame with precision and artistry, collaborating closely with directors to translate their vision into compelling, cinematic imagery.",
+      "Jagtar Singh Mangal is a seasoned Director of Photography known for his keen visual sensibility and command over lighting and camera craft. He has lent his lens to the film MSG: The Messenger of God and the TV series Adaalat, Agent Raghav, and Pyaar Se Bandhe Rishte, bringing years of on-set experience across films and television. He shapes every frame with precision and artistry, collaborating closely with directors to translate their vision into compelling, cinematic imagery.",
   },
   {
     name: "Ashish Batra",
