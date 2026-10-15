@@ -4,7 +4,8 @@ import { getMongoClient } from "@/lib/mongodb";
 const DB_NAME = "bolo_radhe_radhe";
 const COLLECTION = "counters";
 const COUNTER_ID = "visitors";
-const COOKIE_NAME = "brr_visited";
+const COOKIE_NAME = "brr_visited_k";
+const OLD_COOKIE_NAME = "brr_visited";
 
 async function getCounters() {
   const client = await getMongoClient();
@@ -36,11 +37,13 @@ export async function GET(request: Request) {
 
   if (!alreadyVisited) {
     response.cookies.set(COOKIE_NAME, "1", {
-      maxAge: 60 * 60 * 24 * 365,
+      maxAge: 60 * 60,
       path: "/",
       sameSite: "lax",
     });
   }
+
+  response.cookies.set(OLD_COOKIE_NAME, "", { maxAge: 0, path: "/" });
 
   return response;
 }
