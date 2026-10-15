@@ -45,6 +45,9 @@ export default function Home() {
           director: { "@type": "Person", name: "Ravi Bhatia" },
           productionCompany: { "@type": "Organization", name: "Rave Media" },
           inLanguage: "hi",
+          genre: ["Devotional", "Drama"],
+          keywords:
+            "Bollywood, Bollywood movies, Hindi cinema, devotional film, Sanatani film, Hindu dharam, Krishna devotion, Radhe Radhe, Gau Mata, gauraksha, latest movie, hit films",
         }}
       />
       <JsonLd
