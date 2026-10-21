@@ -4,7 +4,7 @@ import Image from "next/image";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { useLanguage } from "@/lib/LanguageContext";
-import { LEAD_ARTISTS, EXPECTED_CAST } from "./data";
+import { LEAD_ARTISTS, FEATURED_CAST, EXPECTED_CAST } from "./data";
 
 export function ArtistsPageClient() {
   const { t } = useLanguage();
@@ -59,7 +59,45 @@ export function ArtistsPageClient() {
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-maroon-950/65 via-maroon-950/55 to-maroon-950/70" />
           <div className="bg-mandala pointer-events-none absolute inset-0 opacity-10" />
           <div className="relative mx-auto max-w-6xl">
-            <h2 className="text-center font-heading text-2xl font-bold text-cream sm:text-3xl">
+            <div className="text-center">
+              <h2 className="font-heading text-2xl font-bold text-cream sm:text-3xl">
+                {t.artistsPage.featuredTitle}
+              </h2>
+              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.3em] text-gold/70">
+                {t.artistsPage.featuredSubtitle}
+              </p>
+            </div>
+
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+              {FEATURED_CAST.map((artist) => (
+                <div
+                  key={artist.actor}
+                  className="card-lift overflow-hidden rounded-[1.5rem] border border-gold/30 bg-maroon-900/50 text-center backdrop-blur-sm"
+                >
+                  <p className="pt-4 text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gold-light/80">
+                    {t.artistsPage.featuredBadge}
+                  </p>
+                  <span className="relative mx-auto mt-3 flex aspect-[4/5] w-full items-center justify-center overflow-hidden border-y border-gold/30">
+                    <Image
+                      src={artist.image}
+                      alt={artist.actor}
+                      fill
+                      sizes="(min-width: 1280px) 16vw, (min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
+                      className="object-cover"
+                    />
+                  </span>
+                  <div className="px-5 py-5">
+                    <h3 className="font-heading text-base font-semibold text-cream">{artist.actor}</h3>
+                    <p className="mt-0.5 text-xs font-semibold uppercase tracking-wide text-gold">
+                      as {artist.role}
+                    </p>
+                    <p className="mt-3 text-xs leading-relaxed text-cream/70">{artist.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <h2 className="mt-16 text-center font-heading text-2xl font-bold text-cream sm:text-3xl">
               {t.artistsPage.castTitle}
             </h2>
 
@@ -73,6 +111,9 @@ export function ArtistsPageClient() {
                   <p className="mt-0.5 text-xs uppercase tracking-wide text-gold/70">
                     as {member.role}
                   </p>
+                  {member.note && (
+                    <p className="mt-1.5 px-1 text-xs leading-snug text-cream/60">{member.note}</p>
+                  )}
                 </div>
               ))}
             </div>

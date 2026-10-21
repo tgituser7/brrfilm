@@ -420,6 +420,9 @@ export const translations = {
       title: "फ़िल्म के कलाकार",
       leadTitle: "मुख्य कलाकार",
       castTitle: "अपेक्षित कलाकार",
+      featuredTitle: "किरदार कलाकार",
+      featuredSubtitle: "स्पॉटलाइट में",
+      featuredBadge: "विशेष कलाकार",
     },
     volunteerPage: {
       eyebrow: "स्वयंसेवक",
@@ -924,6 +927,9 @@ export const translations = {
       title: "Cast of the Film",
       leadTitle: "Lead Artists",
       castTitle: "Expected Cast",
+      featuredTitle: "Character Artists",
+      featuredSubtitle: "In the Spotlight",
+      featuredBadge: "Featured Artist",
     },
     volunteerPage: {
       eyebrow: "Volunteers",
