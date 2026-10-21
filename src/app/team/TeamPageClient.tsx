@@ -39,13 +39,16 @@ const KT_TEAM = [
 const PRODUCTION_TEAM_1 = [
   "Producer - Hriday Kumar Bhatia",
   "Co-producer - Bijay Kumar Tibrewal",
-  "Executive Producer - Gautam Ailawadi",
+  "Executive Producer - Sudhir Garg",
   "Cultural Supervision - Rakesh Rantakar",
   "Production Designer - S. Satyam",
   "Line Producer, Uttar Pradesh - Pradeep Mishra",
+  "Line Producer - Gautam Ailawadi",
+  "Associate Director - Neeraj Verma",
   "Creative Director - Mann Mishra",
   "Associate Art Director - Nilamber Puthal",
   "Assistant Director - Ketan Diwakar",
+  "Second Assistant Director - Yash Maurya",
   "Creative Producer - Suraj Tiwari",
   "Chief Assistant Director - Arunidhi Sharma",
   "Associate Art Director - Pitambar",
@@ -78,6 +81,8 @@ const MUSIC_PRODUCTION_TEAM = [
 
 const FINANCIAL_CONSULTANT = ["Pawan Sharma", "Pravesh Bhatia"];
 
+const TECHNICAL_TEAM = ["Web Developer (Rave Media) - Tarun"];
+
 const GRATITUDE = [
   "Shyam Singhania (Social Worker, Entrepreneur & Visionary)",
   "Dr. Satish Chand Dvivedi (Former Basic Education Minister, Uttar Pradesh)",
@@ -105,6 +110,7 @@ const WELL_WISHERS_1 = [
   "Manoj Kumar Saxena - VHP, Rampur",
   "Madhukar Pandey",
   "Manish Sahu - Radha Krishna Temple",
+  "Naveen Bhandari - Shri Ram Ashapurana Charitable Trust, Jaipur",
   "Neeraj Kumar (John), Sultanpur, UP",
   "Naresh Chandel - Moradabad, UP",
   "Vivek Shrivastava, Lucknow",
@@ -132,10 +138,12 @@ const WELL_WISHERS_2 = [
   "Manoj Shrivastav - Bhopal, MP",
   "Ramesh Goenka - Music Producer, Kolkata",
   "Sachin Dharap, Kawachi Group, Maharashtra",
+  "Sanjeev Singh Sengar - National President, Rashtriya Gauraksha Vahini Gau Seva Sangh",
   "Sudhir Garg, Social Activist, Uttar Pradesh",
   "Van Bihari Rajput, Mathura",
-  "Vikas Krishnatrey - Vrindavan Kunj Gali",
+  "Vikas Sharma - Vrindavan Kunj Gali, Mathura",
   "Yogiraj Aachrya Satyawan - Uttrakhand",
+  "Santosh Dubey - Founder, Shri Ram Seva Evam Shodh Sansthan, Ayodhya",
 ];
 
 const RESEARCH_DEVELOPMENT = [
@@ -297,10 +305,18 @@ export function TeamPageClient() {
                     </div>
                   </div>
                 </div>
-                <div>
-                  <SubHeading dark>{t.teamPage.musicProductionTeam}</SubHeading>
-                  <div className="mt-5">
-                    <NameList names={MUSIC_PRODUCTION_TEAM} dark />
+                <div className="space-y-10">
+                  <div>
+                    <SubHeading dark>{t.teamPage.musicProductionTeam}</SubHeading>
+                    <div className="mt-5">
+                      <NameList names={MUSIC_PRODUCTION_TEAM} dark />
+                    </div>
+                  </div>
+                  <div>
+                    <SubHeading dark>{t.teamPage.technicalTeam}</SubHeading>
+                    <div className="mt-5">
+                      <NameList names={TECHNICAL_TEAM} dark />
+                    </div>
                   </div>
                 </div>
               </div>
