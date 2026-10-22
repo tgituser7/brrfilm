@@ -85,6 +85,7 @@ export const EXPECTED_CAST = [
   },
   { actor: "Akash Pandaya", role: "Sudarshan", image: "/artists/Akash_Pandaya_Sudarshan.png" },
   { actor: "Sharat Lohiya", role: "Manohar", image: "/artists/Sharat_Lohiya_Manohar.png" },
+  { actor: "Sudeep Dev", role: "Sarfaraz Kasai", image: "/artists/sandeep_dev.jpeg" },
   { actor: "Banwari Jhol", role: "Jhunjhuna", image: "/artists/Banwari_Jhol_Jhunjhuna.png" },
   { actor: "Dipoo Shrivastav", role: "Damaru", image: "/artists/Dipoo_Shrivastav_Damaru.png" },
   { actor: "Rajendra Soni", role: "Manua", image: "/artists/Rajendra_Soni_Manua.png" },
