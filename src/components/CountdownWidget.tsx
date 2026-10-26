@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { useCountdown } from "@/lib/useCountdown";
+import { formatCompactCount } from "@/lib/format";
 import { IconCalendar } from "./icons";
 
 export function CountdownWidget() {
@@ -46,7 +47,7 @@ export function CountdownWidget() {
         <div className="mt-3 flex items-center justify-between border-t border-cream/10 pt-2.5 text-[11px] text-cream/70">
           <span>{t.countdown.visitors}</span>
           <span className="font-heading font-semibold text-gold-light">
-            {visitors.toLocaleString()}
+            {formatCompactCount(visitors)}
           </span>
         </div>
       )}

@@ -14,7 +14,10 @@ const photos = [
   "/gallery-8.jpeg",
 ];
 
-const FEATURED_PHOTO = "/gallery-9.jpg";
+const FEATURED_PHOTOS = [
+  { src: "/gallery-9.jpg", position: "object-center" },
+  { src: "/gallry-10.jpeg", position: "object-top" },
+];
 
 const PHOTO_POSITIONS: Record<number, string> = {
   7: "object-[60%_center]",
@@ -57,16 +60,21 @@ export function Gallery() {
         ))}
       </div>
 
-      <div className="relative mx-auto mt-6 max-w-6xl px-6 sm:mt-8">
-        <div className="card-lift group relative aspect-[16/9] overflow-hidden rounded-xl border border-gold/15">
-          <Image
-            src={FEATURED_PHOTO}
-            alt={`${t.hero.title1} ${t.hero.title2} — ${photos.length + 1}`}
-            fill
-            sizes="100vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-        </div>
+      <div className="relative mx-auto mt-6 max-w-6xl space-y-6 px-6 sm:mt-8">
+        {FEATURED_PHOTOS.map((photo, i) => (
+          <div
+            key={photo.src}
+            className="card-lift group relative aspect-[16/9] overflow-hidden rounded-xl border border-gold/15"
+          >
+            <Image
+              src={photo.src}
+              alt={`${t.hero.title1} ${t.hero.title2} — ${photos.length + 1 + i}`}
+              fill
+              sizes="100vw"
+              className={`object-cover transition-transform duration-500 group-hover:scale-105 ${photo.position}`}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
