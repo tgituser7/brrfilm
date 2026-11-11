@@ -45,7 +45,7 @@ export default function Home() {
           director: { "@type": "Person", name: "Ravi Bhatia" },
           company: { "@type": "Organization", name: "Rave Media" },
           releaseDate: "2027-08-20",
-          inLanguage: "hi",
+          inLanguage: "hi", 
           genre: ["Devotional", "Drama"],
           keywords:
             "Bollywood, Bollywood movies, Hindi cinema, devotional film, Sanatani film, Hindu dharam, Krishna devotion, Radhe Radhe, Gau Mata, gauraksha, latest movie, hit films",
