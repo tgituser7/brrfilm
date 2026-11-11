@@ -39,7 +39,7 @@ export default function ArtistsPage() {
           alternateName: "बोलो राधे राधे",
           url: `${SITE_URL}/artists`,
           director: { "@type": "Person", name: "Ravi Bhatia" },
-          productionCompany: { "@type": "Organization", name: "Rave Media" },
+          company: { "@type": "Organization", name: "Rave Media" },
           actor: actors,
         }}
       />

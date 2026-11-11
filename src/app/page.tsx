@@ -43,7 +43,8 @@ export default function Home() {
           description:
             "Bolo Radhe Radhe — a sacred cinematic saga of Gau Mata, the farmer, and the village.",
           director: { "@type": "Person", name: "Ravi Bhatia" },
-          productionCompany: { "@type": "Organization", name: "Rave Media" },
+          company: { "@type": "Organization", name: "Rave Media" },
+          releaseDate: "2027-08-20",
           inLanguage: "hi",
           genre: ["Devotional", "Drama"],
           keywords:
