@@ -3,11 +3,14 @@
 import Image from "next/image";
 import { useLanguage } from "@/lib/LanguageContext";
 import { JOIN_FORM_URL } from "@/lib/links";
+import { useNotifyModal } from "@/lib/NotifyModalContext";
+import { formatCompactCount } from "@/lib/format";
 import { SpiritualParticles } from "./SpiritualParticles";
 import { IconBell, IconCalendar, IconNamaste, IconPlay } from "./icons";
 
 export function Hero() {
   const { t, language } = useLanguage();
+  const { openModal, notifiedCount } = useNotifyModal();
 
   const content = (
     <div className="mx-auto max-w-xl text-center sm:mx-0 sm:text-left">
@@ -58,13 +61,23 @@ export function Hero() {
           <IconCalendar className="h-4 w-4 text-crimson" />
           <span className="text-sm font-semibold text-maroon-900">{t.hero.releaseDate}</span>
         </div>
-        <a
-          href="#notify"
-          className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-cream/75 px-4 py-2 backdrop-blur-sm transition-colors hover:bg-cream"
+        <button
+          type="button"
+          onClick={openModal}
+          className="group relative inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron via-gold to-saffron bg-[length:200%_auto] px-4 py-2 font-semibold text-maroon-950 shadow-lg shadow-gold/30 transition-all hover:bg-right hover:scale-105"
         >
-          <IconBell className="h-4 w-4 text-crimson" />
-          <span className="text-sm font-semibold text-maroon-900">{t.hero.ctaNotify}</span>
-        </a>
+          <span className="relative flex h-4 w-4 flex-shrink-0 items-center justify-center">
+            <IconBell className="animate-bell-ring-loop h-4 w-4 text-maroon-950" />
+            <span className="absolute -right-0.5 -top-0.5 h-2 w-2 animate-ping rounded-full bg-crimson" />
+            <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-crimson" />
+          </span>
+          <span className="text-sm">{t.hero.ctaNotify}</span>
+          {notifiedCount !== null && notifiedCount > 0 && (
+            <span className="rounded-full bg-maroon-950/15 px-2 py-0.5 text-xs font-bold">
+              {formatCompactCount(notifiedCount)} {t.notify.fansShort}
+            </span>
+          )}
+        </button>
       </div>
     </div>
   );

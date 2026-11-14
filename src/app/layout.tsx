@@ -7,7 +7,9 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/lib/LanguageContext";
+import { NotifyModalProvider } from "@/lib/NotifyModalContext";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { NotifyModal } from "@/components/NotifyModal";
 import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from "@/lib/seo";
 
 const headingEn = Playfair_Display({
@@ -114,8 +116,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col bg-cream text-ink">
         <LanguageProvider>
-          {children}
-          <WhatsAppButton />
+          <NotifyModalProvider>
+            {children}
+            <WhatsAppButton />
+            <NotifyModal />
+          </NotifyModalProvider>
         </LanguageProvider>
       </body>
     </html>
