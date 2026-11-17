@@ -65,7 +65,7 @@ const PRODUCTION_TEAM_2 = [
   "Hair Grooming - Renu Chaudhary",
   "Musical Supervision - Ravi Jain",
   "Technical Supervision - Madhukar Pawar",
-  "Action Master - Vikram Dahiya",
+  "Action Master - Vikram Dahiya, Dinesh Yadav",
   "Team Leader, Office Communication - Yug Bhatia",
   "Worldwide Marketing - Inderjeet Majumdar (USA), Sandeep Sinha (UK)",
   "Designers - Trupti Raj, Ram Maurya",
@@ -81,7 +81,10 @@ const MUSIC_PRODUCTION_TEAM = [
 
 const FINANCIAL_CONSULTANT = ["Pawan Sharma", "Pravesh Bhatia"];
 
-const TECHNICAL_TEAM = ["Web Developer (Rave Media) - Tarun"];
+const TECHNICAL_TEAM = [
+  "Web Developer (Rave Media) - Tarun",
+  "Media In-Charge - Shital Tiwari",
+];
 
 const GRATITUDE = [
   "Shyam Singhania (Social Worker, Entrepreneur & Visionary)",
@@ -122,6 +125,8 @@ const WELL_WISHERS_1 = [
 ];
 
 const WELL_WISHERS_2 = [
+  "Sanjeev Singh Sengar - National President, Rashtriya Gauraksha Vahini Gau Seva Sangh",
+  "Virendra Kumar Pathak - Managing Director, Ved Panth Educational Services",
   "Pawan Agarwal - Businessman, Lucknow",
   "Panchgavyacharya Dr. Manish Gupta",
   "Parveen Raghuraj Pandey - Janjgir, Chhattisgarh",
@@ -138,8 +143,6 @@ const WELL_WISHERS_2 = [
   "Manoj Shrivastav - Bhopal, MP",
   "Ramesh Goenka - Music Producer, Kolkata",
   "Sachin Dharap, Kawachi Group, Maharashtra",
-  "Sanjeev Singh Sengar - National President, Rashtriya Gauraksha Vahini Gau Seva Sangh",
-  "Sudhir Garg, Social Activist, Uttar Pradesh",
   "Van Bihari Rajput, Mathura",
   "Vikas Sharma - Vrindavan Kunj Gali, Mathura",
   "Yogiraj Aachrya Satyawan - Uttrakhand",

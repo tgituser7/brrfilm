@@ -161,6 +161,11 @@ export const AVATAR_TINTS = [
 // Video testimonials pulled from the channel's YouTube Shorts.
 export const SHORTS = [
   {
+    name: "Ravi Bhatia",
+    role: "Director - Bolo Radhe Radhe",
+    videoId: "cR0aEbZWEtU",
+  },
+  {
     name: "Dr. Shyam Agarwal",
     role: "Agarwal Eye Hospital, Mumbai",
     videoId: "yXGVVpMGLgA",
@@ -234,5 +239,55 @@ export const SHORTS = [
     name: "Dr. Shashikant Tiwari",
     role: "Founder - Muskan Sanstha",
     videoId: "V6HaI-RDb0E",
+  },
+  {
+    name: "Om Prakash Yajurvedi",
+    role: "Trustee - Panini Gurukul, Varanasi",
+    videoId: "KMEYYuY3Q0I",
+  },
+  {
+    name: "Damodar Mishra",
+    role: "SSD Ayurvedik Solutions Pvt Ltd",
+    videoId: "Cxi_HgkBULg",
+  },
+  {
+    name: "Diwakar Vedansh Ji",
+    role: "Spiritual Speaker",
+    videoId: "HL_yd2VQFUo",
+  },
+  {
+    name: "Govind Sharma",
+    role: "Bhajan Singer",
+    videoId: "m-qB39ziNSQ",
+  },
+  {
+    name: "Mohan Das Ji",
+    role: "Swami",
+    videoId: "e2iOFcTUHsI",
+  },
+  {
+    name: "Umesh Sharma Ji",
+    role: "Geeta Shodh Sansthan, Mathura",
+    videoId: "K2dIp8O0ZrM",
+  },
+  {
+    name: "Naveen Bhandari",
+    role: "Gau Sewak",
+    videoId: "pO_ZH3GqkQc",
+  },
+  {
+    name: "Ramesh Goenka",
+    role: "Bollywood Playback Singer",
+    videoId: "nkWRUXmkRZo",
+  },
+  {
+    name: "Kumar Sapan",
+    role: "Singer",
+    videoId: "vonmDW2gb0Y",
+  },
+  {
+    name: "Vaishnavi Bhuyar",
+    role: "Playback Singer",
+    videoId: "4009FQUcXEY",
   },
 ];
