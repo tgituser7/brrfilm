@@ -51,7 +51,6 @@ const PRODUCTION_TEAM_1 = [
   "Second Assistant Director - Yash Maurya",
   "Creative Producer - Suraj Tiwari",
   "Chief Assistant Director - Arunidhi Sharma",
-  "Associate Art Director - Pitambar",
   "Assistant Production - Binitha, Soni",
 ];
 
